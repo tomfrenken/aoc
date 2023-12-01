@@ -19,6 +19,7 @@ async function twoDigits(): Promise<void> {
         (sum, curr) => sum + firstAndLast(curr),
         0
     )
+    console.log(sum)
 }
 
 function firstAndLast(input: string): number {
