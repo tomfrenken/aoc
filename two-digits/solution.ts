@@ -1,5 +1,17 @@
 import { readInput } from "../import-file"
 
+const numbersAsStrings = [
+    'one',
+    'two',
+    'three',
+    'four',
+    'five',
+    'six',
+    'seven',
+    'eight',
+    'nine'
+]
+
 async function twoDigits(): Promise<void> {
     const input = await readInput(__dirname)
     const inputAsStringArray = input.split('\n')
@@ -7,7 +19,6 @@ async function twoDigits(): Promise<void> {
         (sum, curr) => sum + firstAndLast(curr),
         0
     )
-    console.log(sum)
 }
 
 function firstAndLast(input: string): number {
@@ -54,17 +65,5 @@ function searchWord(input: string, inputIndex: number): string | null {
     }
     return null
 }
-
-const numbersAsStrings = [
-    'one',
-    'two',
-    'three',
-    'four',
-    'five',
-    'six',
-    'seven',
-    'eight',
-    'nine'
-]
 
 twoDigits()
