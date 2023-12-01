@@ -11,25 +11,48 @@ async function twoDigits(): Promise<void> {
 }
 
 function firstAndLast(input: string): number {
-    let first: string | null = null
-    let last: string
-    for(let i = 0; i<input.length; i++){
-        if(!isNaN(parseFloat(input[i]))){
-            last = input[i]
-            if(!first) {
-                first = input[i]
-            }
-            continue
-        }
-        const stringNumber = numberSubString(input, i)
-        if(stringNumber){
-            last = stringNumber
-            if(!first) {
-                first = stringNumber
+    const first = leftSearch(input)
+    const last = rightSearch(input)
+    return Number(first+last)
+}
+
+function leftSearch(input: string): string {
+    for(let slowPointer = 0; slowPointer<input.length; slowPointer++){
+        const searchResult = search(input, slowPointer)
+        if(searchResult) return searchResult
+    }
+}
+
+function rightSearch(input: string): string {
+    for(let slowPointer = input.length-1; slowPointer >= 0; slowPointer--){
+        const searchResult = search(input, slowPointer)
+        if(searchResult) return searchResult
+    }
+}
+
+function search(input: string, slowPointer: number): string | null {
+    const parseChar = parseInt(input.charAt(slowPointer))
+    if(parseChar) return parseChar.toString()
+    return searchWord(input, slowPointer)
+}
+
+function searchWord(input: string, inputIndex: number): string | null {
+    for(let index = 0; index < numbersAsStrings.length; index++){
+        let currentInputIndex = inputIndex
+        const numberString = numbersAsStrings[index]
+        if(inputIndex + numberString.length <= input.length) {
+            for(let numberIndex = 0; numberIndex < numberString.length; numberIndex++) {
+                if(input.charAt(currentInputIndex) !== numberString.charAt(numberIndex)) {
+                    break
+                }
+                if(numberString.length-1 === numberIndex) {
+                    return (index+1).toString()
+                }
+                currentInputIndex++
             }
         }
     }
-    return Number(first+last)
+    return null
 }
 
 const numbersAsStrings = [
@@ -43,22 +66,5 @@ const numbersAsStrings = [
     'eight',
     'nine'
 ]
-
-function numberSubString(input: string, inputIndex: number): string | null {
-    for(let i = 0; i<numbersAsStrings.length; i++){
-        const currentNumber = numbersAsStrings[i]
-        let currentInputIndex = inputIndex
-        for(let numberIndex = 0; numberIndex < currentNumber.length; numberIndex++){
-            if(input.charAt(currentInputIndex) !== currentNumber.charAt(numberIndex)){
-                break
-            }
-            if(currentNumber.length-1 === numberIndex){
-                return (i+1).toString()
-            }
-            currentInputIndex++
-        }
-    }
-    return null
-}
 
 twoDigits()
