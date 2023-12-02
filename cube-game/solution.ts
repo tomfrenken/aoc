@@ -10,7 +10,7 @@ async function cubeGame(config: CubeColors): Promise<void> {
     const games = await readInput(__dirname)
     const gamesAsStringArray = games.split('\n')
     const sum = gamesAsStringArray.reduce(
-        (sum, game) => sum + validateGame(game, config),
+        (sum, game) => sum + power(game, config),
         0
     )
     console.log(sum)
@@ -26,6 +26,21 @@ function validateGame(game: string, config: CubeColors): number {
         }
     )
     return roundsAreValid ? gameId : 0
+}
+
+function power(game: string, config: CubeColors): number {
+    const gameId = getGameId(game)
+    const rounds = getGameRounds(game)
+    const maxCubeColors = { red: 0, green: 0, blue: 0 }
+    rounds.map(
+        round => {
+            const roundCubes = parseCubeColors(round)
+            maxCubeColors.red = Math.max(maxCubeColors.red, roundCubes.red)
+            maxCubeColors.green = Math.max(maxCubeColors.green, roundCubes.green)
+            maxCubeColors.blue = Math.max(maxCubeColors.blue, roundCubes.blue)
+        }
+    )
+    return meeeeehrENEEEEERGIEEEE(maxCubeColors)
 }
 
 function getGameId(game: string): number {
@@ -56,6 +71,11 @@ function validateRound(roundCubes: CubeColors, config: CubeColors): boolean {
     return roundCubes.blue <= config.blue &&
         roundCubes.green <= config.green &&
         roundCubes.red <= config.red
+}
+
+// https://www.youtube.com/watch?v=91gG8VQo2TI
+function meeeeehrENEEEEERGIEEEE(cubeColors: CubeColors) {
+    return cubeColors.blue * cubeColors.red * cubeColors.green
 }
 
 const firstGameConfig = { red: 12, green: 13, blue: 14 }
