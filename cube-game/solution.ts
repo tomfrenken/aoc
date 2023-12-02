@@ -29,7 +29,6 @@ function validateGame(game: string, config: CubeColors): number {
 }
 
 function power(game: string, config: CubeColors): number {
-    const gameId = getGameId(game)
     const rounds = getGameRounds(game)
     const maxCubeColors = { red: 0, green: 0, blue: 0 }
     rounds.map(
@@ -58,9 +57,7 @@ function parseCubeColors(round: string): CubeColors {
     const cubeColors = { red: 0, green: 0, blue: 0 }
     trimmedCubes.map(
         (cube) => {
-            const numberAndColor = cube.split(' ')
-            const number = numberAndColor[0]
-            const color = numberAndColor[1]
+            const [number, color] = cube.split(' ')
             cubeColors[color] = Number(number)
         }
     )
