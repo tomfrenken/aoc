@@ -25,7 +25,7 @@ function validateGame(game: string, config: CubeColors): number {
             return validateRound(roundCubes, config)
         }
     )
-    return roundsAreValid ? 0 : gameId
+    return roundsAreValid ? gameId : 0
 }
 
 function getGameId(game: string): number {
