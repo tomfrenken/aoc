@@ -19,24 +19,18 @@ async function cubeGame(config: CubeColors): Promise<void> {
 function validateGame(game: string, config: CubeColors): number {
     const gameId = getGameId(game)
     const rounds = getGameRounds(game)
-    rounds.filter(
+    const roundsAreValid = rounds.every(
         round => {
             const roundCubes = parseCubeColors(round)
             return validateRound(roundCubes, config)
         }
     )
-    return rounds.length ? 0 : gameId
+    return roundsAreValid ? 0 : gameId
 }
-
-// input Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
 
 function getGameId(game: string): number {
     const gameIdSubString = game.split(':')[0]
-    // check if I even need to trim
-    console.log(gameIdSubString.split('Game')[1].replace(' ', 'X'))
-    // trim if need to
-    console.log(gameIdSubString.split('Game')[1].trim())
-    return parseInt(gameIdSubString.split('Game')[1].trim())
+    return parseInt(gameIdSubString.split('Game')[1])
 }
 
 function getGameRounds(game: string): string[] {
@@ -44,15 +38,15 @@ function getGameRounds(game: string): string[] {
 }
 
 function parseCubeColors(round: string): CubeColors {
-    // regex if blue then blue, red then red, green then green
     const cubes = round.split(',')
+    const trimmedCubes = cubes.map(cube => cube.trim())
     const cubeColors = { red: 0, green: 0, blue: 0 }
-    cubes.map(
+    trimmedCubes.map(
         (cube) => {
             const numberAndColor = cube.split(' ')
             const number = numberAndColor[0]
             const color = numberAndColor[1]
-            cubeColors[color] = number
+            cubeColors[color] = Number(number)
         }
     )
     return cubeColors
