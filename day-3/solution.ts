@@ -5,6 +5,7 @@ async function findEngineNumbers() {
     const engineSchematics = input.split('\n')
     let sum = 0
     for(let i = 0; i < engineSchematics.length; i++){
+        console.log("Line:", i+1)
         for(let j = 0; j < engineSchematics[i].length; j++){
             let currNumber = ''
             let currSymbol = engineSchematics[i].charAt(j)
@@ -14,11 +15,14 @@ async function findEngineNumbers() {
                 if(!adjacentSymbol && checkSurroundings(engineSchematics, i, j)){
                     adjacentSymbol = true
                 }
-                currSymbol = engineSchematics[i].charAt(++j)
+                j++
+                currSymbol = engineSchematics[i].charAt(j)
             }
             if(currNumber && adjacentSymbol){
-                console.log(Number(currNumber))
+                console.log(`Number is in: ${Number(currNumber)}`)
                 sum += Number(currNumber)
+            } else if (currNumber) {
+                console.log(`Number is out: ${Number(currNumber)}`)
             }
         }
     }
@@ -29,10 +33,12 @@ function checkSurroundings(engineSchematics: string[], lineIndex: number, charIn
     for(let i = lineIndex-1; i <= lineIndex + 1; i++){
         if(i >= 0 && i < engineSchematics.length){
             for(let j = charIndex-1; j <= charIndex + 1; j++){
+                if(j >= 0 && j < engineSchematics[i].length){
                     const currSymbol = engineSchematics[i].charAt(j)
                     if(currSymbol !== '.' && !isNumeric(currSymbol)) {
                         return true
                     }
+                }
             }
         }
     }

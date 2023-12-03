@@ -1,0 +1,1333 @@
+yarn run v1.22.21
+$ /Users/I519840/Code/aoc/node_modules/.bin/tsx day-3/solution.ts
+Line: 1
+Number is out: 975
+Number is out: 95
+Number is in: 717
+Number is in: 747
+Number is out: 622
+Line: 2
+Number is in: 47
+Number is in: 701
+Number is in: 610
+Number is out: 252
+Number is in: 660
+Number is in: 236
+Number is out: 323
+Number is out: 108
+Number is in: 653
+Line: 3
+Number is out: 69
+Number is in: 313
+Number is in: 640
+Number is in: 81
+Number is in: 332
+Number is in: 92
+Line: 4
+Number is in: 210
+Number is in: 767
+Number is in: 912
+Number is in: 367
+Number is in: 505
+Number is in: 817
+Number is in: 478
+Number is out: 223
+Number is in: 568
+Line: 5
+Number is out: 76
+Number is out: 968
+Number is in: 108
+Number is in: 556
+Number is in: 412
+Number is in: 313
+Number is in: 575
+Number is in: 107
+Line: 6
+Number is in: 773
+Number is in: 891
+Number is out: 744
+Number is in: 805
+Number is in: 14
+Number is in: 320
+Number is in: 567
+Line: 7
+Number is in: 962
+Number is out: 708
+Number is in: 399
+Number is in: 146
+Number is in: 385
+Number is in: 825
+Number is in: 655
+Number is in: 485
+Line: 8
+Number is in: 76
+Number is in: 242
+Number is in: 997
+Number is in: 185
+Number is in: 207
+Number is in: 390
+Number is in: 870
+Number is in: 883
+Number is in: 337
+Line: 9
+Number is in: 929
+Number is in: 299
+Number is in: 249
+Number is in: 373
+Number is in: 549
+Line: 10
+Number is in: 196
+Number is out: 745
+Number is in: 996
+Number is in: 364
+Number is in: 409
+Number is in: 926
+Number is in: 273
+Number is in: 580
+Number is in: 31
+Number is in: 545
+Number is in: 547
+Number is in: 862
+Number is in: 810
+Line: 11
+Number is in: 900
+Number is in: 586
+Number is out: 936
+Number is in: 673
+Line: 12
+Number is in: 864
+Number is in: 683
+Number is in: 215
+Number is in: 702
+Number is out: 166
+Number is in: 46
+Number is in: 341
+Number is in: 694
+Number is in: 496
+Number is in: 528
+Number is in: 839
+Number is in: 105
+Number is in: 887
+Line: 13
+Number is in: 506
+Number is in: 617
+Number is in: 51
+Number is in: 807
+Number is in: 942
+Number is in: 424
+Number is in: 84
+Line: 14
+Number is in: 594
+Number is in: 675
+Number is out: 345
+Number is in: 52
+Number is in: 899
+Number is in: 804
+Line: 15
+Number is in: 362
+Number is in: 366
+Number is in: 487
+Number is in: 48
+Number is out: 600
+Number is in: 180
+Number is in: 845
+Number is in: 535
+Number is in: 18
+Number is in: 397
+Number is in: 908
+Number is in: 432
+Number is out: 229
+Number is in: 346
+Line: 16
+Number is in: 835
+Number is out: 578
+Number is in: 502
+Number is in: 416
+Number is in: 391
+Line: 17
+Number is in: 610
+Number is in: 514
+Number is in: 501
+Number is in: 71
+Number is in: 674
+Number is in: 925
+Number is in: 869
+Number is in: 966
+Number is in: 393
+Number is in: 687
+Line: 18
+Number is in: 786
+Number is in: 248
+Number is in: 104
+Number is out: 92
+Number is in: 633
+Number is in: 104
+Number is in: 466
+Number is in: 138
+Number is out: 525
+Number is in: 974
+Number is in: 339
+Number is in: 260
+Line: 19
+Number is in: 372
+Number is in: 889
+Number is in: 55
+Number is out: 406
+Number is in: 134
+Number is in: 250
+Number is in: 228
+Number is in: 609
+Number is in: 69
+Line: 20
+Number is in: 976
+Number is in: 357
+Number is in: 191
+Number is in: 150
+Line: 21
+Number is in: 595
+Number is in: 634
+Number is in: 396
+Number is in: 592
+Number is in: 594
+Number is in: 411
+Number is in: 856
+Number is in: 760
+Number is out: 201
+Number is in: 709
+Number is in: 168
+Line: 22
+Number is in: 936
+Number is in: 236
+Number is in: 436
+Number is out: 100
+Number is in: 35
+Number is in: 917
+Number is in: 63
+Line: 23
+Number is in: 542
+Number is in: 689
+Number is in: 26
+Number is in: 667
+Number is out: 738
+Number is in: 831
+Number is in: 513
+Number is in: 53
+Line: 24
+Number is in: 10
+Number is in: 529
+Number is in: 250
+Number is out: 162
+Number is in: 390
+Number is in: 70
+Number is in: 701
+Line: 25
+Number is in: 355
+Number is in: 394
+Number is in: 301
+Number is in: 542
+Number is in: 142
+Number is in: 507
+Line: 26
+Number is in: 283
+Number is in: 997
+Number is in: 670
+Number is in: 402
+Number is in: 808
+Number is in: 308
+Number is in: 459
+Number is in: 712
+Number is in: 152
+Line: 27
+Number is in: 291
+Number is in: 246
+Number is in: 986
+Number is in: 336
+Number is in: 976
+Number is in: 468
+Number is in: 264
+Number is in: 739
+Number is in: 187
+Line: 28
+Number is in: 46
+Number is in: 186
+Number is in: 674
+Number is in: 227
+Number is in: 975
+Number is in: 436
+Number is in: 492
+Line: 29
+Number is out: 491
+Number is in: 810
+Number is in: 772
+Number is in: 742
+Number is in: 198
+Number is in: 702
+Number is in: 596
+Number is out: 64
+Line: 30
+Number is in: 706
+Number is in: 415
+Number is in: 199
+Number is in: 235
+Number is in: 47
+Number is out: 72
+Number is in: 607
+Number is in: 443
+Line: 31
+Number is out: 214
+Number is out: 771
+Number is in: 302
+Number is in: 230
+Number is in: 810
+Number is in: 219
+Number is out: 606
+Number is in: 912
+Line: 32
+Number is in: 277
+Number is in: 320
+Number is in: 937
+Number is in: 632
+Number is in: 374
+Number is in: 898
+Number is in: 642
+Line: 33
+Number is in: 716
+Number is in: 229
+Number is in: 934
+Number is in: 233
+Number is out: 98
+Line: 34
+Number is in: 659
+Number is out: 457
+Number is in: 964
+Number is in: 659
+Number is in: 786
+Number is in: 619
+Number is in: 666
+Number is in: 277
+Number is in: 930
+Number is in: 460
+Number is in: 618
+Number is in: 910
+Number is in: 265
+Line: 35
+Number is in: 845
+Number is in: 877
+Number is in: 343
+Number is in: 537
+Number is in: 120
+Number is in: 175
+Number is in: 631
+Line: 36
+Number is in: 35
+Number is in: 949
+Number is in: 34
+Number is in: 381
+Number is in: 273
+Number is out: 880
+Number is out: 451
+Number is in: 326
+Line: 37
+Number is in: 876
+Number is out: 880
+Number is in: 827
+Number is in: 733
+Number is in: 645
+Number is in: 38
+Number is in: 402
+Number is in: 902
+Number is in: 459
+Number is out: 775
+Number is out: 837
+Number is in: 185
+Number is out: 813
+Line: 38
+Number is in: 578
+Number is in: 622
+Number is in: 18
+Number is in: 234
+Number is in: 448
+Number is in: 935
+Number is in: 350
+Line: 39
+Number is out: 468
+Number is in: 546
+Number is in: 588
+Number is in: 146
+Number is in: 142
+Number is in: 795
+Number is in: 424
+Line: 40
+Number is in: 245
+Number is in: 746
+Number is in: 362
+Number is in: 970
+Number is in: 593
+Number is in: 487
+Number is in: 709
+Number is in: 593
+Line: 41
+Number is in: 990
+Number is in: 415
+Number is in: 381
+Number is in: 435
+Number is in: 214
+Number is out: 908
+Number is in: 351
+Number is in: 876
+Number is in: 25
+Line: 42
+Number is in: 293
+Number is in: 271
+Number is in: 135
+Number is in: 540
+Number is in: 177
+Number is in: 604
+Number is in: 46
+Number is in: 166
+Line: 43
+Number is in: 609
+Number is in: 910
+Number is in: 321
+Number is in: 141
+Number is in: 45
+Number is in: 750
+Number is in: 98
+Line: 44
+Number is in: 779
+Number is out: 944
+Number is in: 653
+Number is in: 797
+Number is out: 788
+Number is in: 164
+Number is in: 724
+Number is in: 475
+Number is out: 471
+Line: 45
+Number is in: 794
+Number is in: 487
+Number is in: 81
+Number is in: 666
+Number is in: 981
+Number is in: 937
+Number is in: 888
+Number is in: 81
+Line: 46
+Number is in: 694
+Number is in: 748
+Number is in: 104
+Number is in: 859
+Number is in: 675
+Number is in: 434
+Number is in: 290
+Number is in: 352
+Number is in: 353
+Line: 47
+Number is in: 619
+Number is in: 977
+Number is in: 859
+Number is in: 235
+Number is in: 230
+Number is in: 429
+Number is in: 335
+Number is in: 631
+Number is in: 27
+Number is in: 192
+Line: 48
+Number is in: 121
+Number is in: 680
+Number is in: 195
+Number is in: 959
+Number is in: 417
+Number is in: 938
+Number is in: 739
+Number is in: 194
+Number is out: 750
+Line: 49
+Number is in: 309
+Number is in: 439
+Number is out: 14
+Number is in: 723
+Number is in: 163
+Number is in: 748
+Number is in: 853
+Number is in: 885
+Number is in: 175
+Number is in: 487
+Line: 50
+Number is in: 707
+Number is in: 626
+Number is in: 464
+Number is in: 382
+Number is in: 356
+Number is in: 868
+Number is in: 13
+Number is in: 450
+Line: 51
+Number is in: 216
+Number is out: 619
+Number is out: 270
+Number is in: 892
+Number is in: 25
+Number is in: 494
+Number is in: 841
+Number is in: 971
+Number is in: 157
+Number is in: 119
+Line: 52
+Number is in: 40
+Number is out: 343
+Number is in: 559
+Number is in: 425
+Number is in: 536
+Number is in: 718
+Number is in: 739
+Number is in: 284
+Number is in: 726
+Number is in: 985
+Number is in: 136
+Number is in: 597
+Number is in: 621
+Number is in: 173
+Number is in: 203
+Line: 53
+Number is in: 383
+Number is in: 348
+Number is in: 811
+Number is in: 158
+Line: 54
+Number is in: 776
+Number is in: 829
+Number is in: 85
+Number is in: 541
+Number is in: 700
+Number is in: 341
+Number is in: 995
+Number is in: 73
+Number is in: 114
+Number is in: 267
+Line: 55
+Number is in: 700
+Number is in: 203
+Number is in: 591
+Number is in: 924
+Number is in: 217
+Number is in: 590
+Number is in: 812
+Number is in: 579
+Number is in: 517
+Number is in: 730
+Line: 56
+Number is in: 586
+Number is in: 312
+Number is in: 806
+Number is in: 435
+Number is in: 259
+Number is out: 573
+Number is in: 453
+Number is in: 282
+Number is in: 132
+Number is out: 243
+Line: 57
+Number is in: 224
+Number is in: 468
+Number is in: 453
+Line: 58
+Number is in: 227
+Number is in: 673
+Number is in: 881
+Number is in: 828
+Number is in: 632
+Number is in: 589
+Number is in: 284
+Line: 59
+Number is in: 680
+Number is out: 871
+Number is in: 17
+Number is in: 117
+Number is in: 506
+Number is in: 410
+Number is in: 616
+Number is in: 519
+Line: 60
+Number is in: 386
+Number is in: 78
+Number is in: 762
+Number is in: 28
+Number is in: 557
+Number is in: 655
+Number is out: 359
+Number is in: 124
+Number is in: 843
+Line: 61
+Number is in: 724
+Number is in: 584
+Number is in: 552
+Number is in: 209
+Number is in: 857
+Number is in: 633
+Number is in: 602
+Number is in: 932
+Number is in: 132
+Line: 62
+Number is in: 41
+Number is in: 427
+Number is in: 370
+Number is out: 353
+Number is in: 902
+Number is in: 529
+Line: 63
+Number is in: 150
+Number is in: 868
+Number is in: 370
+Number is in: 549
+Number is in: 779
+Number is in: 284
+Number is in: 431
+Number is in: 3
+Number is in: 889
+Number is in: 189
+Number is in: 103
+Line: 64
+Number is in: 530
+Number is in: 355
+Number is in: 442
+Number is in: 63
+Number is in: 852
+Number is in: 935
+Line: 65
+Number is out: 976
+Number is in: 500
+Number is in: 572
+Number is in: 940
+Number is in: 990
+Number is in: 627
+Number is in: 790
+Number is in: 460
+Number is in: 904
+Number is in: 601
+Number is in: 821
+Number is in: 930
+Number is in: 699
+Line: 66
+Number is in: 643
+Number is in: 824
+Number is in: 248
+Number is in: 358
+Number is in: 4
+Number is in: 301
+Number is in: 538
+Number is in: 436
+Number is in: 565
+Line: 67
+Number is out: 768
+Number is in: 186
+Number is in: 178
+Number is in: 520
+Number is in: 782
+Number is in: 497
+Line: 68
+Number is in: 762
+Number is in: 828
+Number is out: 972
+Number is in: 3
+Number is in: 836
+Number is in: 278
+Number is in: 666
+Number is in: 927
+Number is in: 413
+Number is in: 185
+Line: 69
+Number is in: 40
+Number is in: 86
+Number is in: 122
+Number is in: 450
+Number is in: 1
+Number is in: 202
+Number is out: 42
+Number is in: 51
+Number is in: 215
+Line: 70
+Number is in: 353
+Number is in: 94
+Number is in: 995
+Number is in: 655
+Number is in: 520
+Number is in: 828
+Number is in: 612
+Number is in: 119
+Number is in: 486
+Number is out: 713
+Line: 71
+Number is out: 255
+Number is in: 463
+Number is in: 235
+Number is in: 836
+Number is in: 668
+Line: 72
+Number is in: 286
+Number is in: 338
+Number is in: 393
+Number is in: 398
+Number is in: 199
+Number is in: 631
+Number is in: 631
+Line: 73
+Number is in: 64
+Number is in: 704
+Number is out: 928
+Number is in: 470
+Number is in: 125
+Number is in: 708
+Number is in: 15
+Number is in: 193
+Number is out: 641
+Number is in: 687
+Line: 74
+Number is in: 582
+Number is in: 652
+Number is in: 358
+Number is in: 643
+Number is in: 125
+Number is in: 458
+Number is in: 168
+Number is in: 194
+Line: 75
+Number is in: 293
+Number is in: 305
+Number is in: 417
+Number is in: 117
+Number is in: 612
+Number is in: 262
+Number is in: 903
+Line: 76
+Number is in: 615
+Number is in: 581
+Number is in: 335
+Number is out: 139
+Number is in: 505
+Number is in: 419
+Number is in: 656
+Number is in: 506
+Number is in: 710
+Number is in: 956
+Line: 77
+Number is in: 776
+Number is in: 110
+Number is out: 447
+Number is out: 938
+Number is in: 366
+Number is in: 376
+Line: 78
+Number is in: 366
+Number is in: 844
+Number is out: 305
+Number is in: 761
+Number is in: 780
+Number is in: 560
+Number is in: 236
+Number is in: 725
+Number is in: 272
+Number is in: 450
+Number is in: 67
+Number is in: 126
+Line: 79
+Number is in: 669
+Number is in: 220
+Number is in: 665
+Number is in: 495
+Number is in: 103
+Number is in: 992
+Number is in: 600
+Line: 80
+Number is in: 812
+Number is in: 940
+Number is in: 146
+Number is in: 975
+Line: 81
+Number is in: 410
+Number is in: 650
+Number is in: 282
+Number is out: 696
+Number is out: 833
+Number is in: 957
+Number is in: 996
+Number is in: 772
+Number is in: 287
+Number is out: 921
+Number is in: 935
+Line: 82
+Number is in: 413
+Number is in: 921
+Number is in: 713
+Number is in: 769
+Number is in: 390
+Number is in: 216
+Number is in: 46
+Line: 83
+Number is out: 798
+Number is in: 136
+Number is in: 150
+Number is in: 236
+Number is in: 31
+Number is in: 64
+Number is out: 17
+Number is in: 616
+Number is out: 901
+Number is in: 344
+Line: 84
+Number is in: 402
+Number is in: 873
+Number is in: 692
+Number is in: 592
+Number is in: 390
+Number is in: 277
+Line: 85
+Number is out: 539
+Number is in: 799
+Number is out: 272
+Number is in: 694
+Number is in: 667
+Number is in: 318
+Number is in: 762
+Number is in: 71
+Number is in: 153
+Number is in: 531
+Line: 86
+Number is in: 556
+Number is in: 573
+Number is in: 465
+Number is in: 916
+Number is in: 602
+Number is in: 145
+Line: 87
+Number is in: 451
+Number is in: 625
+Number is in: 401
+Number is in: 428
+Number is in: 493
+Number is in: 479
+Number is in: 427
+Number is out: 60
+Number is in: 951
+Number is in: 281
+Line: 88
+Number is in: 947
+Number is in: 36
+Number is in: 270
+Number is in: 517
+Number is in: 521
+Number is in: 258
+Number is in: 108
+Number is in: 812
+Number is in: 372
+Line: 89
+Number is in: 957
+Number is in: 823
+Number is out: 290
+Number is in: 415
+Number is out: 908
+Number is in: 730
+Number is in: 589
+Line: 90
+Number is in: 857
+Number is in: 843
+Number is in: 794
+Number is in: 677
+Number is in: 27
+Number is in: 121
+Number is in: 670
+Number is in: 548
+Number is in: 837
+Number is out: 664
+Line: 91
+Number is out: 175
+Number is in: 422
+Number is in: 226
+Number is in: 344
+Number is out: 2
+Number is in: 474
+Line: 92
+Number is in: 283
+Number is in: 190
+Number is in: 458
+Number is in: 162
+Number is in: 666
+Number is in: 517
+Number is in: 202
+Number is in: 545
+Number is in: 705
+Line: 93
+Number is in: 296
+Number is out: 466
+Number is in: 852
+Number is in: 208
+Number is in: 999
+Number is in: 475
+Number is in: 256
+Number is in: 642
+Number is in: 188
+Number is in: 386
+Line: 94
+Number is in: 504
+Number is in: 888
+Number is in: 52
+Number is in: 416
+Number is in: 394
+Number is in: 349
+Number is in: 53
+Number is in: 953
+Number is in: 521
+Number is in: 213
+Line: 95
+Number is in: 225
+Number is in: 272
+Number is in: 32
+Number is in: 728
+Number is in: 827
+Number is in: 513
+Number is in: 287
+Number is in: 924
+Number is in: 388
+Line: 96
+Number is in: 453
+Number is in: 71
+Number is in: 437
+Number is in: 501
+Number is in: 869
+Number is in: 928
+Number is in: 225
+Number is in: 734
+Number is in: 157
+Line: 97
+Number is in: 400
+Number is in: 810
+Number is in: 300
+Number is in: 13
+Number is in: 15
+Number is in: 537
+Number is in: 997
+Number is in: 407
+Number is in: 758
+Number is in: 674
+Number is in: 604
+Number is in: 500
+Line: 98
+Number is in: 970
+Number is out: 409
+Number is in: 159
+Number is in: 788
+Number is in: 338
+Number is in: 636
+Number is in: 895
+Line: 99
+Number is in: 52
+Number is in: 872
+Number is in: 524
+Number is in: 297
+Number is in: 314
+Line: 100
+Number is in: 469
+Number is in: 408
+Number is in: 641
+Number is in: 364
+Number is in: 780
+Number is out: 526
+Number is in: 540
+Number is in: 865
+Number is out: 742
+Number is in: 549
+Number is in: 505
+Line: 101
+Number is in: 404
+Number is in: 58
+Number is in: 577
+Number is in: 655
+Number is out: 613
+Number is in: 343
+Number is in: 779
+Number is in: 854
+Number is in: 567
+Line: 102
+Number is in: 103
+Number is in: 284
+Number is in: 999
+Number is in: 640
+Number is in: 284
+Number is in: 566
+Number is in: 982
+Number is out: 476
+Number is out: 478
+Number is in: 793
+Number is in: 556
+Line: 103
+Number is in: 436
+Number is in: 916
+Number is out: 941
+Number is out: 284
+Number is in: 183
+Number is in: 857
+Number is in: 953
+Line: 104
+Number is in: 404
+Number is in: 910
+Number is in: 703
+Number is in: 20
+Number is in: 266
+Number is in: 815
+Number is in: 201
+Number is in: 54
+Number is in: 332
+Number is in: 95
+Line: 105
+Number is in: 898
+Number is in: 13
+Number is in: 806
+Number is in: 280
+Number is in: 905
+Number is in: 63
+Line: 106
+Number is in: 642
+Number is in: 271
+Number is in: 627
+Number is in: 920
+Number is in: 534
+Number is in: 96
+Number is in: 780
+Number is in: 246
+Number is in: 99
+Line: 107
+Number is in: 518
+Number is in: 323
+Number is in: 477
+Number is in: 4
+Number is out: 979
+Number is in: 810
+Number is in: 366
+Number is in: 697
+Line: 108
+Number is in: 439
+Number is in: 364
+Number is in: 161
+Number is in: 594
+Number is in: 647
+Number is in: 802
+Number is in: 234
+Number is in: 17
+Number is in: 125
+Number is out: 82
+Line: 109
+Number is in: 187
+Number is in: 667
+Number is in: 604
+Number is out: 946
+Number is in: 414
+Line: 110
+Number is in: 585
+Number is in: 218
+Number is out: 536
+Number is in: 396
+Number is in: 950
+Number is in: 200
+Number is in: 296
+Number is in: 935
+Number is in: 382
+Number is in: 883
+Number is in: 182
+Number is out: 326
+Line: 111
+Number is in: 557
+Number is in: 349
+Number is in: 217
+Number is in: 105
+Number is in: 527
+Number is in: 387
+Number is in: 394
+Number is in: 430
+Number is in: 501
+Number is in: 393
+Number is in: 190
+Line: 112
+Number is in: 474
+Number is out: 16
+Number is in: 675
+Number is out: 999
+Number is out: 362
+Number is in: 576
+Line: 113
+Number is in: 449
+Number is in: 296
+Number is in: 468
+Number is in: 607
+Number is in: 619
+Number is in: 177
+Number is in: 31
+Number is in: 194
+Number is in: 198
+Number is out: 187
+Line: 114
+Number is in: 156
+Number is in: 330
+Number is in: 332
+Number is out: 631
+Number is in: 936
+Number is in: 477
+Number is in: 658
+Number is in: 845
+Line: 115
+Number is in: 262
+Number is in: 362
+Number is in: 429
+Number is in: 324
+Number is in: 296
+Number is in: 161
+Number is in: 57
+Number is in: 309
+Line: 116
+Number is in: 403
+Number is in: 492
+Number is in: 97
+Number is in: 695
+Number is in: 696
+Number is out: 840
+Number is in: 21
+Number is in: 178
+Number is in: 364
+Line: 117
+Number is in: 178
+Number is in: 692
+Number is in: 82
+Number is in: 176
+Number is in: 456
+Number is in: 517
+Number is out: 238
+Number is in: 704
+Number is in: 682
+Number is in: 266
+Number is in: 222
+Line: 118
+Number is in: 993
+Number is in: 931
+Number is in: 445
+Number is in: 448
+Number is in: 251
+Number is in: 222
+Line: 119
+Number is in: 824
+Number is out: 467
+Number is in: 232
+Number is in: 664
+Number is in: 299
+Number is in: 322
+Number is in: 512
+Number is in: 850
+Number is in: 585
+Number is in: 259
+Line: 120
+Number is in: 458
+Number is in: 572
+Number is in: 379
+Number is in: 123
+Number is in: 298
+Number is in: 336
+Number is in: 908
+Line: 121
+Number is in: 732
+Number is in: 701
+Number is in: 440
+Number is in: 739
+Number is in: 636
+Number is in: 65
+Number is in: 151
+Number is in: 823
+Number is in: 455
+Number is in: 119
+Line: 122
+Number is in: 550
+Number is in: 391
+Number is in: 259
+Number is in: 834
+Number is in: 232
+Number is in: 179
+Number is out: 4
+Number is in: 795
+Number is out: 784
+Line: 123
+Number is in: 729
+Number is in: 568
+Number is in: 936
+Number is in: 952
+Number is in: 726
+Line: 124
+Number is out: 627
+Number is in: 87
+Number is out: 6
+Number is in: 106
+Number is in: 458
+Number is in: 281
+Number is in: 811
+Number is in: 282
+Number is out: 500
+Number is in: 833
+Number is in: 214
+Number is in: 780
+Line: 125
+Number is in: 320
+Number is in: 665
+Number is in: 584
+Number is in: 343
+Line: 126
+Number is in: 997
+Number is in: 84
+Number is in: 590
+Number is in: 795
+Number is in: 90
+Number is in: 487
+Number is in: 842
+Number is in: 431
+Number is in: 233
+Number is in: 692
+Number is in: 259
+Number is in: 391
+Number is in: 113
+Number is in: 338
+Number is in: 391
+Line: 127
+Number is in: 62
+Number is in: 689
+Number is in: 444
+Number is in: 445
+Number is in: 861
+Number is in: 498
+Number is in: 857
+Number is in: 505
+Line: 128
+Number is in: 436
+Number is in: 869
+Number is in: 634
+Number is in: 663
+Number is in: 599
+Number is in: 901
+Number is in: 678
+Number is in: 100
+Number is in: 666
+Number is in: 301
+Number is in: 493
+Number is in: 986
+Number is in: 174
+Number is in: 838
+Number is in: 492
+Number is in: 454
+Number is in: 313
+Line: 129
+Number is in: 362
+Number is out: 983
+Number is in: 259
+Number is in: 464
+Number is in: 27
+Line: 130
+Number is in: 580
+Number is in: 68
+Number is in: 45
+Number is in: 21
+Number is in: 768
+Number is out: 267
+Number is in: 661
+Number is in: 879
+Line: 131
+Number is in: 643
+Number is in: 545
+Number is in: 435
+Number is in: 823
+Number is in: 919
+Number is in: 20
+Number is in: 102
+Number is in: 267
+Number is out: 690
+Number is in: 55
+Line: 132
+Number is in: 557
+Number is in: 247
+Number is in: 653
+Number is out: 584
+Number is in: 5
+Number is in: 430
+Number is in: 529
+Number is in: 856
+Number is in: 305
+Number is in: 254
+Number is in: 212
+Line: 133
+Number is in: 945
+Number is in: 528
+Number is in: 775
+Number is in: 204
+Number is in: 537
+Number is out: 528
+Number is in: 276
+Number is in: 863
+Number is in: 612
+Line: 134
+Number is in: 572
+Number is in: 614
+Number is in: 810
+Number is in: 842
+Number is in: 438
+Number is in: 26
+Line: 135
+Number is in: 201
+Number is in: 671
+Number is in: 832
+Number is in: 214
+Number is in: 899
+Number is in: 795
+Number is in: 421
+Line: 136
+Number is in: 994
+Number is in: 797
+Number is in: 684
+Number is in: 390
+Number is in: 452
+Number is in: 989
+Number is in: 728
+Number is in: 685
+Number is in: 23
+Number is in: 856
+Number is in: 498
+Number is in: 443
+Line: 137
+Number is in: 424
+Number is in: 228
+Line: 138
+Number is out: 2
+Number is out: 812
+Number is in: 517
+Number is in: 602
+Number is in: 967
+Number is in: 262
+Number is in: 953
+Number is in: 67
+Number is in: 1
+Number is in: 431
+Number is in: 721
+Number is in: 402
+Number is in: 504
+Line: 139
+Number is in: 963
+Number is in: 96
+Number is in: 287
+Number is in: 255
+Number is in: 548
+Number is in: 534
+Number is in: 896
+Number is in: 531
+Number is in: 789
+Number is out: 855
+Line: 140
+Number is in: 579
+Number is in: 595
+Number is out: 8
+Number is in: 781
+Number is in: 547
+523162
+Done in 0.19s.
