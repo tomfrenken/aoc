@@ -36,7 +36,6 @@ function getSurroundingNumbers(engineSchematics: string[], lineIndex: number, ch
             }
         }
     }
-    console.log(numbers)
     return numbers
 }
 
