@@ -25,7 +25,7 @@ async function findEngineNumbers() {
     console.log(sum)
 }
 
-function checkSurroundingsForSymbols(engineSchematics: string[], lineIndex: number, charIndex: number): boolean{
+function checkSurroundingsForSymbols(engineSchematics: string[], lineIndex: number, charIndex: number): boolean {
     for(let i = lineIndex-1; i <= lineIndex + 1; i++){
         if(i >= 0 && i < engineSchematics.length){
             for(let j = charIndex-1; j <= charIndex + 1; j++){
