@@ -19,10 +19,8 @@ async function findEngineNumbers() {
                 currSymbol = engineSchematics[i].charAt(j)
             }
             if(currNumber && adjacentSymbol){
-                console.log(`Number is in: ${Number(currNumber)}`)
                 sum += Number(currNumber)
             } else if (currNumber) {
-                console.log(`Number is out: ${Number(currNumber)}`)
             }
         }
     }
