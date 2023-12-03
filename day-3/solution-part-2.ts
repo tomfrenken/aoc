@@ -26,15 +26,50 @@ function getSurroundingNumbers(engineSchematics: string[], lineIndex: number, ch
                 if(j >= 0 && j < engineSchematics[i].length){
                     const currSymbol = engineSchematics[i].charAt(j)
                     if(isNumeric(currSymbol)){
-                        // get number
-                        // push number to array
-                        // make changes to j if necessary
+                        const newNumber = getNumber(engineSchematics[i], j)
+                        numbers.push(newNumber)
+                        if(isNumeric(engineSchematics[i].charAt(j+1))) {
+                            break
+                        }
                     }
                 }
             }
         }
     }
+    console.log(numbers)
     return numbers
+}
+
+function getNumber(line: string, startIndex: number): number {
+    const middleSubString = line.charAt(startIndex)
+    const leftSubString = getLeftSubString(line, startIndex - 1)
+    const rightSubString = getRightSubString(line, startIndex + 1)
+    const number = leftSubString.concat(middleSubString).concat(rightSubString)
+    return Number(number)
+}
+
+function getLeftSubString(line: string, startIndex: number): string {
+    let subString = ''
+    let currentIndex = startIndex
+    let currentSymbol = line.charAt(startIndex)
+    while(isNumeric(currentSymbol)){
+        subString = currentSymbol.concat(subString)
+        currentIndex--
+        currentSymbol = line.charAt(currentIndex)
+    }
+    return subString
+}
+
+function getRightSubString(line: string, startIndex: number): string {
+    let subString = ''
+    let currentIndex = startIndex
+    let currentSymbol = line.charAt(startIndex)
+    while(isNumeric(currentSymbol)){
+        subString = subString.concat(currentSymbol)
+        currentIndex++
+        currentSymbol = line.charAt(currentIndex)
+    }
+    return subString
 }
 
 function isNumeric(symbol: string): boolean {
