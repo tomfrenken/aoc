@@ -43,10 +43,6 @@ function getAllCards(cards: string[]): number {
     return result
 }
 
-function getMatchingNumbers(card: Card): number[]{
-    return match(card.winningNumbers, card.chosenNumbers)
-}
-
 function parseCard(card: string): Card {
     const [leftSide, rightSide] = card.split('|')
     const [title, leftSideNumbers] = leftSide.split(':')
@@ -58,6 +54,10 @@ function parseCard(card: string): Card {
         winningNumbers,
         chosenNumbers
     }
+}
+
+function getMatchingNumbers(card: Card): number[]{
+    return match(card.winningNumbers, card.chosenNumbers)
 }
 
 function match(winningNumbers: number[], chosenNumbers: number[]): number[] {
