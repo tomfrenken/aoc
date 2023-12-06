@@ -22,52 +22,17 @@ async function part2() {
 
 function getPossibleTimes(time: number, distance: number): number {
     const minimumSpeed = getMinimumSpeed(time, distance)
-    const maximumSpeed = Math.floor(time/2)
-    console.log(`Min: ${minimumSpeed} Max: ${maximumSpeed}`)
-    const possibleTimes = time % 2 ? (maximumSpeed-minimumSpeed)*2+2  : (maximumSpeed-minimumSpeed)*2 + 1
-    let times = []
-    for(let i = minimumSpeed; (time - i) >= minimumSpeed; i++){
-        const remainingTime = time - i
-        const speed = i
-        const traveledDistance = remainingTime * speed
-        if(traveledDistance > distance){
-            times.push([i, traveledDistance])
-        }
-    }
-    console.log("Current:",possibleTimes)
-    console.log("Correct Times:", times.length)
-    console.log("Correct:", times)
+    const maximumSpeed = Math.ceil(time/2)
+    const possibleTimes = time % 2 ? (maximumSpeed-minimumSpeed)*2 : (maximumSpeed-minimumSpeed)*2 + 1
     return possibleTimes
 }
-
 function getMinimumSpeed(time: number, distance: number): number {
-    const approximation = Math.floor(distance/time)
-    for(let i = approximation; (time - i) >= approximation; i++){
-        const remainingTime = time - i
-        const speed = i
-        const traveledDistance = remainingTime * speed
-        if(traveledDistance > distance){
-            return i
-        }
-    }
-}
-
-function newGetMinimumSpeed(time: number, distance: number, maxSpeed: number): number {
-    // const graph = -(distance-maxSpeed) ** 2 + time
-    // const constant = Math.ceil(distance/time)
-    // const normalForm = x + constant
-    // const form = -(x-maxSpeed) ** 2 + time + distance
-    // const pqFormel = -(time) + Math.sqrt((time/2)**2 - maxSpeed)
-    const a = distance - maxSpeed
+    const a = -1
     const b = time
-    const c = distance/time
+    const c = -distance
     const discriminant = b * b - 4 * a * c
-    console.log(`a: ${a}, b: ${b}, c: ${c}`)
-    console.log("Discrimant:", discriminant)
-    console.log(Math.sqrt(discriminant))
     const intersect = (-b + Math.sqrt(discriminant)) / (2 * a)
-    console.log(intersect)
-    return intersect
+    return Math.ceil(intersect)
 }
 
-part1()
+part2()
