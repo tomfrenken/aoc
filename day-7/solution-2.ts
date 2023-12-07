@@ -1,10 +1,15 @@
 import { parse } from "path";
 import { readInput } from "../import-file";
+import { count } from "console";
 
 interface Player {
-    unsortedHand: string
+    hand: string
     bid: number
     handRank: number
+}
+
+type CountObject = {
+    [key: string]: number
 }
 
 const valueMap = new Map([
@@ -39,15 +44,10 @@ async function part2() {
 function parsePlayers(playerStrings: string[]): Player[] {
     return playerStrings.map(
         handString => {
-            const [unsortedHand, bid] = handString.split(' ')
-            const sortedHand = unsortedHand
-                .split('')
-                .sort((a, b) => valueMap.get(b) - valueMap.get(a))
-                .join('')
-            const jokers = getJokers(sortedHand)
-            const handRank = evalHand(sortedHand, jokers)
+            const [hand, bid] = handString.split(' ')
+            const handRank = evalHand(hand)
             return { 
-                unsortedHand,
+                hand,
                 handRank,
                 bid: Number(bid)
             }
@@ -55,17 +55,31 @@ function parsePlayers(playerStrings: string[]): Player[] {
     )
 }
 
-function getJokers(sortedHand: string): number {
-    const jokerMatches = (sortedHand.match(/J+/g) || [])
-    const jokers = jokerMatches.length ? jokerMatches[0].length : 0
-    return jokers
+function evalHand(hand: string): number {
+    const countCards = hand.split('').reduce(
+        (count, char) => {
+            count[char] = (count[char] || 0) + 1
+            return count
+        }, ({} as CountObject))
+    const jokers = countCards['J'] || 0
+    delete countCards['J']
+    const cardFrequencies = Object.values(countCards).sort((a, b) => b - a)
+    const [long, secondLong = 1] = cardFrequencies
+    const totalLong = long ? long + jokers : jokers
+    switch(totalLong) {
+        case 5: return 10
+        case 4: return 9
+        case 3: return totalLong + secondLong + 2
+        case 2: return totalLong + secondLong
+        default: return 0
+    }
 }
 
 function rankPlayers(a: Player, b: Player): number {
     if(a.handRank !== b.handRank) return a.handRank - b.handRank
-    for(let i = 0 ; i < a.unsortedHand.length; i++){
-        const aCard = valueMap.get(a.unsortedHand.charAt(i))
-        const bCard = valueMap.get(b.unsortedHand.charAt(i))
+    for(let i = 0 ; i < a.hand.length; i++){
+        const aCard = valueMap.get(a.hand.charAt(i))
+        const bCard = valueMap.get(b.hand.charAt(i))
         if(aCard > bCard){
             return 1
         }
@@ -74,34 +88,6 @@ function rankPlayers(a: Player, b: Player): number {
         }
     }
     return 0
-}
-
-function evalHand(hand: string, jokers: number): number {
-    const handSequences = hand
-        .match(/(\w)\1*/g)
-        .map(match => match.split(''))
-        .sort((a, b) => b.length - a.length)
-    const sequencesWithoutJokers = handSequences.filter(sequence => !sequence.includes("J"))
-    const longestSequence = sequencesWithoutJokers.length ? sequencesWithoutJokers[0].length + jokers : jokers
-    if(longestSequence === 5) return 7
-    if(longestSequence === 4) return 6
-    if(longestSequence === 3) {
-        // fullhouse
-        if(sequencesWithoutJokers[1]?.length === 2) {
-            return 5
-        }
-        // threeSame
-        return 4
-    }
-    if(longestSequence === 2){
-        // twoPair
-        if(sequencesWithoutJokers[1]?.length === 2){
-            return 3
-        }
-        // onePair
-        return 2
-    }
-    return 1
 }
 
 
