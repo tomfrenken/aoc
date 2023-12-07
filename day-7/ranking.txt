@@ -1,0 +1,6006 @@
+yarn run v1.22.21
+$ /Users/I519840/Code/aoc/node_modules/.bin/tsx day-7/solution.ts
+[
+  {
+    unsortedHand: [ '2', '3', 'K', '7', 'J' ],
+    hand: [ 'K', 'J', '7', '3', '2' ],
+    handRank: 1,
+    bid: 678
+  },
+  {
+    unsortedHand: [ '2', '4', '3', 'J', '7' ],
+    hand: [ 'J', '7', '4', '3', '2' ],
+    handRank: 1,
+    bid: 182
+  },
+  {
+    unsortedHand: [ '2', '5', 'Q', '6', 'K' ],
+    hand: [ 'K', 'Q', '6', '5', '2' ],
+    handRank: 1,
+    bid: 110
+  },
+  {
+    unsortedHand: [ '2', '6', '4', 'A', '5' ],
+    hand: [ 'A', '6', '5', '4', '2' ],
+    handRank: 1,
+    bid: 596
+  },
+  {
+    unsortedHand: [ '2', '6', '5', 'K', '7' ],
+    hand: [ 'K', '7', '6', '5', '2' ],
+    handRank: 1,
+    bid: 850
+  },
+  {
+    unsortedHand: [ '2', '6', '8', '4', 'T' ],
+    hand: [ 'T', '8', '6', '4', '2' ],
+    handRank: 1,
+    bid: 825
+  },
+  {
+    unsortedHand: [ '2', '7', '8', '3', 'Q' ],
+    hand: [ 'Q', '8', '7', '3', '2' ],
+    handRank: 1,
+    bid: 11
+  },
+  {
+    unsortedHand: [ '2', '7', 'A', '6', '4' ],
+    hand: [ 'A', '7', '6', '4', '2' ],
+    handRank: 1,
+    bid: 457
+  },
+  {
+    unsortedHand: [ '2', '8', '5', '4', '6' ],
+    hand: [ '8', '6', '5', '4', '2' ],
+    handRank: 1,
+    bid: 515
+  },
+  {
+    unsortedHand: [ '2', '8', 'J', 'K', 'Q' ],
+    hand: [ 'K', 'Q', 'J', '8', '2' ],
+    handRank: 1,
+    bid: 591
+  },
+  {
+    unsortedHand: [ '2', '9', '7', '6', 'Q' ],
+    hand: [ 'Q', '9', '7', '6', '2' ],
+    handRank: 1,
+    bid: 949
+  },
+  {
+    unsortedHand: [ '2', 'T', '7', '4', '8' ],
+    hand: [ 'T', '8', '7', '4', '2' ],
+    handRank: 1,
+    bid: 343
+  },
+  {
+    unsortedHand: [ '2', 'T', 'K', 'J', '3' ],
+    hand: [ 'K', 'J', 'T', '3', '2' ],
+    handRank: 1,
+    bid: 140
+  },
+  {
+    unsortedHand: [ '2', 'J', '5', '7', 'T' ],
+    hand: [ 'J', 'T', '7', '5', '2' ],
+    handRank: 1,
+    bid: 183
+  },
+  {
+    unsortedHand: [ '2', 'Q', 'J', '6', '9' ],
+    hand: [ 'Q', 'J', '9', '6', '2' ],
+    handRank: 1,
+    bid: 84
+  },
+  {
+    unsortedHand: [ '2', 'Q', 'J', 'T', '6' ],
+    hand: [ 'Q', 'J', 'T', '6', '2' ],
+    handRank: 1,
+    bid: 864
+  },
+  {
+    unsortedHand: [ '2', 'K', '6', '9', 'Q' ],
+    hand: [ 'K', 'Q', '9', '6', '2' ],
+    handRank: 1,
+    bid: 539
+  },
+  {
+    unsortedHand: [ '2', 'K', '8', '6', 'A' ],
+    hand: [ 'A', 'K', '8', '6', '2' ],
+    handRank: 1,
+    bid: 478
+  },
+  {
+    unsortedHand: [ '2', 'K', 'J', 'Q', 'A' ],
+    hand: [ 'A', 'K', 'Q', 'J', '2' ],
+    handRank: 1,
+    bid: 156
+  },
+  {
+    unsortedHand: [ '3', '2', '6', '4', 'Q' ],
+    hand: [ 'Q', '6', '4', '3', '2' ],
+    handRank: 1,
+    bid: 401
+  },
+  {
+    unsortedHand: [ '3', '2', 'T', '9', '5' ],
+    hand: [ 'T', '9', '5', '3', '2' ],
+    handRank: 1,
+    bid: 951
+  },
+  {
+    unsortedHand: [ '3', '2', 'J', '8', '5' ],
+    hand: [ 'J', '8', '5', '3', '2' ],
+    handRank: 1,
+    bid: 134
+  },
+  {
+    unsortedHand: [ '3', '4', '7', '5', 'Q' ],
+    hand: [ 'Q', '7', '5', '4', '3' ],
+    handRank: 1,
+    bid: 351
+  },
+  {
+    unsortedHand: [ '3', '5', '2', '4', 'J' ],
+    hand: [ 'J', '5', '4', '3', '2' ],
+    handRank: 1,
+    bid: 691
+  },
+  {
+    unsortedHand: [ '3', '5', '6', '4', 'A' ],
+    hand: [ 'A', '6', '5', '4', '3' ],
+    handRank: 1,
+    bid: 831
+  },
+  {
+    unsortedHand: [ '3', '7', 'T', '5', 'Q' ],
+    hand: [ 'Q', 'T', '7', '5', '3' ],
+    handRank: 1,
+    bid: 155
+  },
+  {
+    unsortedHand: [ '3', '8', '2', '4', '7' ],
+    hand: [ '8', '7', '4', '3', '2' ],
+    handRank: 1,
+    bid: 91
+  },
+  {
+    unsortedHand: [ '3', '8', '5', '7', '6' ],
+    hand: [ '8', '7', '6', '5', '3' ],
+    handRank: 1,
+    bid: 806
+  },
+  {
+    unsortedHand: [ '3', '9', '6', 'K', 'T' ],
+    hand: [ 'K', 'T', '9', '6', '3' ],
+    handRank: 1,
+    bid: 130
+  },
+  {
+    unsortedHand: [ '3', 'J', '9', 'Q', '7' ],
+    hand: [ 'Q', 'J', '9', '7', '3' ],
+    handRank: 1,
+    bid: 241
+  },
+  {
+    unsortedHand: [ '3', 'Q', '7', '2', '4' ],
+    hand: [ 'Q', '7', '4', '3', '2' ],
+    handRank: 1,
+    bid: 421
+  },
+  {
+    unsortedHand: [ '3', 'K', '7', 'A', '2' ],
+    hand: [ 'A', 'K', '7', '3', '2' ],
+    handRank: 1,
+    bid: 918
+  },
+  {
+    unsortedHand: [ '4', '5', 'T', 'Q', '9' ],
+    hand: [ 'Q', 'T', '9', '5', '4' ],
+    handRank: 1,
+    bid: 52
+  },
+  {
+    unsortedHand: [ '4', '5', 'J', 'Q', 'T' ],
+    hand: [ 'Q', 'J', 'T', '5', '4' ],
+    handRank: 1,
+    bid: 320
+  },
+  {
+    unsortedHand: [ '4', '7', '8', '5', 'K' ],
+    hand: [ 'K', '8', '7', '5', '4' ],
+    handRank: 1,
+    bid: 987
+  },
+  {
+    unsortedHand: [ '4', '9', 'T', 'A', '8' ],
+    hand: [ 'A', 'T', '9', '8', '4' ],
+    handRank: 1,
+    bid: 953
+  },
+  {
+    unsortedHand: [ '4', '9', 'J', 'A', 'K' ],
+    hand: [ 'A', 'K', 'J', '9', '4' ],
+    handRank: 1,
+    bid: 614
+  },
+  {
+    unsortedHand: [ '4', 'T', '3', 'A', 'Q' ],
+    hand: [ 'A', 'Q', 'T', '4', '3' ],
+    handRank: 1,
+    bid: 394
+  },
+  {
+    unsortedHand: [ '4', 'J', '5', 'A', 'K' ],
+    hand: [ 'A', 'K', 'J', '5', '4' ],
+    handRank: 1,
+    bid: 105
+  },
+  {
+    unsortedHand: [ '4', 'K', 'J', '6', '9' ],
+    hand: [ 'K', 'J', '9', '6', '4' ],
+    handRank: 1,
+    bid: 550
+  },
+  {
+    unsortedHand: [ '4', 'A', '2', '5', 'K' ],
+    hand: [ 'A', 'K', '5', '4', '2' ],
+    handRank: 1,
+    bid: 520
+  },
+  {
+    unsortedHand: [ '4', 'A', 'K', '2', 'J' ],
+    hand: [ 'A', 'K', 'J', '4', '2' ],
+    handRank: 1,
+    bid: 61
+  },
+  {
+    unsortedHand: [ '5', '2', '6', '4', 'T' ],
+    hand: [ 'T', '6', '5', '4', '2' ],
+    handRank: 1,
+    bid: 86
+  },
+  {
+    unsortedHand: [ '5', '6', 'T', 'Q', 'K' ],
+    hand: [ 'K', 'Q', 'T', '6', '5' ],
+    handRank: 1,
+    bid: 688
+  },
+  {
+    unsortedHand: [ '5', '7', '8', 'A', '3' ],
+    hand: [ 'A', '8', '7', '5', '3' ],
+    handRank: 1,
+    bid: 214
+  },
+  {
+    unsortedHand: [ '5', '8', '3', '2', '9' ],
+    hand: [ '9', '8', '5', '3', '2' ],
+    handRank: 1,
+    bid: 622
+  },
+  {
+    unsortedHand: [ '5', 'J', '8', '6', 'A' ],
+    hand: [ 'A', 'J', '8', '6', '5' ],
+    handRank: 1,
+    bid: 995
+  },
+  {
+    unsortedHand: [ '5', 'J', 'K', '3', '2' ],
+    hand: [ 'K', 'J', '5', '3', '2' ],
+    handRank: 1,
+    bid: 669
+  },
+  {
+    unsortedHand: [ '5', 'Q', '4', '7', 'K' ],
+    hand: [ 'K', 'Q', '7', '5', '4' ],
+    handRank: 1,
+    bid: 324
+  },
+  {
+    unsortedHand: [ '5', 'Q', '9', '6', 'T' ],
+    hand: [ 'Q', 'T', '9', '6', '5' ],
+    handRank: 1,
+    bid: 484
+  },
+  {
+    unsortedHand: [ '6', '2', 'T', '9', '7' ],
+    hand: [ 'T', '9', '7', '6', '2' ],
+    handRank: 1,
+    bid: 458
+  },
+  {
+    unsortedHand: [ '6', '4', '2', 'J', '5' ],
+    hand: [ 'J', '6', '5', '4', '2' ],
+    handRank: 1,
+    bid: 842
+  },
+  {
+    unsortedHand: [ '6', '4', '7', '8', '9' ],
+    hand: [ '9', '8', '7', '6', '4' ],
+    handRank: 1,
+    bid: 925
+  },
+  {
+    unsortedHand: [ '6', '4', '9', '5', 'A' ],
+    hand: [ 'A', '9', '6', '5', '4' ],
+    handRank: 1,
+    bid: 758
+  },
+  {
+    unsortedHand: [ '6', '5', '2', 'T', 'Q' ],
+    hand: [ 'Q', 'T', '6', '5', '2' ],
+    handRank: 1,
+    bid: 981
+  },
+  {
+    unsortedHand: [ '6', '7', 'Q', 'A', '8' ],
+    hand: [ 'A', 'Q', '8', '7', '6' ],
+    handRank: 1,
+    bid: 659
+  },
+  {
+    unsortedHand: [ '6', '7', 'K', '9', 'A' ],
+    hand: [ 'A', 'K', '9', '7', '6' ],
+    handRank: 1,
+    bid: 319
+  },
+  {
+    unsortedHand: [ '6', '7', 'K', 'J', '4' ],
+    hand: [ 'K', 'J', '7', '6', '4' ],
+    handRank: 1,
+    bid: 30
+  },
+  {
+    unsortedHand: [ '6', '7', 'A', 'J', 'K' ],
+    hand: [ 'A', 'K', 'J', '7', '6' ],
+    handRank: 1,
+    bid: 28
+  },
+  {
+    unsortedHand: [ '6', '8', 'T', '7', '2' ],
+    hand: [ 'T', '8', '7', '6', '2' ],
+    handRank: 1,
+    bid: 432
+  },
+  {
+    unsortedHand: [ '6', '9', 'A', '4', '8' ],
+    hand: [ 'A', '9', '8', '6', '4' ],
+    handRank: 1,
+    bid: 555
+  },
+  {
+    unsortedHand: [ '6', 'J', 'Q', '9', '5' ],
+    hand: [ 'Q', 'J', '9', '6', '5' ],
+    handRank: 1,
+    bid: 392
+  },
+  {
+    unsortedHand: [ '6', 'J', 'K', '5', '2' ],
+    hand: [ 'K', 'J', '6', '5', '2' ],
+    handRank: 1,
+    bid: 569
+  },
+  {
+    unsortedHand: [ '6', 'J', 'K', '8', '7' ],
+    hand: [ 'K', 'J', '8', '7', '6' ],
+    handRank: 1,
+    bid: 186
+  },
+  {
+    unsortedHand: [ '6', 'Q', 'A', '8', 'J' ],
+    hand: [ 'A', 'Q', 'J', '8', '6' ],
+    handRank: 1,
+    bid: 396
+  },
+  {
+    unsortedHand: [ '6', 'A', 'K', 'T', '2' ],
+    hand: [ 'A', 'K', 'T', '6', '2' ],
+    handRank: 1,
+    bid: 258
+  },
+  {
+    unsortedHand: [ '7', '2', '9', 'J', 'Q' ],
+    hand: [ 'Q', 'J', '9', '7', '2' ],
+    handRank: 1,
+    bid: 200
+  },
+  {
+    unsortedHand: [ '7', '2', 'Q', '8', 'A' ],
+    hand: [ 'A', 'Q', '8', '7', '2' ],
+    handRank: 1,
+    bid: 267
+  },
+  {
+    unsortedHand: [ '7', '3', '6', '9', 'Q' ],
+    hand: [ 'Q', '9', '7', '6', '3' ],
+    handRank: 1,
+    bid: 584
+  },
+  {
+    unsortedHand: [ '7', '4', 'T', 'Q', '3' ],
+    hand: [ 'Q', 'T', '7', '4', '3' ],
+    handRank: 1,
+    bid: 698
+  },
+  {
+    unsortedHand: [ '7', '4', 'K', 'Q', 'J' ],
+    hand: [ 'K', 'Q', 'J', '7', '4' ],
+    handRank: 1,
+    bid: 904
+  },
+  {
+    unsortedHand: [ '7', '5', '9', '3', '6' ],
+    hand: [ '9', '7', '6', '5', '3' ],
+    handRank: 1,
+    bid: 64
+  },
+  {
+    unsortedHand: [ '7', '6', 'T', 'K', 'A' ],
+    hand: [ 'A', 'K', 'T', '7', '6' ],
+    handRank: 1,
+    bid: 307
+  },
+  {
+    unsortedHand: [ '7', '8', '5', 'Q', '2' ],
+    hand: [ 'Q', '8', '7', '5', '2' ],
+    handRank: 1,
+    bid: 689
+  },
+  {
+    unsortedHand: [ '7', '8', '6', 'K', '4' ],
+    hand: [ 'K', '8', '7', '6', '4' ],
+    handRank: 1,
+    bid: 489
+  },
+  {
+    unsortedHand: [ '7', '8', 'K', 'A', 'J' ],
+    hand: [ 'A', 'K', 'J', '8', '7' ],
+    handRank: 1,
+    bid: 843
+  },
+  {
+    unsortedHand: [ '7', '9', '2', '6', '8' ],
+    hand: [ '9', '8', '7', '6', '2' ],
+    handRank: 1,
+    bid: 612
+  },
+  {
+    unsortedHand: [ '7', '9', 'T', 'J', 'K' ],
+    hand: [ 'K', 'J', 'T', '9', '7' ],
+    handRank: 1,
+    bid: 744
+  },
+  {
+    unsortedHand: [ '7', '9', 'J', 'K', '4' ],
+    hand: [ 'K', 'J', '9', '7', '4' ],
+    handRank: 1,
+    bid: 556
+  },
+  {
+    unsortedHand: [ '7', 'Q', '4', '9', 'A' ],
+    hand: [ 'A', 'Q', '9', '7', '4' ],
+    handRank: 1,
+    bid: 937
+  },
+  {
+    unsortedHand: [ '7', 'Q', 'J', '3', '5' ],
+    hand: [ 'Q', 'J', '7', '5', '3' ],
+    handRank: 1,
+    bid: 209
+  },
+  {
+    unsortedHand: [ '7', 'A', '9', 'J', 'Q' ],
+    hand: [ 'A', 'Q', 'J', '9', '7' ],
+    handRank: 1,
+    bid: 523
+  },
+  {
+    unsortedHand: [ '8', '2', 'T', '3', 'J' ],
+    hand: [ 'J', 'T', '8', '3', '2' ],
+    handRank: 1,
+    bid: 53
+  },
+  {
+    unsortedHand: [ '8', '2', 'T', 'A', '4' ],
+    hand: [ 'A', 'T', '8', '4', '2' ],
+    handRank: 1,
+    bid: 816
+  },
+  {
+    unsortedHand: [ '8', '3', '6', 'J', '7' ],
+    hand: [ 'J', '8', '7', '6', '3' ],
+    handRank: 1,
+    bid: 990
+  },
+  {
+    unsortedHand: [ '8', '4', '2', '6', 'K' ],
+    hand: [ 'K', '8', '6', '4', '2' ],
+    handRank: 1,
+    bid: 921
+  },
+  {
+    unsortedHand: [ '8', '4', '2', 'A', 'J' ],
+    hand: [ 'A', 'J', '8', '4', '2' ],
+    handRank: 1,
+    bid: 749
+  },
+  {
+    unsortedHand: [ '8', '4', 'J', 'A', '7' ],
+    hand: [ 'A', 'J', '8', '7', '4' ],
+    handRank: 1,
+    bid: 931
+  },
+  {
+    unsortedHand: [ '8', '4', 'A', '9', 'Q' ],
+    hand: [ 'A', 'Q', '9', '8', '4' ],
+    handRank: 1,
+    bid: 841
+  },
+  {
+    unsortedHand: [ '8', '5', '4', '3', 'K' ],
+    hand: [ 'K', '8', '5', '4', '3' ],
+    handRank: 1,
+    bid: 247
+  },
+  {
+    unsortedHand: [ '8', '6', 'A', '5', 'Q' ],
+    hand: [ 'A', 'Q', '8', '6', '5' ],
+    handRank: 1,
+    bid: 571
+  },
+  {
+    unsortedHand: [ '8', '7', '4', '2', 'Q' ],
+    hand: [ 'Q', '8', '7', '4', '2' ],
+    handRank: 1,
+    bid: 242
+  },
+  {
+    unsortedHand: [ '8', '7', 'K', '3', '6' ],
+    hand: [ 'K', '8', '7', '6', '3' ],
+    handRank: 1,
+    bid: 237
+  },
+  {
+    unsortedHand: [ '8', '9', 'T', '2', 'J' ],
+    hand: [ 'J', 'T', '9', '8', '2' ],
+    handRank: 1,
+    bid: 880
+  },
+  {
+    unsortedHand: [ '8', '9', 'K', '4', 'A' ],
+    hand: [ 'A', 'K', '9', '8', '4' ],
+    handRank: 1,
+    bid: 274
+  },
+  {
+    unsortedHand: [ '8', 'T', 'J', 'K', '9' ],
+    hand: [ 'K', 'J', 'T', '9', '8' ],
+    handRank: 1,
+    bid: 380
+  },
+  {
+    unsortedHand: [ '8', 'T', 'K', '4', 'Q' ],
+    hand: [ 'K', 'Q', 'T', '8', '4' ],
+    handRank: 1,
+    bid: 526
+  },
+  {
+    unsortedHand: [ '8', 'J', 'K', '4', '2' ],
+    hand: [ 'K', 'J', '8', '4', '2' ],
+    handRank: 1,
+    bid: 233
+  },
+  {
+    unsortedHand: [ '8', 'Q', 'T', 'J', 'A' ],
+    hand: [ 'A', 'Q', 'J', 'T', '8' ],
+    handRank: 1,
+    bid: 671
+  },
+  {
+    unsortedHand: [ '9', '6', 'J', '2', '4' ],
+    hand: [ 'J', '9', '6', '4', '2' ],
+    handRank: 1,
+    bid: 10
+  },
+  {
+    unsortedHand: [ '9', '7', '3', '6', '4' ],
+    hand: [ '9', '7', '6', '4', '3' ],
+    handRank: 1,
+    bid: 999
+  },
+  {
+    unsortedHand: [ '9', '7', 'Q', '4', 'K' ],
+    hand: [ 'K', 'Q', '9', '7', '4' ],
+    handRank: 1,
+    bid: 347
+  },
+  {
+    unsortedHand: [ '9', 'T', '5', 'K', 'Q' ],
+    hand: [ 'K', 'Q', 'T', '9', '5' ],
+    handRank: 1,
+    bid: 482
+  },
+  {
+    unsortedHand: [ '9', 'T', '7', 'A', 'J' ],
+    hand: [ 'A', 'J', 'T', '9', '7' ],
+    handRank: 1,
+    bid: 165
+  },
+  {
+    unsortedHand: [ '9', 'Q', 'K', 'A', '5' ],
+    hand: [ 'A', 'K', 'Q', '9', '5' ],
+    handRank: 1,
+    bid: 563
+  },
+  {
+    unsortedHand: [ '9', 'K', '4', '5', '7' ],
+    hand: [ 'K', '9', '7', '5', '4' ],
+    handRank: 1,
+    bid: 771
+  },
+  {
+    unsortedHand: [ '9', 'K', '8', '5', 'T' ],
+    hand: [ 'K', 'T', '9', '8', '5' ],
+    handRank: 1,
+    bid: 975
+  },
+  {
+    unsortedHand: [ 'T', '2', '3', 'Q', 'A' ],
+    hand: [ 'A', 'Q', 'T', '3', '2' ],
+    handRank: 1,
+    bid: 49
+  },
+  {
+    unsortedHand: [ 'T', '2', '6', 'K', '9' ],
+    hand: [ 'K', 'T', '9', '6', '2' ],
+    handRank: 1,
+    bid: 411
+  },
+  {
+    unsortedHand: [ 'T', '2', 'J', '9', 'A' ],
+    hand: [ 'A', 'J', 'T', '9', '2' ],
+    handRank: 1,
+    bid: 133
+  },
+  {
+    unsortedHand: [ 'T', '3', '4', '8', '9' ],
+    hand: [ 'T', '9', '8', '4', '3' ],
+    handRank: 1,
+    bid: 481
+  },
+  {
+    unsortedHand: [ 'T', '3', '4', '9', 'A' ],
+    hand: [ 'A', 'T', '9', '4', '3' ],
+    handRank: 1,
+    bid: 205
+  },
+  {
+    unsortedHand: [ 'T', '3', '7', 'K', '9' ],
+    hand: [ 'K', 'T', '9', '7', '3' ],
+    handRank: 1,
+    bid: 597
+  },
+  {
+    unsortedHand: [ 'T', '4', '6', '9', '8' ],
+    hand: [ 'T', '9', '8', '6', '4' ],
+    handRank: 1,
+    bid: 621
+  },
+  {
+    unsortedHand: [ 'T', '4', 'J', '2', '7' ],
+    hand: [ 'J', 'T', '7', '4', '2' ],
+    handRank: 1,
+    bid: 618
+  },
+  {
+    unsortedHand: [ 'T', '5', '3', '6', 'Q' ],
+    hand: [ 'Q', 'T', '6', '5', '3' ],
+    handRank: 1,
+    bid: 784
+  },
+  {
+    unsortedHand: [ 'T', '6', '2', '7', 'Q' ],
+    hand: [ 'Q', 'T', '7', '6', '2' ],
+    handRank: 1,
+    bid: 389
+  },
+  {
+    unsortedHand: [ 'T', '6', '9', 'J', '7' ],
+    hand: [ 'J', 'T', '9', '7', '6' ],
+    handRank: 1,
+    bid: 463
+  },
+  {
+    unsortedHand: [ 'T', 'J', '6', '8', '5' ],
+    hand: [ 'J', 'T', '8', '6', '5' ],
+    handRank: 1,
+    bid: 345
+  },
+  {
+    unsortedHand: [ 'T', 'J', '9', '2', '6' ],
+    hand: [ 'J', 'T', '9', '6', '2' ],
+    handRank: 1,
+    bid: 978
+  },
+  {
+    unsortedHand: [ 'T', 'Q', '6', '9', 'J' ],
+    hand: [ 'Q', 'J', 'T', '9', '6' ],
+    handRank: 1,
+    bid: 832
+  },
+  {
+    unsortedHand: [ 'T', 'A', 'Q', 'J', 'K' ],
+    hand: [ 'A', 'K', 'Q', 'J', 'T' ],
+    handRank: 1,
+    bid: 830
+  },
+  {
+    unsortedHand: [ 'J', '2', '5', 'T', '9' ],
+    hand: [ 'J', 'T', '9', '5', '2' ],
+    handRank: 1,
+    bid: 464
+  },
+  {
+    unsortedHand: [ 'J', '3', 'T', '4', 'Q' ],
+    hand: [ 'Q', 'J', 'T', '4', '3' ],
+    handRank: 1,
+    bid: 915
+  },
+  {
+    unsortedHand: [ 'J', '4', '5', '2', 'K' ],
+    hand: [ 'K', 'J', '5', '4', '2' ],
+    handRank: 1,
+    bid: 466
+  },
+  {
+    unsortedHand: [ 'J', '4', '7', '2', '9' ],
+    hand: [ 'J', '9', '7', '4', '2' ],
+    handRank: 1,
+    bid: 210
+  },
+  {
+    unsortedHand: [ 'J', '5', 'Q', '8', 'A' ],
+    hand: [ 'A', 'Q', 'J', '8', '5' ],
+    handRank: 1,
+    bid: 514
+  },
+  {
+    unsortedHand: [ 'J', '6', '3', '2', 'Q' ],
+    hand: [ 'Q', 'J', '6', '3', '2' ],
+    handRank: 1,
+    bid: 479
+  },
+  {
+    unsortedHand: [ 'J', '6', 'T', '9', '4' ],
+    hand: [ 'J', 'T', '9', '6', '4' ],
+    handRank: 1,
+    bid: 409
+  },
+  {
+    unsortedHand: [ 'J', '7', '4', 'A', '5' ],
+    hand: [ 'A', 'J', '7', '5', '4' ],
+    handRank: 1,
+    bid: 92
+  },
+  {
+    unsortedHand: [ 'J', '7', 'Q', '4', 'A' ],
+    hand: [ 'A', 'Q', 'J', '7', '4' ],
+    handRank: 1,
+    bid: 90
+  },
+  {
+    unsortedHand: [ 'J', '8', '6', '4', 'Q' ],
+    hand: [ 'Q', 'J', '8', '6', '4' ],
+    handRank: 1,
+    bid: 974
+  },
+  {
+    unsortedHand: [ 'J', '8', 'K', '4', 'T' ],
+    hand: [ 'K', 'J', 'T', '8', '4' ],
+    handRank: 1,
+    bid: 358
+  },
+  {
+    unsortedHand: [ 'J', '9', '6', '3', '8' ],
+    hand: [ 'J', '9', '8', '6', '3' ],
+    handRank: 1,
+    bid: 917
+  },
+  {
+    unsortedHand: [ 'J', '9', '6', 'A', '5' ],
+    hand: [ 'A', 'J', '9', '6', '5' ],
+    handRank: 1,
+    bid: 532
+  },
+  {
+    unsortedHand: [ 'J', '9', '8', '7', '2' ],
+    hand: [ 'J', '9', '8', '7', '2' ],
+    handRank: 1,
+    bid: 303
+  },
+  {
+    unsortedHand: [ 'J', 'T', '4', '9', '8' ],
+    hand: [ 'J', 'T', '9', '8', '4' ],
+    handRank: 1,
+    bid: 32
+  },
+  {
+    unsortedHand: [ 'J', 'Q', '3', '2', '4' ],
+    hand: [ 'Q', 'J', '4', '3', '2' ],
+    handRank: 1,
+    bid: 243
+  },
+  {
+    unsortedHand: [ 'J', 'Q', 'T', '4', '2' ],
+    hand: [ 'Q', 'J', 'T', '4', '2' ],
+    handRank: 1,
+    bid: 546
+  },
+  {
+    unsortedHand: [ 'J', 'K', '8', '6', '3' ],
+    hand: [ 'K', 'J', '8', '6', '3' ],
+    handRank: 1,
+    bid: 960
+  },
+  {
+    unsortedHand: [ 'J', 'K', 'T', '5', '6' ],
+    hand: [ 'K', 'J', 'T', '6', '5' ],
+    handRank: 1,
+    bid: 438
+  },
+  {
+    unsortedHand: [ 'J', 'K', 'Q', '8', '4' ],
+    hand: [ 'K', 'Q', 'J', '8', '4' ],
+    handRank: 1,
+    bid: 344
+  },
+  {
+    unsortedHand: [ 'J', 'A', '7', '3', 'Q' ],
+    hand: [ 'A', 'Q', 'J', '7', '3' ],
+    handRank: 1,
+    bid: 752
+  },
+  {
+    unsortedHand: [ 'J', 'A', '8', '7', 'T' ],
+    hand: [ 'A', 'J', 'T', '8', '7' ],
+    handRank: 1,
+    bid: 766
+  },
+  {
+    unsortedHand: [ 'J', 'A', 'K', '8', '3' ],
+    hand: [ 'A', 'K', 'J', '8', '3' ],
+    handRank: 1,
+    bid: 18
+  },
+  {
+    unsortedHand: [ 'Q', '2', '4', '8', '9' ],
+    hand: [ 'Q', '9', '8', '4', '2' ],
+    handRank: 1,
+    bid: 856
+  },
+  {
+    unsortedHand: [ 'Q', '2', '5', '7', 'J' ],
+    hand: [ 'Q', 'J', '7', '5', '2' ],
+    handRank: 1,
+    bid: 83
+  },
+  {
+    unsortedHand: [ 'Q', '2', '5', '8', '3' ],
+    hand: [ 'Q', '8', '5', '3', '2' ],
+    handRank: 1,
+    bid: 417
+  },
+  {
+    unsortedHand: [ 'Q', '2', 'T', '4', '9' ],
+    hand: [ 'Q', 'T', '9', '4', '2' ],
+    handRank: 1,
+    bid: 811
+  },
+  {
+    unsortedHand: [ 'Q', '8', 'J', '9', 'K' ],
+    hand: [ 'K', 'Q', 'J', '9', '8' ],
+    handRank: 1,
+    bid: 624
+  },
+  {
+    unsortedHand: [ 'Q', '9', '6', '5', '3' ],
+    hand: [ 'Q', '9', '6', '5', '3' ],
+    handRank: 1,
+    bid: 117
+  },
+  {
+    unsortedHand: [ 'Q', '9', '7', 'K', '2' ],
+    hand: [ 'K', 'Q', '9', '7', '2' ],
+    handRank: 1,
+    bid: 833
+  },
+  {
+    unsortedHand: [ 'Q', 'T', '3', '4', '2' ],
+    hand: [ 'Q', 'T', '4', '3', '2' ],
+    handRank: 1,
+    bid: 80
+  },
+  {
+    unsortedHand: [ 'Q', 'T', '7', '3', '6' ],
+    hand: [ 'Q', 'T', '7', '6', '3' ],
+    handRank: 1,
+    bid: 414
+  },
+  {
+    unsortedHand: [ 'Q', 'T', 'J', '3', '8' ],
+    hand: [ 'Q', 'J', 'T', '8', '3' ],
+    handRank: 1,
+    bid: 100
+  },
+  {
+    unsortedHand: [ 'Q', 'J', '3', '9', 'A' ],
+    hand: [ 'A', 'Q', 'J', '9', '3' ],
+    handRank: 1,
+    bid: 361
+  },
+  {
+    unsortedHand: [ 'Q', 'J', '6', '8', 'T' ],
+    hand: [ 'Q', 'J', 'T', '8', '6' ],
+    handRank: 1,
+    bid: 290
+  },
+  {
+    unsortedHand: [ 'Q', 'K', 'T', '4', 'A' ],
+    hand: [ 'A', 'K', 'Q', 'T', '4' ],
+    handRank: 1,
+    bid: 929
+  },
+  {
+    unsortedHand: [ 'K', '2', '8', '6', 'T' ],
+    hand: [ 'K', 'T', '8', '6', '2' ],
+    handRank: 1,
+    bid: 436
+  },
+  {
+    unsortedHand: [ 'K', '2', '9', '3', '7' ],
+    hand: [ 'K', '9', '7', '3', '2' ],
+    handRank: 1,
+    bid: 888
+  },
+  {
+    unsortedHand: [ 'K', '5', '3', 'A', '8' ],
+    hand: [ 'A', 'K', '8', '5', '3' ],
+    handRank: 1,
+    bid: 82
+  },
+  {
+    unsortedHand: [ 'K', '5', '8', 'Q', '3' ],
+    hand: [ 'K', 'Q', '8', '5', '3' ],
+    handRank: 1,
+    bid: 802
+  },
+  {
+    unsortedHand: [ 'K', '5', 'A', 'Q', '7' ],
+    hand: [ 'A', 'K', 'Q', '7', '5' ],
+    handRank: 1,
+    bid: 20
+  },
+  {
+    unsortedHand: [ 'K', '6', '8', 'Q', '5' ],
+    hand: [ 'K', 'Q', '8', '6', '5' ],
+    handRank: 1,
+    bid: 454
+  },
+  {
+    unsortedHand: [ 'K', '7', '4', '3', '6' ],
+    hand: [ 'K', '7', '6', '4', '3' ],
+    handRank: 1,
+    bid: 435
+  },
+  {
+    unsortedHand: [ 'K', '7', 'T', '3', '6' ],
+    hand: [ 'K', 'T', '7', '6', '3' ],
+    handRank: 1,
+    bid: 284
+  },
+  {
+    unsortedHand: [ 'K', '8', '7', 'A', '3' ],
+    hand: [ 'A', 'K', '8', '7', '3' ],
+    handRank: 1,
+    bid: 311
+  },
+  {
+    unsortedHand: [ 'K', '9', '6', '2', '5' ],
+    hand: [ 'K', '9', '6', '5', '2' ],
+    handRank: 1,
+    bid: 958
+  },
+  {
+    unsortedHand: [ 'K', '9', 'A', '5', 'T' ],
+    hand: [ 'A', 'K', 'T', '9', '5' ],
+    handRank: 1,
+    bid: 792
+  },
+  {
+    unsortedHand: [ 'K', 'T', '4', '7', '9' ],
+    hand: [ 'K', 'T', '9', '7', '4' ],
+    handRank: 1,
+    bid: 707
+  },
+  {
+    unsortedHand: [ 'K', 'A', '6', '3', '9' ],
+    hand: [ 'A', 'K', '9', '6', '3' ],
+    handRank: 1,
+    bid: 97
+  },
+  {
+    unsortedHand: [ 'A', '2', '8', 'K', '3' ],
+    hand: [ 'A', 'K', '8', '3', '2' ],
+    handRank: 1,
+    bid: 984
+  },
+  {
+    unsortedHand: [ 'A', '2', 'T', '6', '3' ],
+    hand: [ 'A', 'T', '6', '3', '2' ],
+    handRank: 1,
+    bid: 467
+  },
+  {
+    unsortedHand: [ 'A', '2', 'K', '8', '4' ],
+    hand: [ 'A', 'K', '8', '4', '2' ],
+    handRank: 1,
+    bid: 548
+  },
+  {
+    unsortedHand: [ 'A', '3', '4', '9', 'Q' ],
+    hand: [ 'A', 'Q', '9', '4', '3' ],
+    handRank: 1,
+    bid: 170
+  },
+  {
+    unsortedHand: [ 'A', '4', '2', 'T', 'Q' ],
+    hand: [ 'A', 'Q', 'T', '4', '2' ],
+    handRank: 1,
+    bid: 712
+  },
+  {
+    unsortedHand: [ 'A', '5', '3', 'K', '4' ],
+    hand: [ 'A', 'K', '5', '4', '3' ],
+    handRank: 1,
+    bid: 180
+  },
+  {
+    unsortedHand: [ 'A', '5', '6', '3', 'K' ],
+    hand: [ 'A', 'K', '6', '5', '3' ],
+    handRank: 1,
+    bid: 24
+  },
+  {
+    unsortedHand: [ 'A', '5', 'K', '9', 'J' ],
+    hand: [ 'A', 'K', 'J', '9', '5' ],
+    handRank: 1,
+    bid: 160
+  },
+  {
+    unsortedHand: [ 'A', '6', '4', 'T', 'K' ],
+    hand: [ 'A', 'K', 'T', '6', '4' ],
+    handRank: 1,
+    bid: 369
+  },
+  {
+    unsortedHand: [ 'A', '7', 'J', '2', '8' ],
+    hand: [ 'A', 'J', '8', '7', '2' ],
+    handRank: 1,
+    bid: 710
+  },
+  {
+    unsortedHand: [ 'A', '9', '7', '4', 'K' ],
+    hand: [ 'A', 'K', '9', '7', '4' ],
+    handRank: 1,
+    bid: 35
+  },
+  {
+    unsortedHand: [ 'A', 'T', '4', '9', '7' ],
+    hand: [ 'A', 'T', '9', '7', '4' ],
+    handRank: 1,
+    bid: 655
+  },
+  {
+    unsortedHand: [ 'A', 'T', 'K', '5', 'J' ],
+    hand: [ 'A', 'K', 'J', 'T', '5' ],
+    handRank: 1,
+    bid: 89
+  },
+  {
+    unsortedHand: [ 'A', 'K', '3', '9', '4' ],
+    hand: [ 'A', 'K', '9', '4', '3' ],
+    handRank: 1,
+    bid: 194
+  },
+  {
+    unsortedHand: [ 'A', 'K', '4', 'Q', '5' ],
+    hand: [ 'A', 'K', 'Q', '5', '4' ],
+    handRank: 1,
+    bid: 426
+  },
+  {
+    unsortedHand: [ '2', '2', 'K', '7', '8' ],
+    hand: [ 'K', '8', '7', '2', '2' ],
+    handRank: 2,
+    bid: 357
+  },
+  {
+    unsortedHand: [ '2', '3', 'J', '3', '9' ],
+    hand: [ 'J', '9', '3', '3', '2' ],
+    handRank: 2,
+    bid: 292
+  },
+  {
+    unsortedHand: [ '2', '7', '5', '7', '3' ],
+    hand: [ '7', '7', '5', '3', '2' ],
+    handRank: 2,
+    bid: 537
+  },
+  {
+    unsortedHand: [ '2', '7', '7', '9', 'Q' ],
+    hand: [ 'Q', '9', '7', '7', '2' ],
+    handRank: 2,
+    bid: 437
+  },
+  {
+    unsortedHand: [ '2', '7', '9', '7', '5' ],
+    hand: [ '9', '7', '7', '5', '2' ],
+    handRank: 2,
+    bid: 991
+  },
+  {
+    unsortedHand: [ '2', '7', '9', 'T', '7' ],
+    hand: [ 'T', '9', '7', '7', '2' ],
+    handRank: 2,
+    bid: 495
+  },
+  {
+    unsortedHand: [ '2', '7', 'A', '4', '7' ],
+    hand: [ 'A', '7', '7', '4', '2' ],
+    handRank: 2,
+    bid: 179
+  },
+  {
+    unsortedHand: [ '2', '8', '7', '5', '5' ],
+    hand: [ '8', '7', '5', '5', '2' ],
+    handRank: 2,
+    bid: 607
+  },
+  {
+    unsortedHand: [ '2', 'T', 'T', '3', '5' ],
+    hand: [ 'T', 'T', '5', '3', '2' ],
+    handRank: 2,
+    bid: 135
+  },
+  {
+    unsortedHand: [ '2', 'T', 'J', '2', '3' ],
+    hand: [ 'J', 'T', '3', '2', '2' ],
+    handRank: 2,
+    bid: 594
+  },
+  {
+    unsortedHand: [ '2', 'J', '2', '4', '8' ],
+    hand: [ 'J', '8', '4', '2', '2' ],
+    handRank: 2,
+    bid: 956
+  },
+  {
+    unsortedHand: [ '2', 'J', '2', 'A', 'Q' ],
+    hand: [ 'A', 'Q', 'J', '2', '2' ],
+    handRank: 2,
+    bid: 676
+  },
+  {
+    unsortedHand: [ '2', 'J', 'J', '4', '3' ],
+    hand: [ 'J', 'J', '4', '3', '2' ],
+    handRank: 2,
+    bid: 947
+  },
+  {
+    unsortedHand: [ '2', 'J', 'K', 'J', '4' ],
+    hand: [ 'K', 'J', 'J', '4', '2' ],
+    handRank: 2,
+    bid: 41
+  },
+  {
+    unsortedHand: [ '2', 'Q', '3', '4', '4' ],
+    hand: [ 'Q', '4', '4', '3', '2' ],
+    handRank: 2,
+    bid: 153
+  },
+  {
+    unsortedHand: [ '2', 'Q', 'T', '2', '4' ],
+    hand: [ 'Q', 'T', '4', '2', '2' ],
+    handRank: 2,
+    bid: 395
+  },
+  {
+    unsortedHand: [ '2', 'Q', 'J', 'J', '7' ],
+    hand: [ 'Q', 'J', 'J', '7', '2' ],
+    handRank: 2,
+    bid: 261
+  },
+  {
+    unsortedHand: [ '2', 'Q', 'K', '7', 'Q' ],
+    hand: [ 'K', 'Q', 'Q', '7', '2' ],
+    handRank: 2,
+    bid: 852
+  },
+  {
+    unsortedHand: [ '2', 'A', '5', '7', 'A' ],
+    hand: [ 'A', 'A', '7', '5', '2' ],
+    handRank: 2,
+    bid: 628
+  },
+  {
+    unsortedHand: [ '2', 'A', '8', '6', '8' ],
+    hand: [ 'A', '8', '8', '6', '2' ],
+    handRank: 2,
+    bid: 474
+  },
+  {
+    unsortedHand: [ '2', 'A', '9', 'A', 'K' ],
+    hand: [ 'A', 'A', 'K', '9', '2' ],
+    handRank: 2,
+    bid: 471
+  },
+  {
+    unsortedHand: [ '2', 'A', 'K', '9', 'K' ],
+    hand: [ 'A', 'K', 'K', '9', '2' ],
+    handRank: 2,
+    bid: 558
+  },
+  {
+    unsortedHand: [ '3', '2', '9', '4', '2' ],
+    hand: [ '9', '4', '3', '2', '2' ],
+    handRank: 2,
+    bid: 420
+  },
+  {
+    unsortedHand: [ '3', '3', '9', 'A', '8' ],
+    hand: [ 'A', '9', '8', '3', '3' ],
+    handRank: 2,
+    bid: 855
+  },
+  {
+    unsortedHand: [ '3', '3', 'J', 'K', 'T' ],
+    hand: [ 'K', 'J', 'T', '3', '3' ],
+    handRank: 2,
+    bid: 404
+  },
+  {
+    unsortedHand: [ '3', '5', '3', 'A', '7' ],
+    hand: [ 'A', '7', '5', '3', '3' ],
+    handRank: 2,
+    bid: 125
+  },
+  {
+    unsortedHand: [ '3', '6', '5', '9', '6' ],
+    hand: [ '9', '6', '6', '5', '3' ],
+    handRank: 2,
+    bid: 511
+  },
+  {
+    unsortedHand: [ '3', '6', '7', '9', '6' ],
+    hand: [ '9', '7', '6', '6', '3' ],
+    handRank: 2,
+    bid: 721
+  },
+  {
+    unsortedHand: [ '3', '7', 'J', '3', '2' ],
+    hand: [ 'J', '7', '3', '3', '2' ],
+    handRank: 2,
+    bid: 508
+  },
+  {
+    unsortedHand: [ '3', '7', 'K', '9', '9' ],
+    hand: [ 'K', '9', '9', '7', '3' ],
+    handRank: 2,
+    bid: 747
+  },
+  {
+    unsortedHand: [ '3', '8', '5', 'K', '8' ],
+    hand: [ 'K', '8', '8', '5', '3' ],
+    handRank: 2,
+    bid: 348
+  },
+  {
+    unsortedHand: [ '3', '8', '9', '8', '2' ],
+    hand: [ '9', '8', '8', '3', '2' ],
+    handRank: 2,
+    bid: 321
+  },
+  {
+    unsortedHand: [ '3', '8', 'J', '3', '7' ],
+    hand: [ 'J', '8', '7', '3', '3' ],
+    handRank: 2,
+    bid: 682
+  },
+  {
+    unsortedHand: [ '3', '9', '3', '2', 'K' ],
+    hand: [ 'K', '9', '3', '3', '2' ],
+    handRank: 2,
+    bid: 813
+  },
+  {
+    unsortedHand: [ '3', '9', 'J', 'K', '3' ],
+    hand: [ 'K', 'J', '9', '3', '3' ],
+    handRank: 2,
+    bid: 849
+  },
+  {
+    unsortedHand: [ '3', '9', 'K', '9', '2' ],
+    hand: [ 'K', '9', '9', '3', '2' ],
+    handRank: 2,
+    bid: 306
+  },
+  {
+    unsortedHand: [ '3', 'T', '5', '7', '3' ],
+    hand: [ 'T', '7', '5', '3', '3' ],
+    handRank: 2,
+    bid: 876
+  },
+  {
+    unsortedHand: [ '3', 'T', '7', 'J', 'T' ],
+    hand: [ 'J', 'T', 'T', '7', '3' ],
+    handRank: 2,
+    bid: 465
+  },
+  {
+    unsortedHand: [ '3', 'J', '8', '4', 'J' ],
+    hand: [ 'J', 'J', '8', '4', '3' ],
+    handRank: 2,
+    bid: 73
+  },
+  {
+    unsortedHand: [ '3', 'J', '8', 'J', '2' ],
+    hand: [ 'J', 'J', '8', '3', '2' ],
+    handRank: 2,
+    bid: 505
+  },
+  {
+    unsortedHand: [ '3', 'J', 'K', '4', '4' ],
+    hand: [ 'K', 'J', '4', '4', '3' ],
+    handRank: 2,
+    bid: 547
+  },
+  {
+    unsortedHand: [ '3', 'Q', 'T', '3', 'J' ],
+    hand: [ 'Q', 'J', 'T', '3', '3' ],
+    handRank: 2,
+    bid: 602
+  },
+  {
+    unsortedHand: [ '3', 'Q', 'J', '3', '8' ],
+    hand: [ 'Q', 'J', '8', '3', '3' ],
+    handRank: 2,
+    bid: 877
+  },
+  {
+    unsortedHand: [ '3', 'Q', 'J', '5', 'J' ],
+    hand: [ 'Q', 'J', 'J', '5', '3' ],
+    handRank: 2,
+    bid: 12
+  },
+  {
+    unsortedHand: [ '3', 'A', '2', '3', 'J' ],
+    hand: [ 'A', 'J', '3', '3', '2' ],
+    handRank: 2,
+    bid: 942
+  },
+  {
+    unsortedHand: [ '3', 'A', '7', 'J', 'A' ],
+    hand: [ 'A', 'A', 'J', '7', '3' ],
+    handRank: 2,
+    bid: 760
+  },
+  {
+    unsortedHand: [ '3', 'A', 'K', '3', '2' ],
+    hand: [ 'A', 'K', '3', '3', '2' ],
+    handRank: 2,
+    bid: 967
+  },
+  {
+    unsortedHand: [ '4', '2', 'J', '2', 'Q' ],
+    hand: [ 'Q', 'J', '4', '2', '2' ],
+    handRank: 2,
+    bid: 448
+  },
+  {
+    unsortedHand: [ '4', '3', '3', 'A', '5' ],
+    hand: [ 'A', '5', '4', '3', '3' ],
+    handRank: 2,
+    bid: 570
+  },
+  {
+    unsortedHand: [ '4', '3', 'Q', '4', '8' ],
+    hand: [ 'Q', '8', '4', '4', '3' ],
+    handRank: 2,
+    bid: 897
+  },
+  {
+    unsortedHand: [ '4', '4', '7', '6', '3' ],
+    hand: [ '7', '6', '4', '4', '3' ],
+    handRank: 2,
+    bid: 715
+  },
+  {
+    unsortedHand: [ '4', '4', '7', '8', '5' ],
+    hand: [ '8', '7', '5', '4', '4' ],
+    handRank: 2,
+    bid: 172
+  },
+  {
+    unsortedHand: [ '4', '4', '8', 'A', '6' ],
+    hand: [ 'A', '8', '6', '4', '4' ],
+    handRank: 2,
+    bid: 631
+  },
+  {
+    unsortedHand: [ '4', '5', '2', '2', '9' ],
+    hand: [ '9', '5', '4', '2', '2' ],
+    handRank: 2,
+    bid: 588
+  },
+  {
+    unsortedHand: [ '4', '5', '3', '3', 'T' ],
+    hand: [ 'T', '5', '4', '3', '3' ],
+    handRank: 2,
+    bid: 486
+  },
+  {
+    unsortedHand: [ '4', '7', '7', 'T', 'J' ],
+    hand: [ 'J', 'T', '7', '7', '4' ],
+    handRank: 2,
+    bid: 674
+  },
+  {
+    unsortedHand: [ '4', '8', '3', '8', '9' ],
+    hand: [ '9', '8', '8', '4', '3' ],
+    handRank: 2,
+    bid: 368
+  },
+  {
+    unsortedHand: [ '4', '8', '5', '4', 'J' ],
+    hand: [ 'J', '8', '5', '4', '4' ],
+    handRank: 2,
+    bid: 948
+  },
+  {
+    unsortedHand: [ '4', '8', '5', '7', '5' ],
+    hand: [ '8', '7', '5', '5', '4' ],
+    handRank: 2,
+    bid: 316
+  },
+  {
+    unsortedHand: [ '4', '8', '8', '9', '6' ],
+    hand: [ '9', '8', '8', '6', '4' ],
+    handRank: 2,
+    bid: 95
+  },
+  {
+    unsortedHand: [ '4', '9', '2', '7', '9' ],
+    hand: [ '9', '9', '7', '4', '2' ],
+    handRank: 2,
+    bid: 231
+  },
+  {
+    unsortedHand: [ '4', '9', 'A', '9', '8' ],
+    hand: [ 'A', '9', '9', '8', '4' ],
+    handRank: 2,
+    bid: 123
+  },
+  {
+    unsortedHand: [ '4', 'T', '4', 'J', '2' ],
+    hand: [ 'J', 'T', '4', '4', '2' ],
+    handRank: 2,
+    bid: 727
+  },
+  {
+    unsortedHand: [ '4', 'J', '3', 'T', 'T' ],
+    hand: [ 'J', 'T', 'T', '4', '3' ],
+    handRank: 2,
+    bid: 132
+  },
+  {
+    unsortedHand: [ '4', 'J', '8', 'J', '2' ],
+    hand: [ 'J', 'J', '8', '4', '2' ],
+    handRank: 2,
+    bid: 212
+  },
+  {
+    unsortedHand: [ '4', 'Q', '2', '9', '4' ],
+    hand: [ 'Q', '9', '4', '4', '2' ],
+    handRank: 2,
+    bid: 835
+  },
+  {
+    unsortedHand: [ '4', 'Q', '4', 'J', 'K' ],
+    hand: [ 'K', 'Q', 'J', '4', '4' ],
+    handRank: 2,
+    bid: 632
+  },
+  {
+    unsortedHand: [ '4', 'Q', '8', 'J', '4' ],
+    hand: [ 'Q', 'J', '8', '4', '4' ],
+    handRank: 2,
+    bid: 39
+  },
+  {
+    unsortedHand: [ '4', 'Q', '8', 'Q', '9' ],
+    hand: [ 'Q', 'Q', '9', '8', '4' ],
+    handRank: 2,
+    bid: 31
+  },
+  {
+    unsortedHand: [ '4', 'K', 'Q', '3', 'Q' ],
+    hand: [ 'K', 'Q', 'Q', '4', '3' ],
+    handRank: 2,
+    bid: 402
+  },
+  {
+    unsortedHand: [ '4', 'A', '7', '6', '6' ],
+    hand: [ 'A', '7', '6', '6', '4' ],
+    handRank: 2,
+    bid: 878
+  },
+  {
+    unsortedHand: [ '5', '2', '6', '2', '3' ],
+    hand: [ '6', '5', '3', '2', '2' ],
+    handRank: 2,
+    bid: 1
+  },
+  {
+    unsortedHand: [ '5', '3', '5', '2', '8' ],
+    hand: [ '8', '5', '5', '3', '2' ],
+    handRank: 2,
+    bid: 295
+  },
+  {
+    unsortedHand: [ '5', '3', '6', '7', '6' ],
+    hand: [ '7', '6', '6', '5', '3' ],
+    handRank: 2,
+    bid: 271
+  },
+  {
+    unsortedHand: [ '5', '4', '8', 'J', '5' ],
+    hand: [ 'J', '8', '5', '5', '4' ],
+    handRank: 2,
+    bid: 615
+  },
+  {
+    unsortedHand: [ '5', '4', 'T', '8', '4' ],
+    hand: [ 'T', '8', '5', '4', '4' ],
+    handRank: 2,
+    bid: 531
+  },
+  {
+    unsortedHand: [ '5', '5', '4', '6', 'J' ],
+    hand: [ 'J', '6', '5', '5', '4' ],
+    handRank: 2,
+    bid: 118
+  },
+  {
+    unsortedHand: [ '5', '5', '9', '8', '4' ],
+    hand: [ '9', '8', '5', '5', '4' ],
+    handRank: 2,
+    bid: 407
+  },
+  {
+    unsortedHand: [ '5', '5', 'K', '6', '7' ],
+    hand: [ 'K', '7', '6', '5', '5' ],
+    handRank: 2,
+    bid: 491
+  },
+  {
+    unsortedHand: [ '5', '5', 'A', 'J', '2' ],
+    hand: [ 'A', 'J', '5', '5', '2' ],
+    handRank: 2,
+    bid: 16
+  },
+  {
+    unsortedHand: [ '5', '6', '6', 'Q', 'K' ],
+    hand: [ 'K', 'Q', '6', '6', '5' ],
+    handRank: 2,
+    bid: 799
+  },
+  {
+    unsortedHand: [ '5', '6', 'K', 'J', 'K' ],
+    hand: [ 'K', 'K', 'J', '6', '5' ],
+    handRank: 2,
+    bid: 518
+  },
+  {
+    unsortedHand: [ '5', '7', '3', '3', '2' ],
+    hand: [ '7', '5', '3', '3', '2' ],
+    handRank: 2,
+    bid: 623
+  },
+  {
+    unsortedHand: [ '5', '7', '7', 'J', '4' ],
+    hand: [ 'J', '7', '7', '5', '4' ],
+    handRank: 2,
+    bid: 828
+  },
+  {
+    unsortedHand: [ '5', '8', '6', 'K', 'K' ],
+    hand: [ 'K', 'K', '8', '6', '5' ],
+    handRank: 2,
+    bid: 434
+  },
+  {
+    unsortedHand: [ '5', '8', 'J', '5', '9' ],
+    hand: [ 'J', '9', '8', '5', '5' ],
+    handRank: 2,
+    bid: 174
+  },
+  {
+    unsortedHand: [ '5', '9', '5', '7', 'T' ],
+    hand: [ 'T', '9', '7', '5', '5' ],
+    handRank: 2,
+    bid: 313
+  },
+  {
+    unsortedHand: [ '5', 'T', '4', '4', '3' ],
+    hand: [ 'T', '5', '4', '4', '3' ],
+    handRank: 2,
+    bid: 142
+  },
+  {
+    unsortedHand: [ '5', 'T', '4', 'J', '4' ],
+    hand: [ 'J', 'T', '5', '4', '4' ],
+    handRank: 2,
+    bid: 42
+  },
+  {
+    unsortedHand: [ '5', 'T', '5', '2', 'J' ],
+    hand: [ 'J', 'T', '5', '5', '2' ],
+    handRank: 2,
+    bid: 533
+  },
+  {
+    unsortedHand: [ '5', 'T', '7', '3', '7' ],
+    hand: [ 'T', '7', '7', '5', '3' ],
+    handRank: 2,
+    bid: 381
+  },
+  {
+    unsortedHand: [ '5', 'J', '5', '9', '7' ],
+    hand: [ 'J', '9', '7', '5', '5' ],
+    handRank: 2,
+    bid: 883
+  },
+  {
+    unsortedHand: [ '5', 'J', 'Q', '9', '5' ],
+    hand: [ 'Q', 'J', '9', '5', '5' ],
+    handRank: 2,
+    bid: 762
+  },
+  {
+    unsortedHand: [ '5', 'Q', '6', '6', 'T' ],
+    hand: [ 'Q', 'T', '6', '6', '5' ],
+    handRank: 2,
+    bid: 2
+  },
+  {
+    unsortedHand: [ '5', 'K', '3', '3', 'A' ],
+    hand: [ 'A', 'K', '5', '3', '3' ],
+    handRank: 2,
+    bid: 234
+  },
+  {
+    unsortedHand: [ '5', 'A', '2', 'K', '2' ],
+    hand: [ 'A', 'K', '5', '2', '2' ],
+    handRank: 2,
+    bid: 736
+  },
+  {
+    unsortedHand: [ '5', 'A', 'Q', 'J', 'Q' ],
+    hand: [ 'A', 'Q', 'Q', 'J', '5' ],
+    handRank: 2,
+    bid: 723
+  },
+  {
+    unsortedHand: [ '6', '2', 'A', '2', '8' ],
+    hand: [ 'A', '8', '6', '2', '2' ],
+    handRank: 2,
+    bid: 639
+  },
+  {
+    unsortedHand: [ '6', '3', 'T', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'T', '6', '3' ],
+    handRank: 2,
+    bid: 334
+  },
+  {
+    unsortedHand: [ '6', '4', '6', 'A', '3' ],
+    hand: [ 'A', '6', '6', '4', '3' ],
+    handRank: 2,
+    bid: 359
+  },
+  {
+    unsortedHand: [ '6', '4', 'Q', '8', '4' ],
+    hand: [ 'Q', '8', '6', '4', '4' ],
+    handRank: 2,
+    bid: 497
+  },
+  {
+    unsortedHand: [ '6', '5', '5', 'A', '4' ],
+    hand: [ 'A', '6', '5', '5', '4' ],
+    handRank: 2,
+    bid: 331
+  },
+  {
+    unsortedHand: [ '6', '5', '9', '5', 'J' ],
+    hand: [ 'J', '9', '6', '5', '5' ],
+    handRank: 2,
+    bid: 108
+  },
+  {
+    unsortedHand: [ '6', '5', 'K', 'K', '3' ],
+    hand: [ 'K', 'K', '6', '5', '3' ],
+    handRank: 2,
+    bid: 168
+  },
+  {
+    unsortedHand: [ '6', '6', 'T', '3', '4' ],
+    hand: [ 'T', '6', '6', '4', '3' ],
+    handRank: 2,
+    bid: 128
+  },
+  {
+    unsortedHand: [ '6', '6', 'J', '7', '9' ],
+    hand: [ 'J', '9', '7', '6', '6' ],
+    handRank: 2,
+    bid: 557
+  },
+  {
+    unsortedHand: [ '6', '8', '4', '6', 'A' ],
+    hand: [ 'A', '8', '6', '6', '4' ],
+    handRank: 2,
+    bid: 753
+  },
+  {
+    unsortedHand: [ '6', 'T', '2', '5', '6' ],
+    hand: [ 'T', '6', '6', '5', '2' ],
+    handRank: 2,
+    bid: 946
+  },
+  {
+    unsortedHand: [ '6', 'J', '7', '6', 'K' ],
+    hand: [ 'K', 'J', '7', '6', '6' ],
+    handRank: 2,
+    bid: 709
+  },
+  {
+    unsortedHand: [ '6', 'Q', '2', '2', 'J' ],
+    hand: [ 'Q', 'J', '6', '2', '2' ],
+    handRank: 2,
+    bid: 665
+  },
+  {
+    unsortedHand: [ '6', 'Q', '5', '6', '8' ],
+    hand: [ 'Q', '8', '6', '6', '5' ],
+    handRank: 2,
+    bid: 1000
+  },
+  {
+    unsortedHand: [ '6', 'K', '5', '6', 'T' ],
+    hand: [ 'K', 'T', '6', '6', '5' ],
+    handRank: 2,
+    bid: 648
+  },
+  {
+    unsortedHand: [ '6', 'K', 'J', '4', '4' ],
+    hand: [ 'K', 'J', '6', '4', '4' ],
+    handRank: 2,
+    bid: 857
+  },
+  {
+    unsortedHand: [ '6', 'A', '7', '9', 'A' ],
+    hand: [ 'A', 'A', '9', '7', '6' ],
+    handRank: 2,
+    bid: 487
+  },
+  {
+    unsortedHand: [ '6', 'A', 'J', '2', 'A' ],
+    hand: [ 'A', 'A', 'J', '6', '2' ],
+    handRank: 2,
+    bid: 654
+  },
+  {
+    unsortedHand: [ '7', '2', '2', '9', '4' ],
+    hand: [ '9', '7', '4', '2', '2' ],
+    handRank: 2,
+    bid: 636
+  },
+  {
+    unsortedHand: [ '7', '3', 'K', '4', '7' ],
+    hand: [ 'K', '7', '7', '4', '3' ],
+    handRank: 2,
+    bid: 280
+  },
+  {
+    unsortedHand: [ '7', '3', 'A', '7', 'J' ],
+    hand: [ 'A', 'J', '7', '7', '3' ],
+    handRank: 2,
+    bid: 388
+  },
+  {
+    unsortedHand: [ '7', '4', 'J', '8', '8' ],
+    hand: [ 'J', '8', '8', '7', '4' ],
+    handRank: 2,
+    bid: 268
+  },
+  {
+    unsortedHand: [ '7', '5', '2', '7', 'A' ],
+    hand: [ 'A', '7', '7', '5', '2' ],
+    handRank: 2,
+    bid: 171
+  },
+  {
+    unsortedHand: [ '7', '6', 'Q', '6', 'A' ],
+    hand: [ 'A', 'Q', '7', '6', '6' ],
+    handRank: 2,
+    bid: 902
+  },
+  {
+    unsortedHand: [ '7', '6', 'K', '8', 'K' ],
+    hand: [ 'K', 'K', '8', '7', '6' ],
+    handRank: 2,
+    bid: 656
+  },
+  {
+    unsortedHand: [ '7', '7', 'K', 'J', '8' ],
+    hand: [ 'K', 'J', '8', '7', '7' ],
+    handRank: 2,
+    bid: 800
+  },
+  {
+    unsortedHand: [ '7', '7', 'K', 'A', 'T' ],
+    hand: [ 'A', 'K', 'T', '7', '7' ],
+    handRank: 2,
+    bid: 304
+  },
+  {
+    unsortedHand: [ '7', '9', '4', '3', '3' ],
+    hand: [ '9', '7', '4', '3', '3' ],
+    handRank: 2,
+    bid: 818
+  },
+  {
+    unsortedHand: [ '7', '9', '8', '6', '9' ],
+    hand: [ '9', '9', '8', '7', '6' ],
+    handRank: 2,
+    bid: 881
+  },
+  {
+    unsortedHand: [ '7', 'T', '5', '5', 'K' ],
+    hand: [ 'K', 'T', '7', '5', '5' ],
+    handRank: 2,
+    bid: 196
+  },
+  {
+    unsortedHand: [ '7', 'J', '3', '5', 'J' ],
+    hand: [ 'J', 'J', '7', '5', '3' ],
+    handRank: 2,
+    bid: 336
+  },
+  {
+    unsortedHand: [ '7', 'J', '3', '7', '2' ],
+    hand: [ 'J', '7', '7', '3', '2' ],
+    handRank: 2,
+    bid: 521
+  },
+  {
+    unsortedHand: [ '7', 'J', '3', 'A', '3' ],
+    hand: [ 'A', 'J', '7', '3', '3' ],
+    handRank: 2,
+    bid: 483
+  },
+  {
+    unsortedHand: [ '7', 'J', '7', '2', '8' ],
+    hand: [ 'J', '8', '7', '7', '2' ],
+    handRank: 2,
+    bid: 934
+  },
+  {
+    unsortedHand: [ '7', 'J', '7', '5', 'Q' ],
+    hand: [ 'Q', 'J', '7', '7', '5' ],
+    handRank: 2,
+    bid: 312
+  },
+  {
+    unsortedHand: [ '7', 'Q', 'Q', '6', 'T' ],
+    hand: [ 'Q', 'Q', 'T', '7', '6' ],
+    handRank: 2,
+    bid: 33
+  },
+  {
+    unsortedHand: [ '7', 'K', '3', '4', '3' ],
+    hand: [ 'K', '7', '4', '3', '3' ],
+    handRank: 2,
+    bid: 719
+  },
+  {
+    unsortedHand: [ '7', 'K', '7', 'Q', '4' ],
+    hand: [ 'K', 'Q', '7', '7', '4' ],
+    handRank: 2,
+    bid: 38
+  },
+  {
+    unsortedHand: [ '8', '2', 'J', '6', '6' ],
+    hand: [ 'J', '8', '6', '6', '2' ],
+    handRank: 2,
+    bid: 240
+  },
+  {
+    unsortedHand: [ '8', '5', '2', 'K', '5' ],
+    hand: [ 'K', '8', '5', '5', '2' ],
+    handRank: 2,
+    bid: 44
+  },
+  {
+    unsortedHand: [ '8', '5', '6', '5', '7' ],
+    hand: [ '8', '7', '6', '5', '5' ],
+    handRank: 2,
+    bid: 429
+  },
+  {
+    unsortedHand: [ '8', '7', '8', 'J', 'T' ],
+    hand: [ 'J', 'T', '8', '8', '7' ],
+    handRank: 2,
+    bid: 355
+  },
+  {
+    unsortedHand: [ '8', '8', 'A', '2', 'K' ],
+    hand: [ 'A', 'K', '8', '8', '2' ],
+    handRank: 2,
+    bid: 72
+  },
+  {
+    unsortedHand: [ '8', '8', 'A', '5', '9' ],
+    hand: [ 'A', '9', '8', '8', '5' ],
+    handRank: 2,
+    bid: 163
+  },
+  {
+    unsortedHand: [ '8', '9', '9', 'Q', '7' ],
+    hand: [ 'Q', '9', '9', '8', '7' ],
+    handRank: 2,
+    bid: 606
+  },
+  {
+    unsortedHand: [ '8', '9', 'J', '7', '7' ],
+    hand: [ 'J', '9', '8', '7', '7' ],
+    handRank: 2,
+    bid: 924
+  },
+  {
+    unsortedHand: [ '8', '9', 'K', '7', 'K' ],
+    hand: [ 'K', 'K', '9', '8', '7' ],
+    handRank: 2,
+    bid: 742
+  },
+  {
+    unsortedHand: [ '8', 'J', '5', '3', 'J' ],
+    hand: [ 'J', 'J', '8', '5', '3' ],
+    handRank: 2,
+    bid: 598
+  },
+  {
+    unsortedHand: [ '8', 'J', 'A', 'Q', 'A' ],
+    hand: [ 'A', 'A', 'Q', 'J', '8' ],
+    handRank: 2,
+    bid: 503
+  },
+  {
+    unsortedHand: [ '8', 'Q', 'T', 'T', '7' ],
+    hand: [ 'Q', 'T', 'T', '8', '7' ],
+    handRank: 2,
+    bid: 366
+  },
+  {
+    unsortedHand: [ '8', 'Q', 'J', '5', '5' ],
+    hand: [ 'Q', 'J', '8', '5', '5' ],
+    handRank: 2,
+    bid: 566
+  },
+  {
+    unsortedHand: [ '9', '2', '5', '8', '5' ],
+    hand: [ '9', '8', '5', '5', '2' ],
+    handRank: 2,
+    bid: 468
+  },
+  {
+    unsortedHand: [ '9', '4', '4', '2', '6' ],
+    hand: [ '9', '6', '4', '4', '2' ],
+    handRank: 2,
+    bid: 619
+  },
+  {
+    unsortedHand: [ '9', '5', '8', '8', 'K' ],
+    hand: [ 'K', '9', '8', '8', '5' ],
+    handRank: 2,
+    bid: 695
+  },
+  {
+    unsortedHand: [ '9', '7', '8', '5', '8' ],
+    hand: [ '9', '8', '8', '7', '5' ],
+    handRank: 2,
+    bid: 892
+  },
+  {
+    unsortedHand: [ '9', '7', 'T', 'T', 'J' ],
+    hand: [ 'J', 'T', 'T', '9', '7' ],
+    handRank: 2,
+    bid: 779
+  },
+  {
+    unsortedHand: [ '9', '8', 'T', '8', '2' ],
+    hand: [ 'T', '9', '8', '8', '2' ],
+    handRank: 2,
+    bid: 365
+  },
+  {
+    unsortedHand: [ '9', 'T', '9', '4', '3' ],
+    hand: [ 'T', '9', '9', '4', '3' ],
+    handRank: 2,
+    bid: 919
+  },
+  {
+    unsortedHand: [ '9', 'T', '9', '8', '2' ],
+    hand: [ 'T', '9', '9', '8', '2' ],
+    handRank: 2,
+    bid: 687
+  },
+  {
+    unsortedHand: [ '9', 'Q', '5', '6', 'Q' ],
+    hand: [ 'Q', 'Q', '9', '6', '5' ],
+    handRank: 2,
+    bid: 837
+  },
+  {
+    unsortedHand: [ '9', 'Q', '5', 'Q', 'A' ],
+    hand: [ 'A', 'Q', 'Q', '9', '5' ],
+    handRank: 2,
+    bid: 567
+  },
+  {
+    unsortedHand: [ '9', 'Q', 'Q', '5', '3' ],
+    hand: [ 'Q', 'Q', '9', '5', '3' ],
+    handRank: 2,
+    bid: 821
+  },
+  {
+    unsortedHand: [ '9', 'K', 'J', '2', '2' ],
+    hand: [ 'K', 'J', '9', '2', '2' ],
+    handRank: 2,
+    bid: 891
+  },
+  {
+    unsortedHand: [ '9', 'K', 'J', '7', '9' ],
+    hand: [ 'K', 'J', '9', '9', '7' ],
+    handRank: 2,
+    bid: 289
+  },
+  {
+    unsortedHand: [ '9', 'A', '3', 'J', 'J' ],
+    hand: [ 'A', 'J', 'J', '9', '3' ],
+    handRank: 2,
+    bid: 257
+  },
+  {
+    unsortedHand: [ '9', 'A', 'J', '8', '9' ],
+    hand: [ 'A', 'J', '9', '9', '8' ],
+    handRank: 2,
+    bid: 912
+  },
+  {
+    unsortedHand: [ 'T', '3', 'T', 'J', '9' ],
+    hand: [ 'J', 'T', 'T', '9', '3' ],
+    handRank: 2,
+    bid: 844
+  },
+  {
+    unsortedHand: [ 'T', '5', '7', 'K', '7' ],
+    hand: [ 'K', 'T', '7', '7', '5' ],
+    handRank: 2,
+    bid: 111
+  },
+  {
+    unsortedHand: [ 'T', '6', '3', 'A', '6' ],
+    hand: [ 'A', 'T', '6', '6', '3' ],
+    handRank: 2,
+    bid: 264
+  },
+  {
+    unsortedHand: [ 'T', '6', '9', 'J', 'T' ],
+    hand: [ 'J', 'T', 'T', '9', '6' ],
+    handRank: 2,
+    bid: 823
+  },
+  {
+    unsortedHand: [ 'T', '6', 'T', '7', '5' ],
+    hand: [ 'T', 'T', '7', '6', '5' ],
+    handRank: 2,
+    bid: 192
+  },
+  {
+    unsortedHand: [ 'T', '7', 'J', 'K', 'J' ],
+    hand: [ 'K', 'J', 'J', 'T', '7' ],
+    handRank: 2,
+    bid: 817
+  },
+  {
+    unsortedHand: [ 'T', '8', 'J', 'T', 'A' ],
+    hand: [ 'A', 'J', 'T', 'T', '8' ],
+    handRank: 2,
+    bid: 71
+  },
+  {
+    unsortedHand: [ 'T', '9', '3', '8', '3' ],
+    hand: [ 'T', '9', '8', '3', '3' ],
+    handRank: 2,
+    bid: 911
+  },
+  {
+    unsortedHand: [ 'T', '9', '7', '2', '2' ],
+    hand: [ 'T', '9', '7', '2', '2' ],
+    handRank: 2,
+    bid: 79
+  },
+  {
+    unsortedHand: [ 'T', '9', '9', 'J', '7' ],
+    hand: [ 'J', 'T', '9', '9', '7' ],
+    handRank: 2,
+    bid: 797
+  },
+  {
+    unsortedHand: [ 'T', 'T', '3', '9', 'K' ],
+    hand: [ 'K', 'T', 'T', '9', '3' ],
+    handRank: 2,
+    bid: 629
+  },
+  {
+    unsortedHand: [ 'T', 'J', '9', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'J', 'T', '9' ],
+    handRank: 2,
+    bid: 696
+  },
+  {
+    unsortedHand: [ 'T', 'Q', '3', '5', '3' ],
+    hand: [ 'Q', 'T', '5', '3', '3' ],
+    handRank: 2,
+    bid: 786
+  },
+  {
+    unsortedHand: [ 'T', 'Q', 'J', '8', 'T' ],
+    hand: [ 'Q', 'J', 'T', 'T', '8' ],
+    handRank: 2,
+    bid: 693
+  },
+  {
+    unsortedHand: [ 'T', 'A', '9', '6', '9' ],
+    hand: [ 'A', 'T', '9', '9', '6' ],
+    handRank: 2,
+    bid: 616
+  },
+  {
+    unsortedHand: [ 'J', '2', '2', 'K', 'A' ],
+    hand: [ 'A', 'K', 'J', '2', '2' ],
+    handRank: 2,
+    bid: 637
+  },
+  {
+    unsortedHand: [ 'J', '2', '9', 'A', 'A' ],
+    hand: [ 'A', 'A', 'J', '9', '2' ],
+    handRank: 2,
+    bid: 913
+  },
+  {
+    unsortedHand: [ 'J', '3', '7', '3', 'Q' ],
+    hand: [ 'Q', 'J', '7', '3', '3' ],
+    handRank: 2,
+    bid: 731
+  },
+  {
+    unsortedHand: [ 'J', '5', '5', 'T', 'Q' ],
+    hand: [ 'Q', 'J', 'T', '5', '5' ],
+    handRank: 2,
+    bid: 829
+  },
+  {
+    unsortedHand: [ 'J', '5', 'K', '8', 'K' ],
+    hand: [ 'K', 'K', 'J', '8', '5' ],
+    handRank: 2,
+    bid: 730
+  },
+  {
+    unsortedHand: [ 'J', '6', 'Q', 'Q', '4' ],
+    hand: [ 'Q', 'Q', 'J', '6', '4' ],
+    handRank: 2,
+    bid: 251
+  },
+  {
+    unsortedHand: [ 'J', '6', 'A', '4', '4' ],
+    hand: [ 'A', 'J', '6', '4', '4' ],
+    handRank: 2,
+    bid: 452
+  },
+  {
+    unsortedHand: [ 'J', '6', 'A', 'K', 'A' ],
+    hand: [ 'A', 'A', 'K', 'J', '6' ],
+    handRank: 2,
+    bid: 379
+  },
+  {
+    unsortedHand: [ 'J', '7', '3', 'J', 'A' ],
+    hand: [ 'A', 'J', 'J', '7', '3' ],
+    handRank: 2,
+    bid: 419
+  },
+  {
+    unsortedHand: [ 'J', '7', '8', 'T', 'T' ],
+    hand: [ 'J', 'T', 'T', '8', '7' ],
+    handRank: 2,
+    bid: 43
+  },
+  {
+    unsortedHand: [ 'J', '7', '9', '8', '8' ],
+    hand: [ 'J', '9', '8', '8', '7' ],
+    handRank: 2,
+    bid: 941
+  },
+  {
+    unsortedHand: [ 'J', '7', 'T', '6', 'T' ],
+    hand: [ 'J', 'T', 'T', '7', '6' ],
+    handRank: 2,
+    bid: 516
+  },
+  {
+    unsortedHand: [ 'J', '7', 'A', '4', 'A' ],
+    hand: [ 'A', 'A', 'J', '7', '4' ],
+    handRank: 2,
+    bid: 149
+  },
+  {
+    unsortedHand: [ 'J', '8', '8', '2', 'Q' ],
+    hand: [ 'Q', 'J', '8', '8', '2' ],
+    handRank: 2,
+    bid: 725
+  },
+  {
+    unsortedHand: [ 'J', '8', '8', '4', 'A' ],
+    hand: [ 'A', 'J', '8', '8', '4' ],
+    handRank: 2,
+    bid: 56
+  },
+  {
+    unsortedHand: [ 'J', '9', 'J', '8', 'T' ],
+    hand: [ 'J', 'J', 'T', '9', '8' ],
+    handRank: 2,
+    bid: 40
+  },
+  {
+    unsortedHand: [ 'J', 'T', 'K', 'T', '3' ],
+    hand: [ 'K', 'J', 'T', 'T', '3' ],
+    handRank: 2,
+    bid: 363
+  },
+  {
+    unsortedHand: [ 'J', 'T', 'K', 'J', '6' ],
+    hand: [ 'K', 'J', 'J', 'T', '6' ],
+    handRank: 2,
+    bid: 764
+  },
+  {
+    unsortedHand: [ 'J', 'J', '2', 'Q', 'T' ],
+    hand: [ 'Q', 'J', 'J', 'T', '2' ],
+    handRank: 2,
+    bid: 332
+  },
+  {
+    unsortedHand: [ 'J', 'J', '8', '9', '7' ],
+    hand: [ 'J', 'J', '9', '8', '7' ],
+    handRank: 2,
+    bid: 738
+  },
+  {
+    unsortedHand: [ 'J', 'J', '8', 'A', 'K' ],
+    hand: [ 'A', 'K', 'J', 'J', '8' ],
+    handRank: 2,
+    bid: 587
+  },
+  {
+    unsortedHand: [ 'J', 'J', 'K', '4', 'A' ],
+    hand: [ 'A', 'K', 'J', 'J', '4' ],
+    handRank: 2,
+    bid: 236
+  },
+  {
+    unsortedHand: [ 'J', 'J', 'A', '5', '9' ],
+    hand: [ 'A', 'J', 'J', '9', '5' ],
+    handRank: 2,
+    bid: 528
+  },
+  {
+    unsortedHand: [ 'J', 'K', '6', '6', '3' ],
+    hand: [ 'K', 'J', '6', '6', '3' ],
+    handRank: 2,
+    bid: 416
+  },
+  {
+    unsortedHand: [ 'J', 'A', '6', '9', '6' ],
+    hand: [ 'A', 'J', '9', '6', '6' ],
+    handRank: 2,
+    bid: 9
+  },
+  {
+    unsortedHand: [ 'J', 'A', '8', 'A', 'T' ],
+    hand: [ 'A', 'A', 'J', 'T', '8' ],
+    handRank: 2,
+    bid: 879
+  },
+  {
+    unsortedHand: [ 'J', 'A', 'A', 'Q', 'T' ],
+    hand: [ 'A', 'A', 'Q', 'J', 'T' ],
+    handRank: 2,
+    bid: 98
+  },
+  {
+    unsortedHand: [ 'Q', '2', '8', 'Q', '4' ],
+    hand: [ 'Q', 'Q', '8', '4', '2' ],
+    handRank: 2,
+    bid: 499
+  },
+  {
+    unsortedHand: [ 'Q', '2', 'T', '7', '2' ],
+    hand: [ 'Q', 'T', '7', '2', '2' ],
+    handRank: 2,
+    bid: 985
+  },
+  {
+    unsortedHand: [ 'Q', '2', 'K', 'J', 'K' ],
+    hand: [ 'K', 'K', 'Q', 'J', '2' ],
+    handRank: 2,
+    bid: 938
+  },
+  {
+    unsortedHand: [ 'Q', '3', '9', '9', '4' ],
+    hand: [ 'Q', '9', '9', '4', '3' ],
+    handRank: 2,
+    bid: 276
+  },
+  {
+    unsortedHand: [ 'Q', '3', 'Q', '5', '7' ],
+    hand: [ 'Q', 'Q', '7', '5', '3' ],
+    handRank: 2,
+    bid: 973
+  },
+  {
+    unsortedHand: [ 'Q', '4', 'T', '4', 'J' ],
+    hand: [ 'Q', 'J', 'T', '4', '4' ],
+    handRank: 2,
+    bid: 979
+  },
+  {
+    unsortedHand: [ 'Q', '5', '5', 'J', '7' ],
+    hand: [ 'Q', 'J', '7', '5', '5' ],
+    handRank: 2,
+    bid: 898
+  },
+  {
+    unsortedHand: [ 'Q', '5', 'T', '7', '5' ],
+    hand: [ 'Q', 'T', '7', '5', '5' ],
+    handRank: 2,
+    bid: 565
+  },
+  {
+    unsortedHand: [ 'Q', '5', 'T', 'J', 'T' ],
+    hand: [ 'Q', 'J', 'T', 'T', '5' ],
+    handRank: 2,
+    bid: 122
+  },
+  {
+    unsortedHand: [ 'Q', '6', '2', '2', 'A' ],
+    hand: [ 'A', 'Q', '6', '2', '2' ],
+    handRank: 2,
+    bid: 873
+  },
+  {
+    unsortedHand: [ 'Q', '6', '5', '6', 'J' ],
+    hand: [ 'Q', 'J', '6', '6', '5' ],
+    handRank: 2,
+    bid: 536
+  },
+  {
+    unsortedHand: [ 'Q', '6', 'J', '7', '6' ],
+    hand: [ 'Q', 'J', '7', '6', '6' ],
+    handRank: 2,
+    bid: 965
+  },
+  {
+    unsortedHand: [ 'Q', '6', 'K', 'T', 'T' ],
+    hand: [ 'K', 'Q', 'T', 'T', '6' ],
+    handRank: 2,
+    bid: 859
+  },
+  {
+    unsortedHand: [ 'Q', '6', 'K', 'Q', '5' ],
+    hand: [ 'K', 'Q', 'Q', '6', '5' ],
+    handRank: 2,
+    bid: 642
+  },
+  {
+    unsortedHand: [ 'Q', '7', '3', '6', '6' ],
+    hand: [ 'Q', '7', '6', '6', '3' ],
+    handRank: 2,
+    bid: 939
+  },
+  {
+    unsortedHand: [ 'Q', '8', '6', '6', 'J' ],
+    hand: [ 'Q', 'J', '8', '6', '6' ],
+    handRank: 2,
+    bid: 538
+  },
+  {
+    unsortedHand: [ 'Q', '9', '8', '2', '9' ],
+    hand: [ 'Q', '9', '9', '8', '2' ],
+    handRank: 2,
+    bid: 583
+  },
+  {
+    unsortedHand: [ 'Q', 'T', 'J', 'T', '9' ],
+    hand: [ 'Q', 'J', 'T', 'T', '9' ],
+    handRank: 2,
+    bid: 955
+  },
+  {
+    unsortedHand: [ 'Q', 'T', 'A', '6', 'T' ],
+    hand: [ 'A', 'Q', 'T', 'T', '6' ],
+    handRank: 2,
+    bid: 988
+  },
+  {
+    unsortedHand: [ 'Q', 'J', '8', '8', '6' ],
+    hand: [ 'Q', 'J', '8', '8', '6' ],
+    handRank: 2,
+    bid: 886
+  },
+  {
+    unsortedHand: [ 'Q', 'J', '9', 'Q', '5' ],
+    hand: [ 'Q', 'Q', 'J', '9', '5' ],
+    handRank: 2,
+    bid: 293
+  },
+  {
+    unsortedHand: [ 'Q', 'J', 'J', 'A', 'K' ],
+    hand: [ 'A', 'K', 'Q', 'J', 'J' ],
+    handRank: 2,
+    bid: 449
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', '2', '3', '5' ],
+    hand: [ 'Q', 'Q', '5', '3', '2' ],
+    handRank: 2,
+    bid: 782
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', '3', '5', 'K' ],
+    hand: [ 'K', 'Q', 'Q', '5', '3' ],
+    handRank: 2,
+    bid: 838
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', '8', 'A', '7' ],
+    hand: [ 'A', 'Q', 'Q', '8', '7' ],
+    handRank: 2,
+    bid: 461
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'T', 'A', 'J' ],
+    hand: [ 'A', 'Q', 'Q', 'J', 'T' ],
+    handRank: 2,
+    bid: 783
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'A', '4', 'J' ],
+    hand: [ 'A', 'Q', 'Q', 'J', '4' ],
+    handRank: 2,
+    bid: 542
+  },
+  {
+    unsortedHand: [ 'Q', 'K', 'Q', 'J', 'A' ],
+    hand: [ 'A', 'K', 'Q', 'Q', 'J' ],
+    handRank: 2,
+    bid: 455
+  },
+  {
+    unsortedHand: [ 'Q', 'A', '6', 'A', 'T' ],
+    hand: [ 'A', 'A', 'Q', 'T', '6' ],
+    handRank: 2,
+    bid: 791
+  },
+  {
+    unsortedHand: [ 'Q', 'A', 'J', 'A', '6' ],
+    hand: [ 'A', 'A', 'Q', 'J', '6' ],
+    handRank: 2,
+    bid: 750
+  },
+  {
+    unsortedHand: [ 'K', '2', 'J', '4', '4' ],
+    hand: [ 'K', 'J', '4', '4', '2' ],
+    handRank: 2,
+    bid: 300
+  },
+  {
+    unsortedHand: [ 'K', '4', 'K', '6', '2' ],
+    hand: [ 'K', 'K', '6', '4', '2' ],
+    handRank: 2,
+    bid: 560
+  },
+  {
+    unsortedHand: [ 'K', '5', '4', 'K', '7' ],
+    hand: [ 'K', 'K', '7', '5', '4' ],
+    handRank: 2,
+    bid: 441
+  },
+  {
+    unsortedHand: [ 'K', '5', 'T', '8', '8' ],
+    hand: [ 'K', 'T', '8', '8', '5' ],
+    handRank: 2,
+    bid: 446
+  },
+  {
+    unsortedHand: [ 'K', '5', 'Q', 'K', 'J' ],
+    hand: [ 'K', 'K', 'Q', 'J', '5' ],
+    handRank: 2,
+    bid: 673
+  },
+  {
+    unsortedHand: [ 'K', '8', '2', 'Q', 'K' ],
+    hand: [ 'K', 'K', 'Q', '8', '2' ],
+    handRank: 2,
+    bid: 349
+  },
+  {
+    unsortedHand: [ 'K', '8', 'T', 'Q', '8' ],
+    hand: [ 'K', 'Q', 'T', '8', '8' ],
+    handRank: 2,
+    bid: 440
+  },
+  {
+    unsortedHand: [ 'K', '9', '4', '9', 'J' ],
+    hand: [ 'K', 'J', '9', '9', '4' ],
+    handRank: 2,
+    bid: 325
+  },
+  {
+    unsortedHand: [ 'K', '9', '5', 'A', 'K' ],
+    hand: [ 'A', 'K', 'K', '9', '5' ],
+    handRank: 2,
+    bid: 617
+  },
+  {
+    unsortedHand: [ 'K', '9', '9', '5', 'T' ],
+    hand: [ 'K', 'T', '9', '9', '5' ],
+    handRank: 2,
+    bid: 382
+  },
+  {
+    unsortedHand: [ 'K', 'T', '2', 'Q', 'Q' ],
+    hand: [ 'K', 'Q', 'Q', 'T', '2' ],
+    handRank: 2,
+    bid: 640
+  },
+  {
+    unsortedHand: [ 'K', 'T', 'J', 'T', 'Q' ],
+    hand: [ 'K', 'Q', 'J', 'T', 'T' ],
+    handRank: 2,
+    bid: 681
+  },
+  {
+    unsortedHand: [ 'K', 'J', '3', 'K', '2' ],
+    hand: [ 'K', 'K', 'J', '3', '2' ],
+    handRank: 2,
+    bid: 732
+  },
+  {
+    unsortedHand: [ 'K', 'J', '6', '6', '5' ],
+    hand: [ 'K', 'J', '6', '6', '5' ],
+    handRank: 2,
+    bid: 330
+  },
+  {
+    unsortedHand: [ 'K', 'Q', '3', '5', '3' ],
+    hand: [ 'K', 'Q', '5', '3', '3' ],
+    handRank: 2,
+    bid: 373
+  },
+  {
+    unsortedHand: [ 'K', 'Q', '7', 'J', 'Q' ],
+    hand: [ 'K', 'Q', 'Q', 'J', '7' ],
+    handRank: 2,
+    bid: 477
+  },
+  {
+    unsortedHand: [ 'K', 'Q', 'T', 'K', '6' ],
+    hand: [ 'K', 'K', 'Q', 'T', '6' ],
+    handRank: 2,
+    bid: 335
+  },
+  {
+    unsortedHand: [ 'K', 'K', '7', 'A', '8' ],
+    hand: [ 'A', 'K', 'K', '8', '7' ],
+    handRank: 2,
+    bid: 772
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'Q', 'T', '7' ],
+    hand: [ 'K', 'K', 'Q', 'T', '7' ],
+    handRank: 2,
+    bid: 535
+  },
+  {
+    unsortedHand: [ 'K', 'A', '5', '7', '5' ],
+    hand: [ 'A', 'K', '7', '5', '5' ],
+    handRank: 2,
+    bid: 998
+  },
+  {
+    unsortedHand: [ 'K', 'A', 'K', '5', '7' ],
+    hand: [ 'A', 'K', 'K', '7', '5' ],
+    handRank: 2,
+    bid: 729
+  },
+  {
+    unsortedHand: [ 'A', '3', '9', '4', 'A' ],
+    hand: [ 'A', 'A', '9', '4', '3' ],
+    handRank: 2,
+    bid: 699
+  },
+  {
+    unsortedHand: [ 'A', '3', 'A', '9', '2' ],
+    hand: [ 'A', 'A', '9', '3', '2' ],
+    handRank: 2,
+    bid: 211
+  },
+  {
+    unsortedHand: [ 'A', '4', '4', '7', 'Q' ],
+    hand: [ 'A', 'Q', '7', '4', '4' ],
+    handRank: 2,
+    bid: 493
+  },
+  {
+    unsortedHand: [ 'A', '4', '4', '8', 'T' ],
+    hand: [ 'A', 'T', '8', '4', '4' ],
+    handRank: 2,
+    bid: 317
+  },
+  {
+    unsortedHand: [ 'A', '4', '8', '2', '2' ],
+    hand: [ 'A', '8', '4', '2', '2' ],
+    handRank: 2,
+    bid: 338
+  },
+  {
+    unsortedHand: [ 'A', '4', 'Q', '4', '6' ],
+    hand: [ 'A', 'Q', '6', '4', '4' ],
+    handRank: 2,
+    bid: 887
+  },
+  {
+    unsortedHand: [ 'A', '4', 'Q', 'Q', '6' ],
+    hand: [ 'A', 'Q', 'Q', '6', '4' ],
+    handRank: 2,
+    bid: 266
+  },
+  {
+    unsortedHand: [ 'A', '4', 'A', 'J', 'T' ],
+    hand: [ 'A', 'A', 'J', 'T', '4' ],
+    handRank: 2,
+    bid: 778
+  },
+  {
+    unsortedHand: [ 'A', '6', 'T', 'J', 'T' ],
+    hand: [ 'A', 'J', 'T', 'T', '6' ],
+    handRank: 2,
+    bid: 847
+  },
+  {
+    unsortedHand: [ 'A', '8', 'T', '8', '2' ],
+    hand: [ 'A', 'T', '8', '8', '2' ],
+    handRank: 2,
+    bid: 969
+  },
+  {
+    unsortedHand: [ 'A', '9', '2', 'Q', 'Q' ],
+    hand: [ 'A', 'Q', 'Q', '9', '2' ],
+    handRank: 2,
+    bid: 127
+  },
+  {
+    unsortedHand: [ 'A', 'J', '2', 'A', '3' ],
+    hand: [ 'A', 'A', 'J', '3', '2' ],
+    handRank: 2,
+    bid: 138
+  },
+  {
+    unsortedHand: [ 'A', 'J', '4', '4', '3' ],
+    hand: [ 'A', 'J', '4', '4', '3' ],
+    handRank: 2,
+    bid: 442
+  },
+  {
+    unsortedHand: [ 'A', 'J', 'T', '4', '4' ],
+    hand: [ 'A', 'J', 'T', '4', '4' ],
+    handRank: 2,
+    bid: 652
+  },
+  {
+    unsortedHand: [ 'A', 'K', '7', '4', '7' ],
+    hand: [ 'A', 'K', '7', '7', '4' ],
+    handRank: 2,
+    bid: 37
+  },
+  {
+    unsortedHand: [ 'A', 'A', '2', 'T', 'J' ],
+    hand: [ 'A', 'A', 'J', 'T', '2' ],
+    handRank: 2,
+    bid: 213
+  },
+  {
+    unsortedHand: [ '2', '2', '3', '8', '8' ],
+    hand: [ '8', '8', '3', '2', '2' ],
+    handRank: 3,
+    bid: 900
+  },
+  {
+    unsortedHand: [ '2', '3', '2', '9', '3' ],
+    hand: [ '9', '3', '3', '2', '2' ],
+    handRank: 3,
+    bid: 651
+  },
+  {
+    unsortedHand: [ '2', '3', 'J', '2', '3' ],
+    hand: [ 'J', '3', '3', '2', '2' ],
+    handRank: 3,
+    bid: 228
+  },
+  {
+    unsortedHand: [ '2', '4', '7', '2', '7' ],
+    hand: [ '7', '7', '4', '2', '2' ],
+    handRank: 3,
+    bid: 263
+  },
+  {
+    unsortedHand: [ '2', '9', '4', '4', '2' ],
+    hand: [ '9', '4', '4', '2', '2' ],
+    handRank: 3,
+    bid: 679
+  },
+  {
+    unsortedHand: [ '2', 'J', '4', '4', '2' ],
+    hand: [ 'J', '4', '4', '2', '2' ],
+    handRank: 3,
+    bid: 512
+  },
+  {
+    unsortedHand: [ '2', 'J', 'J', '2', 'K' ],
+    hand: [ 'K', 'J', 'J', '2', '2' ],
+    handRank: 3,
+    bid: 506
+  },
+  {
+    unsortedHand: [ '3', '2', '2', '3', 'K' ],
+    hand: [ 'K', '3', '3', '2', '2' ],
+    handRank: 3,
+    bid: 635
+  },
+  {
+    unsortedHand: [ '3', '3', '9', '5', '5' ],
+    hand: [ '9', '5', '5', '3', '3' ],
+    handRank: 3,
+    bid: 485
+  },
+  {
+    unsortedHand: [ '3', '3', 'Q', '6', '6' ],
+    hand: [ 'Q', '6', '6', '3', '3' ],
+    handRank: 3,
+    bid: 362
+  },
+  {
+    unsortedHand: [ '3', '3', 'Q', '8', 'Q' ],
+    hand: [ 'Q', 'Q', '8', '3', '3' ],
+    handRank: 3,
+    bid: 869
+  },
+  {
+    unsortedHand: [ '3', '4', '4', '8', '3' ],
+    hand: [ '8', '4', '4', '3', '3' ],
+    handRank: 3,
+    bid: 865
+  },
+  {
+    unsortedHand: [ '3', '5', 'Q', '5', 'Q' ],
+    hand: [ 'Q', 'Q', '5', '5', '3' ],
+    handRank: 3,
+    bid: 190
+  },
+  {
+    unsortedHand: [ '3', '7', 'T', 'T', '7' ],
+    hand: [ 'T', 'T', '7', '7', '3' ],
+    handRank: 3,
+    bid: 957
+  },
+  {
+    unsortedHand: [ '3', '8', '5', '5', '8' ],
+    hand: [ '8', '8', '5', '5', '3' ],
+    handRank: 3,
+    bid: 903
+  },
+  {
+    unsortedHand: [ '3', '8', '8', 'J', '3' ],
+    hand: [ 'J', '8', '8', '3', '3' ],
+    handRank: 3,
+    bid: 522
+  },
+  {
+    unsortedHand: [ '3', 'T', '3', '4', 'T' ],
+    hand: [ 'T', 'T', '4', '3', '3' ],
+    handRank: 3,
+    bid: 544
+  },
+  {
+    unsortedHand: [ '3', 'J', 'Q', 'Q', '3' ],
+    hand: [ 'Q', 'Q', 'J', '3', '3' ],
+    handRank: 3,
+    bid: 119
+  },
+  {
+    unsortedHand: [ '3', 'J', 'A', 'A', '3' ],
+    hand: [ 'A', 'A', 'J', '3', '3' ],
+    handRank: 3,
+    bid: 273
+  },
+  {
+    unsortedHand: [ '3', 'K', '2', '3', 'K' ],
+    hand: [ 'K', 'K', '3', '3', '2' ],
+    handRank: 3,
+    bid: 680
+  },
+  {
+    unsortedHand: [ '3', 'K', '6', 'K', '3' ],
+    hand: [ 'K', 'K', '6', '3', '3' ],
+    handRank: 3,
+    bid: 15
+  },
+  {
+    unsortedHand: [ '4', '2', '7', '4', '7' ],
+    hand: [ '7', '7', '4', '4', '2' ],
+    handRank: 3,
+    bid: 798
+  },
+  {
+    unsortedHand: [ '4', '3', '3', '4', 'J' ],
+    hand: [ 'J', '4', '4', '3', '3' ],
+    handRank: 3,
+    bid: 374
+  },
+  {
+    unsortedHand: [ '4', '4', '3', '2', '2' ],
+    hand: [ '4', '4', '3', '2', '2' ],
+    handRank: 3,
+    bid: 519
+  },
+  {
+    unsortedHand: [ '4', '4', '3', '3', 'Q' ],
+    hand: [ 'Q', '4', '4', '3', '3' ],
+    handRank: 3,
+    bid: 225
+  },
+  {
+    unsortedHand: [ '4', '4', '3', 'K', 'K' ],
+    hand: [ 'K', 'K', '4', '4', '3' ],
+    handRank: 3,
+    bid: 296
+  },
+  {
+    unsortedHand: [ '4', '4', 'J', '5', 'J' ],
+    hand: [ 'J', 'J', '5', '4', '4' ],
+    handRank: 3,
+    bid: 702
+  },
+  {
+    unsortedHand: [ '4', '4', 'Q', 'Q', '3' ],
+    hand: [ 'Q', 'Q', '4', '4', '3' ],
+    handRank: 3,
+    bid: 970
+  },
+  {
+    unsortedHand: [ '4', '7', '4', 'A', '7' ],
+    hand: [ 'A', '7', '7', '4', '4' ],
+    handRank: 3,
+    bid: 193
+  },
+  {
+    unsortedHand: [ '4', '8', '8', '5', '4' ],
+    hand: [ '8', '8', '5', '4', '4' ],
+    handRank: 3,
+    bid: 85
+  },
+  {
+    unsortedHand: [ '4', '9', 'K', '4', 'K' ],
+    hand: [ 'K', 'K', '9', '4', '4' ],
+    handRank: 3,
+    bid: 245
+  },
+  {
+    unsortedHand: [ '4', 'T', '4', '2', 'T' ],
+    hand: [ 'T', 'T', '4', '4', '2' ],
+    handRank: 3,
+    bid: 77
+  },
+  {
+    unsortedHand: [ '4', 'T', '4', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'T', '4', '4' ],
+    handRank: 3,
+    bid: 5
+  },
+  {
+    unsortedHand: [ '4', 'J', 'J', '4', '8' ],
+    hand: [ 'J', 'J', '8', '4', '4' ],
+    handRank: 3,
+    bid: 246
+  },
+  {
+    unsortedHand: [ '4', 'Q', 'T', 'Q', 'T' ],
+    hand: [ 'Q', 'Q', 'T', 'T', '4' ],
+    handRank: 3,
+    bid: 299
+  },
+  {
+    unsortedHand: [ '4', 'Q', 'K', 'K', '4' ],
+    hand: [ 'K', 'K', 'Q', '4', '4' ],
+    handRank: 3,
+    bid: 875
+  },
+  {
+    unsortedHand: [ '5', '3', '5', '7', '7' ],
+    hand: [ '7', '7', '5', '5', '3' ],
+    handRank: 3,
+    bid: 226
+  },
+  {
+    unsortedHand: [ '5', '3', '9', '9', '3' ],
+    hand: [ '9', '9', '5', '3', '3' ],
+    handRank: 3,
+    bid: 255
+  },
+  {
+    unsortedHand: [ '5', '4', '2', '2', '5' ],
+    hand: [ '5', '5', '4', '2', '2' ],
+    handRank: 3,
+    bid: 646
+  },
+  {
+    unsortedHand: [ '5', '4', '5', '4', '2' ],
+    hand: [ '5', '5', '4', '4', '2' ],
+    handRank: 3,
+    bid: 611
+  },
+  {
+    unsortedHand: [ '5', '4', 'J', '4', '5' ],
+    hand: [ 'J', '5', '5', '4', '4' ],
+    handRank: 3,
+    bid: 143
+  },
+  {
+    unsortedHand: [ '5', '5', '6', '4', '6' ],
+    hand: [ '6', '6', '5', '5', '4' ],
+    handRank: 3,
+    bid: 120
+  },
+  {
+    unsortedHand: [ '5', '5', 'Q', '6', 'Q' ],
+    hand: [ 'Q', 'Q', '6', '5', '5' ],
+    handRank: 3,
+    bid: 683
+  },
+  {
+    unsortedHand: [ '5', '6', 'A', 'A', '6' ],
+    hand: [ 'A', 'A', '6', '6', '5' ],
+    handRank: 3,
+    bid: 217
+  },
+  {
+    unsortedHand: [ '5', '8', '5', '3', '3' ],
+    hand: [ '8', '5', '5', '3', '3' ],
+    handRank: 3,
+    bid: 720
+  },
+  {
+    unsortedHand: [ '5', '8', '7', '7', '8' ],
+    hand: [ '8', '8', '7', '7', '5' ],
+    handRank: 3,
+    bid: 152
+  },
+  {
+    unsortedHand: [ '5', '9', '9', '2', '5' ],
+    hand: [ '9', '9', '5', '5', '2' ],
+    handRank: 3,
+    bid: 256
+  },
+  {
+    unsortedHand: [ '5', 'T', '5', 'T', 'K' ],
+    hand: [ 'K', 'T', 'T', '5', '5' ],
+    handRank: 3,
+    bid: 197
+  },
+  {
+    unsortedHand: [ '5', 'K', 'J', '5', 'K' ],
+    hand: [ 'K', 'K', 'J', '5', '5' ],
+    handRank: 3,
+    bid: 385
+  },
+  {
+    unsortedHand: [ '6', '3', '3', '6', '5' ],
+    hand: [ '6', '6', '5', '3', '3' ],
+    handRank: 3,
+    bid: 889
+  },
+  {
+    unsortedHand: [ '6', '3', '3', '9', '9' ],
+    hand: [ '9', '9', '6', '3', '3' ],
+    handRank: 3,
+    bid: 994
+  },
+  {
+    unsortedHand: [ '6', '5', '5', '6', 'A' ],
+    hand: [ 'A', '6', '6', '5', '5' ],
+    handRank: 3,
+    bid: 807
+  },
+  {
+    unsortedHand: [ '6', '6', '3', '2', '3' ],
+    hand: [ '6', '6', '3', '3', '2' ],
+    handRank: 3,
+    bid: 3
+  },
+  {
+    unsortedHand: [ '6', '6', '3', '4', '3' ],
+    hand: [ '6', '6', '4', '3', '3' ],
+    handRank: 3,
+    bid: 871
+  },
+  {
+    unsortedHand: [ '6', '6', 'J', 'T', 'J' ],
+    hand: [ 'J', 'J', 'T', '6', '6' ],
+    handRank: 3,
+    bid: 68
+  },
+  {
+    unsortedHand: [ '6', '7', '7', '4', '6' ],
+    hand: [ '7', '7', '6', '6', '4' ],
+    handRank: 3,
+    bid: 794
+  },
+  {
+    unsortedHand: [ '6', '8', '2', '6', '2' ],
+    hand: [ '8', '6', '6', '2', '2' ],
+    handRank: 3,
+    bid: 983
+  },
+  {
+    unsortedHand: [ '6', '8', 'A', '6', 'A' ],
+    hand: [ 'A', 'A', '8', '6', '6' ],
+    handRank: 3,
+    bid: 529
+  },
+  {
+    unsortedHand: [ '6', '9', '6', '9', 'J' ],
+    hand: [ 'J', '9', '9', '6', '6' ],
+    handRank: 3,
+    bid: 980
+  },
+  {
+    unsortedHand: [ '6', 'T', '2', '2', '6' ],
+    hand: [ 'T', '6', '6', '2', '2' ],
+    handRank: 3,
+    bid: 248
+  },
+  {
+    unsortedHand: [ '6', 'T', '4', 'T', '4' ],
+    hand: [ 'T', 'T', '6', '4', '4' ],
+    handRank: 3,
+    bid: 737
+  },
+  {
+    unsortedHand: [ '6', 'T', 'T', '6', 'J' ],
+    hand: [ 'J', 'T', 'T', '6', '6' ],
+    handRank: 3,
+    bid: 739
+  },
+  {
+    unsortedHand: [ '6', 'J', '6', '3', '3' ],
+    hand: [ 'J', '6', '6', '3', '3' ],
+    handRank: 3,
+    bid: 906
+  },
+  {
+    unsortedHand: [ '6', 'Q', '6', 'Q', 'A' ],
+    hand: [ 'A', 'Q', 'Q', '6', '6' ],
+    handRank: 3,
+    bid: 905
+  },
+  {
+    unsortedHand: [ '6', 'Q', 'Q', '9', '6' ],
+    hand: [ 'Q', 'Q', '9', '6', '6' ],
+    handRank: 3,
+    bid: 914
+  },
+  {
+    unsortedHand: [ '6', 'K', '8', 'K', '8' ],
+    hand: [ 'K', 'K', '8', '8', '6' ],
+    handRank: 3,
+    bid: 59
+  },
+  {
+    unsortedHand: [ '6', 'A', 'Q', 'Q', 'A' ],
+    hand: [ 'A', 'A', 'Q', 'Q', '6' ],
+    handRank: 3,
+    bid: 870
+  },
+  {
+    unsortedHand: [ '7', '2', '2', '7', '5' ],
+    hand: [ '7', '7', '5', '2', '2' ],
+    handRank: 3,
+    bid: 926
+  },
+  {
+    unsortedHand: [ '7', '3', '3', '7', '6' ],
+    hand: [ '7', '7', '6', '3', '3' ],
+    handRank: 3,
+    bid: 318
+  },
+  {
+    unsortedHand: [ '7', '4', 'Q', '4', 'Q' ],
+    hand: [ 'Q', 'Q', '7', '4', '4' ],
+    handRank: 3,
+    bid: 115
+  },
+  {
+    unsortedHand: [ '7', '5', '9', '9', '7' ],
+    hand: [ '9', '9', '7', '7', '5' ],
+    handRank: 3,
+    bid: 391
+  },
+  {
+    unsortedHand: [ '7', '6', '3', '6', '3' ],
+    hand: [ '7', '6', '6', '3', '3' ],
+    handRank: 3,
+    bid: 644
+  },
+  {
+    unsortedHand: [ '7', '6', '6', '8', '7' ],
+    hand: [ '8', '7', '7', '6', '6' ],
+    handRank: 3,
+    bid: 826
+  },
+  {
+    unsortedHand: [ '7', '7', 'J', '2', '2' ],
+    hand: [ 'J', '7', '7', '2', '2' ],
+    handRank: 3,
+    bid: 986
+  },
+  {
+    unsortedHand: [ '7', '7', 'J', 'T', 'T' ],
+    hand: [ 'J', 'T', 'T', '7', '7' ],
+    handRank: 3,
+    bid: 603
+  },
+  {
+    unsortedHand: [ '7', '9', '6', '6', '9' ],
+    hand: [ '9', '9', '7', '6', '6' ],
+    handRank: 3,
+    bid: 576
+  },
+  {
+    unsortedHand: [ '7', 'T', '4', 'T', '4' ],
+    hand: [ 'T', 'T', '7', '4', '4' ],
+    handRank: 3,
+    bid: 430
+  },
+  {
+    unsortedHand: [ '7', 'T', '9', '7', 'T' ],
+    hand: [ 'T', 'T', '9', '7', '7' ],
+    handRank: 3,
+    bid: 150
+  },
+  {
+    unsortedHand: [ '7', 'Q', 'A', '7', 'A' ],
+    hand: [ 'A', 'A', 'Q', '7', '7' ],
+    handRank: 3,
+    bid: 716
+  },
+  {
+    unsortedHand: [ '7', 'K', 'A', '7', 'K' ],
+    hand: [ 'A', 'K', 'K', '7', '7' ],
+    handRank: 3,
+    bid: 530
+  },
+  {
+    unsortedHand: [ '7', 'A', '7', '2', 'A' ],
+    hand: [ 'A', 'A', '7', '7', '2' ],
+    handRank: 3,
+    bid: 765
+  },
+  {
+    unsortedHand: [ '8', '2', 'J', '2', '8' ],
+    hand: [ 'J', '8', '8', '2', '2' ],
+    handRank: 3,
+    bid: 901
+  },
+  {
+    unsortedHand: [ '8', '3', '3', '8', 'K' ],
+    hand: [ 'K', '8', '8', '3', '3' ],
+    handRank: 3,
+    bid: 796
+  },
+  {
+    unsortedHand: [ '8', '6', '8', 'J', 'J' ],
+    hand: [ 'J', 'J', '8', '8', '6' ],
+    handRank: 3,
+    bid: 29
+  },
+  {
+    unsortedHand: [ '8', '8', 'T', '7', '7' ],
+    hand: [ 'T', '8', '8', '7', '7' ],
+    handRank: 3,
+    bid: 315
+  },
+  {
+    unsortedHand: [ '8', '8', 'J', '3', 'J' ],
+    hand: [ 'J', 'J', '8', '8', '3' ],
+    handRank: 3,
+    bid: 372
+  },
+  {
+    unsortedHand: [ '8', '8', 'K', '2', 'K' ],
+    hand: [ 'K', 'K', '8', '8', '2' ],
+    handRank: 3,
+    bid: 605
+  },
+  {
+    unsortedHand: [ '8', '9', '5', '8', '9' ],
+    hand: [ '9', '9', '8', '8', '5' ],
+    handRank: 3,
+    bid: 966
+  },
+  {
+    unsortedHand: [ '8', '9', '8', 'A', '9' ],
+    hand: [ 'A', '9', '9', '8', '8' ],
+    handRank: 3,
+    bid: 751
+  },
+  {
+    unsortedHand: [ '8', '9', 'K', '8', '9' ],
+    hand: [ 'K', '9', '9', '8', '8' ],
+    handRank: 3,
+    bid: 861
+  },
+  {
+    unsortedHand: [ '8', 'J', '9', 'J', '9' ],
+    hand: [ 'J', 'J', '9', '9', '8' ],
+    handRank: 3,
+    bid: 400
+  },
+  {
+    unsortedHand: [ '8', 'Q', '5', '8', '5' ],
+    hand: [ 'Q', '8', '8', '5', '5' ],
+    handRank: 3,
+    bid: 866
+  },
+  {
+    unsortedHand: [ '9', '3', 'T', '3', 'T' ],
+    hand: [ 'T', 'T', '9', '3', '3' ],
+    handRank: 3,
+    bid: 562
+  },
+  {
+    unsortedHand: [ '9', '9', '3', '2', '3' ],
+    hand: [ '9', '9', '3', '3', '2' ],
+    handRank: 3,
+    bid: 961
+  },
+  {
+    unsortedHand: [ '9', '9', '3', 'K', '3' ],
+    hand: [ 'K', '9', '9', '3', '3' ],
+    handRank: 3,
+    bid: 740
+  },
+  {
+    unsortedHand: [ '9', '9', '4', 'A', 'A' ],
+    hand: [ 'A', 'A', '9', '9', '4' ],
+    handRank: 3,
+    bid: 259
+  },
+  {
+    unsortedHand: [ '9', '9', '6', '4', '6' ],
+    hand: [ '9', '9', '6', '6', '4' ],
+    handRank: 3,
+    bid: 159
+  },
+  {
+    unsortedHand: [ '9', '9', '8', '8', 'J' ],
+    hand: [ 'J', '9', '9', '8', '8' ],
+    handRank: 3,
+    bid: 88
+  },
+  {
+    unsortedHand: [ '9', 'K', 'T', 'K', '9' ],
+    hand: [ 'K', 'K', 'T', '9', '9' ],
+    handRank: 3,
+    bid: 510
+  },
+  {
+    unsortedHand: [ 'T', '4', 'T', 'A', '4' ],
+    hand: [ 'A', 'T', 'T', '4', '4' ],
+    handRank: 3,
+    bid: 541
+  },
+  {
+    unsortedHand: [ 'T', '5', '5', 'T', 'J' ],
+    hand: [ 'J', 'T', 'T', '5', '5' ],
+    handRank: 3,
+    bid: 977
+  },
+  {
+    unsortedHand: [ 'T', '6', 'T', '9', '9' ],
+    hand: [ 'T', 'T', '9', '9', '6' ],
+    handRank: 3,
+    bid: 944
+  },
+  {
+    unsortedHand: [ 'T', '8', '5', 'T', '8' ],
+    hand: [ 'T', 'T', '8', '8', '5' ],
+    handRank: 3,
+    bid: 322
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'J', 'J', 'K' ],
+    hand: [ 'K', 'J', 'J', 'T', 'T' ],
+    handRank: 3,
+    bid: 21
+  },
+  {
+    unsortedHand: [ 'T', 'J', 'T', '3', '3' ],
+    hand: [ 'J', 'T', 'T', '3', '3' ],
+    handRank: 3,
+    bid: 386
+  },
+  {
+    unsortedHand: [ 'T', 'A', '7', '7', 'T' ],
+    hand: [ 'A', 'T', 'T', '7', '7' ],
+    handRank: 3,
+    bid: 275
+  },
+  {
+    unsortedHand: [ 'T', 'A', 'A', '3', 'T' ],
+    hand: [ 'A', 'A', 'T', 'T', '3' ],
+    handRank: 3,
+    bid: 443
+  },
+  {
+    unsortedHand: [ 'J', '2', '2', '6', 'J' ],
+    hand: [ 'J', 'J', '6', '2', '2' ],
+    handRank: 3,
+    bid: 899
+  },
+  {
+    unsortedHand: [ 'J', '2', '2', 'T', 'T' ],
+    hand: [ 'J', 'T', 'T', '2', '2' ],
+    handRank: 3,
+    bid: 954
+  },
+  {
+    unsortedHand: [ 'J', '2', 'J', '4', '2' ],
+    hand: [ 'J', 'J', '4', '2', '2' ],
+    handRank: 3,
+    bid: 933
+  },
+  {
+    unsortedHand: [ 'J', '2', 'A', 'A', '2' ],
+    hand: [ 'A', 'A', 'J', '2', '2' ],
+    handRank: 3,
+    bid: 780
+  },
+  {
+    unsortedHand: [ 'J', '2', 'A', 'A', 'J' ],
+    hand: [ 'A', 'A', 'J', 'J', '2' ],
+    handRank: 3,
+    bid: 647
+  },
+  {
+    unsortedHand: [ 'J', '3', '4', 'J', '4' ],
+    hand: [ 'J', 'J', '4', '4', '3' ],
+    handRank: 3,
+    bid: 175
+  },
+  {
+    unsortedHand: [ 'J', '3', '9', '9', 'J' ],
+    hand: [ 'J', 'J', '9', '9', '3' ],
+    handRank: 3,
+    bid: 788
+  },
+  {
+    unsortedHand: [ 'J', '4', 'T', 'J', 'T' ],
+    hand: [ 'J', 'J', 'T', 'T', '4' ],
+    handRank: 3,
+    bid: 600
+  },
+  {
+    unsortedHand: [ 'J', '6', 'A', '6', 'A' ],
+    hand: [ 'A', 'A', 'J', '6', '6' ],
+    handRank: 3,
+    bid: 67
+  },
+  {
+    unsortedHand: [ 'J', '7', '7', 'K', 'K' ],
+    hand: [ 'K', 'K', 'J', '7', '7' ],
+    handRank: 3,
+    bid: 425
+  },
+  {
+    unsortedHand: [ 'J', '7', '8', '7', 'J' ],
+    hand: [ 'J', 'J', '8', '7', '7' ],
+    handRank: 3,
+    bid: 564
+  },
+  {
+    unsortedHand: [ 'J', '9', '7', '9', '7' ],
+    hand: [ 'J', '9', '9', '7', '7' ],
+    handRank: 3,
+    bid: 846
+  },
+  {
+    unsortedHand: [ 'J', 'T', '2', 'T', 'J' ],
+    hand: [ 'J', 'J', 'T', 'T', '2' ],
+    handRank: 3,
+    bid: 496
+  },
+  {
+    unsortedHand: [ 'J', 'J', 'Q', 'Q', 'K' ],
+    hand: [ 'K', 'Q', 'Q', 'J', 'J' ],
+    handRank: 3,
+    bid: 592
+  },
+  {
+    unsortedHand: [ 'J', 'Q', '5', 'Q', 'J' ],
+    hand: [ 'Q', 'Q', 'J', 'J', '5' ],
+    handRank: 3,
+    bid: 129
+  },
+  {
+    unsortedHand: [ 'J', 'A', 'Q', 'Q', 'A' ],
+    hand: [ 'A', 'A', 'Q', 'Q', 'J' ],
+    handRank: 3,
+    bid: 124
+  },
+  {
+    unsortedHand: [ 'Q', '2', '2', 'Q', '6' ],
+    hand: [ 'Q', 'Q', '6', '2', '2' ],
+    handRank: 3,
+    bid: 785
+  },
+  {
+    unsortedHand: [ 'Q', '2', '8', '2', 'Q' ],
+    hand: [ 'Q', 'Q', '8', '2', '2' ],
+    handRank: 3,
+    bid: 66
+  },
+  {
+    unsortedHand: [ 'Q', '2', 'Q', '4', '2' ],
+    hand: [ 'Q', 'Q', '4', '2', '2' ],
+    handRank: 3,
+    bid: 7
+  },
+  {
+    unsortedHand: [ 'Q', '3', '3', 'Q', '6' ],
+    hand: [ 'Q', 'Q', '6', '3', '3' ],
+    handRank: 3,
+    bid: 559
+  },
+  {
+    unsortedHand: [ 'Q', '3', '4', '3', 'Q' ],
+    hand: [ 'Q', 'Q', '4', '3', '3' ],
+    handRank: 3,
+    bid: 6
+  },
+  {
+    unsortedHand: [ 'Q', '4', '4', 'T', 'T' ],
+    hand: [ 'Q', 'T', 'T', '4', '4' ],
+    handRank: 3,
+    bid: 309
+  },
+  {
+    unsortedHand: [ 'Q', '4', '6', '6', '4' ],
+    hand: [ 'Q', '6', '6', '4', '4' ],
+    handRank: 3,
+    bid: 657
+  },
+  {
+    unsortedHand: [ 'Q', '5', '4', 'Q', '5' ],
+    hand: [ 'Q', 'Q', '5', '5', '4' ],
+    handRank: 3,
+    bid: 932
+  },
+  {
+    unsortedHand: [ 'Q', '5', 'Q', '5', 'J' ],
+    hand: [ 'Q', 'Q', 'J', '5', '5' ],
+    handRank: 3,
+    bid: 185
+  },
+  {
+    unsortedHand: [ 'Q', '7', '4', '4', '7' ],
+    hand: [ 'Q', '7', '7', '4', '4' ],
+    handRank: 3,
+    bid: 136
+  },
+  {
+    unsortedHand: [ 'Q', '9', '8', 'Q', '9' ],
+    hand: [ 'Q', 'Q', '9', '9', '8' ],
+    handRank: 3,
+    bid: 262
+  },
+  {
+    unsortedHand: [ 'Q', '9', 'T', '9', 'Q' ],
+    hand: [ 'Q', 'Q', 'T', '9', '9' ],
+    handRank: 3,
+    bid: 746
+  },
+  {
+    unsortedHand: [ 'Q', 'T', '6', '6', 'T' ],
+    hand: [ 'Q', 'T', 'T', '6', '6' ],
+    handRank: 3,
+    bid: 992
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', '6', 'T', '6' ],
+    hand: [ 'Q', 'Q', 'T', '6', '6' ],
+    handRank: 3,
+    bid: 164
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', '6', 'K', 'K' ],
+    hand: [ 'K', 'K', 'Q', 'Q', '6' ],
+    handRank: 3,
+    bid: 620
+  },
+  {
+    unsortedHand: [ 'K', '2', '9', 'K', '9' ],
+    hand: [ 'K', 'K', '9', '9', '2' ],
+    handRank: 3,
+    bid: 339
+  },
+  {
+    unsortedHand: [ 'K', '2', 'J', 'J', 'K' ],
+    hand: [ 'K', 'K', 'J', 'J', '2' ],
+    handRank: 3,
+    bid: 625
+  },
+  {
+    unsortedHand: [ 'K', '2', 'K', '2', 'T' ],
+    hand: [ 'K', 'K', 'T', '2', '2' ],
+    handRank: 3,
+    bid: 670
+  },
+  {
+    unsortedHand: [ 'K', '3', 'K', '3', '9' ],
+    hand: [ 'K', 'K', '9', '3', '3' ],
+    handRank: 3,
+    bid: 815
+  },
+  {
+    unsortedHand: [ 'K', '4', '5', 'K', '5' ],
+    hand: [ 'K', 'K', '5', '5', '4' ],
+    handRank: 3,
+    bid: 963
+  },
+  {
+    unsortedHand: [ 'K', '4', 'K', '2', '2' ],
+    hand: [ 'K', 'K', '4', '2', '2' ],
+    handRank: 3,
+    bid: 360
+  },
+  {
+    unsortedHand: [ 'K', '6', 'A', 'K', 'A' ],
+    hand: [ 'A', 'A', 'K', 'K', '6' ],
+    handRank: 3,
+    bid: 490
+  },
+  {
+    unsortedHand: [ 'K', '6', 'A', 'A', '6' ],
+    hand: [ 'A', 'A', 'K', '6', '6' ],
+    handRank: 3,
+    bid: 55
+  },
+  {
+    unsortedHand: [ 'K', '7', '5', 'K', '5' ],
+    hand: [ 'K', 'K', '7', '5', '5' ],
+    handRank: 3,
+    bid: 403
+  },
+  {
+    unsortedHand: [ 'K', '9', '9', 'Q', 'Q' ],
+    hand: [ 'K', 'Q', 'Q', '9', '9' ],
+    handRank: 3,
+    bid: 181
+  },
+  {
+    unsortedHand: [ 'K', 'J', '4', 'J', 'K' ],
+    hand: [ 'K', 'K', 'J', 'J', '4' ],
+    handRank: 3,
+    bid: 827
+  },
+  {
+    unsortedHand: [ 'K', 'Q', '6', 'Q', '6' ],
+    hand: [ 'K', 'Q', 'Q', '6', '6' ],
+    handRank: 3,
+    bid: 733
+  },
+  {
+    unsortedHand: [ 'K', 'K', '9', 'A', 'A' ],
+    hand: [ 'A', 'A', 'K', 'K', '9' ],
+    handRank: 3,
+    bid: 809
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'Q', 'J', 'Q' ],
+    hand: [ 'K', 'K', 'Q', 'Q', 'J' ],
+    handRank: 3,
+    bid: 285
+  },
+  {
+    unsortedHand: [ 'A', '2', '2', '8', '8' ],
+    hand: [ 'A', '8', '8', '2', '2' ],
+    handRank: 3,
+    bid: 745
+  },
+  {
+    unsortedHand: [ 'A', '3', '5', '5', 'A' ],
+    hand: [ 'A', 'A', '5', '5', '3' ],
+    handRank: 3,
+    bid: 649
+  },
+  {
+    unsortedHand: [ 'A', '3', 'Q', '3', 'A' ],
+    hand: [ 'A', 'A', 'Q', '3', '3' ],
+    handRank: 3,
+    bid: 885
+  },
+  {
+    unsortedHand: [ 'A', '4', 'K', 'A', 'K' ],
+    hand: [ 'A', 'A', 'K', 'K', '4' ],
+    handRank: 3,
+    bid: 755
+  },
+  {
+    unsortedHand: [ 'A', '7', '7', '9', '9' ],
+    hand: [ 'A', '9', '9', '7', '7' ],
+    handRank: 3,
+    bid: 27
+  },
+  {
+    unsortedHand: [ 'A', '9', 'A', '5', '9' ],
+    hand: [ 'A', 'A', '9', '9', '5' ],
+    handRank: 3,
+    bid: 706
+  },
+  {
+    unsortedHand: [ 'A', 'T', 'T', '8', 'A' ],
+    hand: [ 'A', 'A', 'T', 'T', '8' ],
+    handRank: 3,
+    bid: 69
+  },
+  {
+    unsortedHand: [ 'A', 'T', 'T', '9', 'A' ],
+    hand: [ 'A', 'A', 'T', 'T', '9' ],
+    handRank: 3,
+    bid: 340
+  },
+  {
+    unsortedHand: [ 'A', 'A', '6', '4', '4' ],
+    hand: [ 'A', 'A', '6', '4', '4' ],
+    handRank: 3,
+    bid: 634
+  },
+  {
+    unsortedHand: [ 'A', 'A', 'T', 'J', 'T' ],
+    hand: [ 'A', 'A', 'J', 'T', 'T' ],
+    handRank: 3,
+    bid: 65
+  },
+  {
+    unsortedHand: [ '2', '2', '2', 'A', '3' ],
+    hand: [ 'A', '3', '2', '2', '2' ],
+    handRank: 4,
+    bid: 428
+  },
+  {
+    unsortedHand: [ '2', '2', '3', '2', '5' ],
+    hand: [ '5', '3', '2', '2', '2' ],
+    handRank: 4,
+    bid: 109
+  },
+  {
+    unsortedHand: [ '2', '2', '7', 'J', '2' ],
+    hand: [ 'J', '7', '2', '2', '2' ],
+    handRank: 4,
+    bid: 488
+  },
+  {
+    unsortedHand: [ '2', '2', 'J', '5', '2' ],
+    hand: [ 'J', '5', '2', '2', '2' ],
+    handRank: 4,
+    bid: 577
+  },
+  {
+    unsortedHand: [ '2', '2', 'A', '2', '8' ],
+    hand: [ 'A', '8', '2', '2', '2' ],
+    handRank: 4,
+    bid: 223
+  },
+  {
+    unsortedHand: [ '2', '3', '2', '7', '2' ],
+    hand: [ '7', '3', '2', '2', '2' ],
+    handRank: 4,
+    bid: 408
+  },
+  {
+    unsortedHand: [ '2', '6', '6', 'Q', '6' ],
+    hand: [ 'Q', '6', '6', '6', '2' ],
+    handRank: 4,
+    bid: 367
+  },
+  {
+    unsortedHand: [ '2', '7', '2', '5', '2' ],
+    hand: [ '7', '5', '2', '2', '2' ],
+    handRank: 4,
+    bid: 663
+  },
+  {
+    unsortedHand: [ '2', '8', '8', '8', '6' ],
+    hand: [ '8', '8', '8', '6', '2' ],
+    handRank: 4,
+    bid: 810
+  },
+  {
+    unsortedHand: [ '2', '8', '8', '8', 'J' ],
+    hand: [ 'J', '8', '8', '8', '2' ],
+    handRank: 4,
+    bid: 908
+  },
+  {
+    unsortedHand: [ '2', '8', '8', 'A', '8' ],
+    hand: [ 'A', '8', '8', '8', '2' ],
+    handRank: 4,
+    bid: 593
+  },
+  {
+    unsortedHand: [ '2', '8', 'Q', '2', '2' ],
+    hand: [ 'Q', '8', '2', '2', '2' ],
+    handRank: 4,
+    bid: 517
+  },
+  {
+    unsortedHand: [ '2', 'T', 'T', 'J', 'T' ],
+    hand: [ 'J', 'T', 'T', 'T', '2' ],
+    handRank: 4,
+    bid: 684
+  },
+  {
+    unsortedHand: [ '2', 'J', 'A', '2', '2' ],
+    hand: [ 'A', 'J', '2', '2', '2' ],
+    handRank: 4,
+    bid: 224
+  },
+  {
+    unsortedHand: [ '2', 'Q', '2', '2', '4' ],
+    hand: [ 'Q', '4', '2', '2', '2' ],
+    handRank: 4,
+    bid: 278
+  },
+  {
+    unsortedHand: [ '2', 'K', '2', '2', 'Q' ],
+    hand: [ 'K', 'Q', '2', '2', '2' ],
+    handRank: 4,
+    bid: 145
+  },
+  {
+    unsortedHand: [ '2', 'K', 'K', 'K', '5' ],
+    hand: [ 'K', 'K', 'K', '5', '2' ],
+    handRank: 4,
+    bid: 352
+  },
+  {
+    unsortedHand: [ '3', '3', '3', 'J', '8' ],
+    hand: [ 'J', '8', '3', '3', '3' ],
+    handRank: 4,
+    bid: 803
+  },
+  {
+    unsortedHand: [ '3', '3', '3', 'J', 'A' ],
+    hand: [ 'A', 'J', '3', '3', '3' ],
+    handRank: 4,
+    bid: 700
+  },
+  {
+    unsortedHand: [ '3', '3', '4', '5', '3' ],
+    hand: [ '5', '4', '3', '3', '3' ],
+    handRank: 4,
+    bid: 96
+  },
+  {
+    unsortedHand: [ '3', '3', '9', '3', '4' ],
+    hand: [ '9', '4', '3', '3', '3' ],
+    handRank: 4,
+    bid: 333
+  },
+  {
+    unsortedHand: [ '3', '3', 'J', '3', '2' ],
+    hand: [ 'J', '3', '3', '3', '2' ],
+    handRank: 4,
+    bid: 982
+  },
+  {
+    unsortedHand: [ '3', '7', '3', '3', '5' ],
+    hand: [ '7', '5', '3', '3', '3' ],
+    handRank: 4,
+    bid: 675
+  },
+  {
+    unsortedHand: [ '3', '7', 'Q', '3', '3' ],
+    hand: [ 'Q', '7', '3', '3', '3' ],
+    handRank: 4,
+    bid: 554
+  },
+  {
+    unsortedHand: [ '3', '9', '6', '6', '6' ],
+    hand: [ '9', '6', '6', '6', '3' ],
+    handRank: 4,
+    bid: 4
+  },
+  {
+    unsortedHand: [ '3', 'T', '3', '3', '8' ],
+    hand: [ 'T', '8', '3', '3', '3' ],
+    handRank: 4,
+    bid: 151
+  },
+  {
+    unsortedHand: [ '3', 'J', '3', '5', '3' ],
+    hand: [ 'J', '5', '3', '3', '3' ],
+    handRank: 4,
+    bid: 643
+  },
+  {
+    unsortedHand: [ '3', 'Q', 'Q', 'Q', 'J' ],
+    hand: [ 'Q', 'Q', 'Q', 'J', '3' ],
+    handRank: 4,
+    bid: 188
+  },
+  {
+    unsortedHand: [ '3', 'K', '3', '3', '4' ],
+    hand: [ 'K', '4', '3', '3', '3' ],
+    handRank: 4,
+    bid: 935
+  },
+  {
+    unsortedHand: [ '3', 'A', '6', '3', '3' ],
+    hand: [ 'A', '6', '3', '3', '3' ],
+    handRank: 4,
+    bid: 218
+  },
+  {
+    unsortedHand: [ '4', '2', '4', '3', '4' ],
+    hand: [ '4', '4', '4', '3', '2' ],
+    handRank: 4,
+    bid: 585
+  },
+  {
+    unsortedHand: [ '4', '2', '4', '4', '9' ],
+    hand: [ '9', '4', '4', '4', '2' ],
+    handRank: 4,
+    bid: 790
+  },
+  {
+    unsortedHand: [ '4', '2', '8', '4', '4' ],
+    hand: [ '8', '4', '4', '4', '2' ],
+    handRank: 4,
+    bid: 76
+  },
+  {
+    unsortedHand: [ '4', '3', 'A', '4', '4' ],
+    hand: [ 'A', '4', '4', '4', '3' ],
+    handRank: 4,
+    bid: 58
+  },
+  {
+    unsortedHand: [ '4', '4', '4', 'T', '3' ],
+    hand: [ 'T', '4', '4', '4', '3' ],
+    handRank: 4,
+    bid: 393
+  },
+  {
+    unsortedHand: [ '4', '4', '6', '3', '4' ],
+    hand: [ '6', '4', '4', '4', '3' ],
+    handRank: 4,
+    bid: 249
+  },
+  {
+    unsortedHand: [ '4', '4', '8', '6', '4' ],
+    hand: [ '8', '6', '4', '4', '4' ],
+    handRank: 4,
+    bid: 820
+  },
+  {
+    unsortedHand: [ '4', '4', 'Q', 'T', '4' ],
+    hand: [ 'Q', 'T', '4', '4', '4' ],
+    handRank: 4,
+    bid: 713
+  },
+  {
+    unsortedHand: [ '4', '4', 'K', '4', '8' ],
+    hand: [ 'K', '8', '4', '4', '4' ],
+    handRank: 4,
+    bid: 406
+  },
+  {
+    unsortedHand: [ '4', '6', '6', '2', '6' ],
+    hand: [ '6', '6', '6', '4', '2' ],
+    handRank: 4,
+    bid: 47
+  },
+  {
+    unsortedHand: [ '4', '6', 'J', '4', '4' ],
+    hand: [ 'J', '6', '4', '4', '4' ],
+    handRank: 4,
+    bid: 773
+  },
+  {
+    unsortedHand: [ '4', '7', 'A', '4', '4' ],
+    hand: [ 'A', '7', '4', '4', '4' ],
+    handRank: 4,
+    bid: 812
+  },
+  {
+    unsortedHand: [ '4', '8', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', '8', '4' ],
+    handRank: 4,
+    bid: 260
+  },
+  {
+    unsortedHand: [ '4', '9', '3', '9', '9' ],
+    hand: [ '9', '9', '9', '4', '3' ],
+    handRank: 4,
+    bid: 112
+  },
+  {
+    unsortedHand: [ '4', '9', '4', 'J', '4' ],
+    hand: [ 'J', '9', '4', '4', '4' ],
+    handRank: 4,
+    bid: 561
+  },
+  {
+    unsortedHand: [ '4', '9', '9', '9', 'Q' ],
+    hand: [ 'Q', '9', '9', '9', '4' ],
+    handRank: 4,
+    bid: 575
+  },
+  {
+    unsortedHand: [ '4', 'A', '2', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', '4', '2' ],
+    handRank: 4,
+    bid: 814
+  },
+  {
+    unsortedHand: [ '5', '5', '6', 'Q', '5' ],
+    hand: [ 'Q', '6', '5', '5', '5' ],
+    handRank: 4,
+    bid: 431
+  },
+  {
+    unsortedHand: [ '5', 'J', '5', '5', 'T' ],
+    hand: [ 'J', 'T', '5', '5', '5' ],
+    handRank: 4,
+    bid: 301
+  },
+  {
+    unsortedHand: [ '5', 'J', 'A', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'J', '5' ],
+    handRank: 4,
+    bid: 356
+  },
+  {
+    unsortedHand: [ '5', 'A', '5', 'T', '5' ],
+    hand: [ 'A', 'T', '5', '5', '5' ],
+    handRank: 4,
+    bid: 884
+  },
+  {
+    unsortedHand: [ '6', '3', '2', '2', '2' ],
+    hand: [ '6', '3', '2', '2', '2' ],
+    handRank: 4,
+    bid: 776
+  },
+  {
+    unsortedHand: [ '6', '4', '9', '9', '9' ],
+    hand: [ '9', '9', '9', '6', '4' ],
+    handRank: 4,
+    bid: 460
+  },
+  {
+    unsortedHand: [ '6', '5', 'T', 'T', 'T' ],
+    hand: [ 'T', 'T', 'T', '6', '5' ],
+    handRank: 4,
+    bid: 572
+  },
+  {
+    unsortedHand: [ '6', '6', '3', 'K', '6' ],
+    hand: [ 'K', '6', '6', '6', '3' ],
+    handRank: 4,
+    bid: 789
+  },
+  {
+    unsortedHand: [ '6', '6', '5', '6', '9' ],
+    hand: [ '9', '6', '6', '6', '5' ],
+    handRank: 4,
+    bid: 232
+  },
+  {
+    unsortedHand: [ '6', '6', '6', '5', 'J' ],
+    hand: [ 'J', '6', '6', '6', '5' ],
+    handRank: 4,
+    bid: 70
+  },
+  {
+    unsortedHand: [ '6', '6', '6', 'J', '8' ],
+    hand: [ 'J', '8', '6', '6', '6' ],
+    handRank: 4,
+    bid: 735
+  },
+  {
+    unsortedHand: [ '6', '6', '6', 'J', 'T' ],
+    hand: [ 'J', 'T', '6', '6', '6' ],
+    handRank: 4,
+    bid: 472
+  },
+  {
+    unsortedHand: [ '6', '6', '6', 'J', 'K' ],
+    hand: [ 'K', 'J', '6', '6', '6' ],
+    handRank: 4,
+    bid: 726
+  },
+  {
+    unsortedHand: [ '6', '6', '9', '7', '6' ],
+    hand: [ '9', '7', '6', '6', '6' ],
+    handRank: 4,
+    bid: 595
+  },
+  {
+    unsortedHand: [ '6', '8', 'T', '8', '8' ],
+    hand: [ 'T', '8', '8', '8', '6' ],
+    handRank: 4,
+    bid: 759
+  },
+  {
+    unsortedHand: [ '6', '9', '6', '6', '4' ],
+    hand: [ '9', '6', '6', '6', '4' ],
+    handRank: 4,
+    bid: 839
+  },
+  {
+    unsortedHand: [ '6', '9', '6', '6', '8' ],
+    hand: [ '9', '8', '6', '6', '6' ],
+    handRank: 4,
+    bid: 893
+  },
+  {
+    unsortedHand: [ '6', '9', '9', '5', '9' ],
+    hand: [ '9', '9', '9', '6', '5' ],
+    handRank: 4,
+    bid: 997
+  },
+  {
+    unsortedHand: [ '6', 'J', '2', '2', '2' ],
+    hand: [ 'J', '6', '2', '2', '2' ],
+    handRank: 4,
+    bid: 545
+  },
+  {
+    unsortedHand: [ '6', 'Q', '5', '6', '6' ],
+    hand: [ 'Q', '6', '6', '6', '5' ],
+    handRank: 4,
+    bid: 494
+  },
+  {
+    unsortedHand: [ '6', 'K', '6', '6', '8' ],
+    hand: [ 'K', '8', '6', '6', '6' ],
+    handRank: 4,
+    bid: 207
+  },
+  {
+    unsortedHand: [ '7', '2', '7', 'A', '7' ],
+    hand: [ 'A', '7', '7', '7', '2' ],
+    handRank: 4,
+    bid: 775
+  },
+  {
+    unsortedHand: [ '7', '5', '5', '5', '9' ],
+    hand: [ '9', '7', '5', '5', '5' ],
+    handRank: 4,
+    bid: 582
+  },
+  {
+    unsortedHand: [ '7', '5', '7', '7', '9' ],
+    hand: [ '9', '7', '7', '7', '5' ],
+    handRank: 4,
+    bid: 959
+  },
+  {
+    unsortedHand: [ '7', '6', '7', '8', '7' ],
+    hand: [ '8', '7', '7', '7', '6' ],
+    handRank: 4,
+    bid: 158
+  },
+  {
+    unsortedHand: [ '7', '6', 'Q', '7', '7' ],
+    hand: [ 'Q', '7', '7', '7', '6' ],
+    handRank: 4,
+    bid: 971
+  },
+  {
+    unsortedHand: [ '7', '7', '7', '9', '2' ],
+    hand: [ '9', '7', '7', '7', '2' ],
+    handRank: 4,
+    bid: 51
+  },
+  {
+    unsortedHand: [ '7', '7', '7', '9', '3' ],
+    hand: [ '9', '7', '7', '7', '3' ],
+    handRank: 4,
+    bid: 660
+  },
+  {
+    unsortedHand: [ '7', '7', '7', 'K', 'A' ],
+    hand: [ 'A', 'K', '7', '7', '7' ],
+    handRank: 4,
+    bid: 470
+  },
+  {
+    unsortedHand: [ '7', '7', '8', '2', '7' ],
+    hand: [ '8', '7', '7', '7', '2' ],
+    handRank: 4,
+    bid: 106
+  },
+  {
+    unsortedHand: [ '7', 'T', 'A', 'T', 'T' ],
+    hand: [ 'A', 'T', 'T', 'T', '7' ],
+    handRank: 4,
+    bid: 513
+  },
+  {
+    unsortedHand: [ '7', 'J', '7', 'T', '7' ],
+    hand: [ 'J', 'T', '7', '7', '7' ],
+    handRank: 4,
+    bid: 667
+  },
+  {
+    unsortedHand: [ '7', 'Q', '5', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', '7', '5' ],
+    handRank: 4,
+    bid: 302
+  },
+  {
+    unsortedHand: [ '7', 'Q', 'A', '7', '7' ],
+    hand: [ 'A', 'Q', '7', '7', '7' ],
+    handRank: 4,
+    bid: 586
+  },
+  {
+    unsortedHand: [ '7', 'K', 'K', 'K', '2' ],
+    hand: [ 'K', 'K', 'K', '7', '2' ],
+    handRank: 4,
+    bid: 822
+  },
+  {
+    unsortedHand: [ '7', 'K', 'K', 'K', 'A' ],
+    hand: [ 'A', 'K', 'K', 'K', '7' ],
+    handRank: 4,
+    bid: 868
+  },
+  {
+    unsortedHand: [ '8', '2', '8', '7', '8' ],
+    hand: [ '8', '8', '8', '7', '2' ],
+    handRank: 4,
+    bid: 972
+  },
+  {
+    unsortedHand: [ '8', '3', '8', '8', 'Q' ],
+    hand: [ 'Q', '8', '8', '8', '3' ],
+    handRank: 4,
+    bid: 551
+  },
+  {
+    unsortedHand: [ '8', '3', 'Q', '3', '3' ],
+    hand: [ 'Q', '8', '3', '3', '3' ],
+    handRank: 4,
+    bid: 13
+  },
+  {
+    unsortedHand: [ '8', '6', '6', '6', '7' ],
+    hand: [ '8', '7', '6', '6', '6' ],
+    handRank: 4,
+    bid: 178
+  },
+  {
+    unsortedHand: [ '8', '6', '8', '3', '8' ],
+    hand: [ '8', '8', '8', '6', '3' ],
+    handRank: 4,
+    bid: 525
+  },
+  {
+    unsortedHand: [ '8', '8', '3', 'T', '8' ],
+    hand: [ 'T', '8', '8', '8', '3' ],
+    handRank: 4,
+    bid: 62
+  },
+  {
+    unsortedHand: [ '8', '8', 'J', '8', 'Q' ],
+    hand: [ 'Q', 'J', '8', '8', '8' ],
+    handRank: 4,
+    bid: 93
+  },
+  {
+    unsortedHand: [ '8', '8', 'K', '4', '8' ],
+    hand: [ 'K', '8', '8', '8', '4' ],
+    handRank: 4,
+    bid: 424
+  },
+  {
+    unsortedHand: [ '8', '8', 'A', '4', '8' ],
+    hand: [ 'A', '8', '8', '8', '4' ],
+    handRank: 4,
+    bid: 235
+  },
+  {
+    unsortedHand: [ '8', '9', 'Q', '8', '8' ],
+    hand: [ 'Q', '9', '8', '8', '8' ],
+    handRank: 4,
+    bid: 768
+  },
+  {
+    unsortedHand: [ '8', 'Q', 'Q', 'Q', 'J' ],
+    hand: [ 'Q', 'Q', 'Q', 'J', '8' ],
+    handRank: 4,
+    bid: 743
+  },
+  {
+    unsortedHand: [ '8', 'A', '8', '8', 'K' ],
+    hand: [ 'A', 'K', '8', '8', '8' ],
+    handRank: 4,
+    bid: 444
+  },
+  {
+    unsortedHand: [ '9', '2', '2', '2', '6' ],
+    hand: [ '9', '6', '2', '2', '2' ],
+    handRank: 4,
+    bid: 705
+  },
+  {
+    unsortedHand: [ '9', '2', '6', '6', '6' ],
+    hand: [ '9', '6', '6', '6', '2' ],
+    handRank: 4,
+    bid: 54
+  },
+  {
+    unsortedHand: [ '9', '3', 'A', '3', '3' ],
+    hand: [ 'A', '9', '3', '3', '3' ],
+    handRank: 4,
+    bid: 413
+  },
+  {
+    unsortedHand: [ '9', '6', '6', '6', 'Q' ],
+    hand: [ 'Q', '9', '6', '6', '6' ],
+    handRank: 4,
+    bid: 996
+  },
+  {
+    unsortedHand: [ '9', '9', '2', '9', 'J' ],
+    hand: [ 'J', '9', '9', '9', '2' ],
+    handRank: 4,
+    bid: 364
+  },
+  {
+    unsortedHand: [ '9', '9', '9', '6', '3' ],
+    hand: [ '9', '9', '9', '6', '3' ],
+    handRank: 4,
+    bid: 294
+  },
+  {
+    unsortedHand: [ '9', 'J', '9', '5', '9' ],
+    hand: [ 'J', '9', '9', '9', '5' ],
+    handRank: 4,
+    bid: 475
+  },
+  {
+    unsortedHand: [ '9', 'Q', '2', '2', '2' ],
+    hand: [ 'Q', '9', '2', '2', '2' ],
+    handRank: 4,
+    bid: 201
+  },
+  {
+    unsortedHand: [ '9', 'Q', '9', '5', '9' ],
+    hand: [ 'Q', '9', '9', '9', '5' ],
+    handRank: 4,
+    bid: 610
+  },
+  {
+    unsortedHand: [ '9', 'K', 'K', 'J', 'K' ],
+    hand: [ 'K', 'K', 'K', 'J', '9' ],
+    handRank: 4,
+    bid: 220
+  },
+  {
+    unsortedHand: [ '9', 'K', 'A', '9', '9' ],
+    hand: [ 'A', 'K', '9', '9', '9' ],
+    handRank: 4,
+    bid: 964
+  },
+  {
+    unsortedHand: [ 'T', '2', 'T', 'T', '4' ],
+    hand: [ 'T', 'T', 'T', '4', '2' ],
+    handRank: 4,
+    bid: 398
+  },
+  {
+    unsortedHand: [ 'T', '3', 'T', 'T', 'A' ],
+    hand: [ 'A', 'T', 'T', 'T', '3' ],
+    handRank: 4,
+    bid: 445
+  },
+  {
+    unsortedHand: [ 'T', '3', 'A', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'T', '3' ],
+    handRank: 4,
+    bid: 177
+  },
+  {
+    unsortedHand: [ 'T', '5', '4', '5', '5' ],
+    hand: [ 'T', '5', '5', '5', '4' ],
+    handRank: 4,
+    bid: 462
+  },
+  {
+    unsortedHand: [ 'T', '6', '6', '3', '6' ],
+    hand: [ 'T', '6', '6', '6', '3' ],
+    handRank: 4,
+    bid: 704
+  },
+  {
+    unsortedHand: [ 'T', '8', 'T', 'J', 'T' ],
+    hand: [ 'J', 'T', 'T', 'T', '8' ],
+    handRank: 4,
+    bid: 187
+  },
+  {
+    unsortedHand: [ 'T', '9', 'T', 'T', '4' ],
+    hand: [ 'T', 'T', 'T', '9', '4' ],
+    handRank: 4,
+    bid: 580
+  },
+  {
+    unsortedHand: [ 'T', 'T', '6', 'A', 'T' ],
+    hand: [ 'A', 'T', 'T', 'T', '6' ],
+    handRank: 4,
+    bid: 87
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'T', '9', '8' ],
+    hand: [ 'T', 'T', 'T', '9', '8' ],
+    handRank: 4,
+    bid: 686
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'T', 'K', '9' ],
+    hand: [ 'K', 'T', 'T', 'T', '9' ],
+    handRank: 4,
+    bid: 147
+  },
+  {
+    unsortedHand: [ 'T', 'J', 'T', 'T', '3' ],
+    hand: [ 'J', 'T', 'T', 'T', '3' ],
+    handRank: 4,
+    bid: 229
+  },
+  {
+    unsortedHand: [ 'T', 'K', 'J', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', 'J', 'T' ],
+    handRank: 4,
+    bid: 801
+  },
+  {
+    unsortedHand: [ 'T', 'K', 'K', '6', 'K' ],
+    hand: [ 'K', 'K', 'K', 'T', '6' ],
+    handRank: 4,
+    bid: 265
+  },
+  {
+    unsortedHand: [ 'T', 'K', 'K', 'K', '3' ],
+    hand: [ 'K', 'K', 'K', 'T', '3' ],
+    handRank: 4,
+    bid: 131
+  },
+  {
+    unsortedHand: [ 'T', 'K', 'A', 'T', 'T' ],
+    hand: [ 'A', 'K', 'T', 'T', 'T' ],
+    handRank: 4,
+    bid: 728
+  },
+  {
+    unsortedHand: [ 'J', '2', '2', '2', '8' ],
+    hand: [ 'J', '8', '2', '2', '2' ],
+    handRank: 4,
+    bid: 504
+  },
+  {
+    unsortedHand: [ 'J', '2', '2', 'T', '2' ],
+    hand: [ 'J', 'T', '2', '2', '2' ],
+    handRank: 4,
+    bid: 573
+  },
+  {
+    unsortedHand: [ 'J', '3', '3', '3', 'T' ],
+    hand: [ 'J', 'T', '3', '3', '3' ],
+    handRank: 4,
+    bid: 162
+  },
+  {
+    unsortedHand: [ 'J', '3', '6', '6', '6' ],
+    hand: [ 'J', '6', '6', '6', '3' ],
+    handRank: 4,
+    bid: 370
+  },
+  {
+    unsortedHand: [ 'J', '4', 'K', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', 'J', '4' ],
+    handRank: 4,
+    bid: 137
+  },
+  {
+    unsortedHand: [ 'J', '5', '5', '6', '5' ],
+    hand: [ 'J', '6', '5', '5', '5' ],
+    handRank: 4,
+    bid: 45
+  },
+  {
+    unsortedHand: [ 'J', '5', '5', '7', '5' ],
+    hand: [ 'J', '7', '5', '5', '5' ],
+    handRank: 4,
+    bid: 834
+  },
+  {
+    unsortedHand: [ 'J', '6', '2', '6', '6' ],
+    hand: [ 'J', '6', '6', '6', '2' ],
+    handRank: 4,
+    bid: 305
+  },
+  {
+    unsortedHand: [ 'J', '6', '6', '6', '9' ],
+    hand: [ 'J', '9', '6', '6', '6' ],
+    handRank: 4,
+    bid: 952
+  },
+  {
+    unsortedHand: [ 'J', '8', '8', '3', '8' ],
+    hand: [ 'J', '8', '8', '8', '3' ],
+    handRank: 4,
+    bid: 387
+  },
+  {
+    unsortedHand: [ 'J', '9', '3', '3', '3' ],
+    hand: [ 'J', '9', '3', '3', '3' ],
+    handRank: 4,
+    bid: 157
+  },
+  {
+    unsortedHand: [ 'J', '9', '9', 'A', '9' ],
+    hand: [ 'A', 'J', '9', '9', '9' ],
+    handRank: 4,
+    bid: 923
+  },
+  {
+    unsortedHand: [ 'J', 'T', 'A', 'T', 'T' ],
+    hand: [ 'A', 'J', 'T', 'T', 'T' ],
+    handRank: 4,
+    bid: 480
+  },
+  {
+    unsortedHand: [ 'J', 'Q', '7', '7', '7' ],
+    hand: [ 'Q', 'J', '7', '7', '7' ],
+    handRank: 4,
+    bid: 930
+  },
+  {
+    unsortedHand: [ 'Q', '2', '2', 'J', '2' ],
+    hand: [ 'Q', 'J', '2', '2', '2' ],
+    handRank: 4,
+    bid: 840
+  },
+  {
+    unsortedHand: [ 'Q', '3', '3', '9', '3' ],
+    hand: [ 'Q', '9', '3', '3', '3' ],
+    handRank: 4,
+    bid: 208
+  },
+  {
+    unsortedHand: [ 'Q', '4', '4', '4', 'J' ],
+    hand: [ 'Q', 'J', '4', '4', '4' ],
+    handRank: 4,
+    bid: 909
+  },
+  {
+    unsortedHand: [ 'Q', '5', '9', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', '9', '5' ],
+    handRank: 4,
+    bid: 862
+  },
+  {
+    unsortedHand: [ 'Q', '6', '2', '2', '2' ],
+    hand: [ 'Q', '6', '2', '2', '2' ],
+    handRank: 4,
+    bid: 848
+  },
+  {
+    unsortedHand: [ 'Q', '6', '4', '4', '4' ],
+    hand: [ 'Q', '6', '4', '4', '4' ],
+    handRank: 4,
+    bid: 189
+  },
+  {
+    unsortedHand: [ 'Q', '7', '5', '7', '7' ],
+    hand: [ 'Q', '7', '7', '7', '5' ],
+    handRank: 4,
+    bid: 552
+  },
+  {
+    unsortedHand: [ 'Q', '7', 'J', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'J', '7' ],
+    handRank: 4,
+    bid: 350
+  },
+  {
+    unsortedHand: [ 'Q', '9', '9', '3', '9' ],
+    hand: [ 'Q', '9', '9', '9', '3' ],
+    handRank: 4,
+    bid: 777
+  },
+  {
+    unsortedHand: [ 'Q', 'T', '8', '8', '8' ],
+    hand: [ 'Q', 'T', '8', '8', '8' ],
+    handRank: 4,
+    bid: 405
+  },
+  {
+    unsortedHand: [ 'Q', 'J', 'J', 'J', 'T' ],
+    hand: [ 'Q', 'J', 'J', 'J', 'T' ],
+    handRank: 4,
+    bid: 860
+  },
+  {
+    unsortedHand: [ 'Q', 'J', 'Q', '4', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'J', '4' ],
+    handRank: 4,
+    bid: 819
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', '2', 'Q', '7' ],
+    hand: [ 'Q', 'Q', 'Q', '7', '2' ],
+    handRank: 4,
+    bid: 328
+  },
+  {
+    unsortedHand: [ 'Q', 'A', '9', 'Q', 'Q' ],
+    hand: [ 'A', 'Q', 'Q', 'Q', '9' ],
+    handRank: 4,
+    bid: 645
+  },
+  {
+    unsortedHand: [ 'Q', 'A', 'Q', 'Q', 'K' ],
+    hand: [ 'A', 'K', 'Q', 'Q', 'Q' ],
+    handRank: 4,
+    bid: 936
+  },
+  {
+    unsortedHand: [ 'K', '2', '2', 'J', '2' ],
+    hand: [ 'K', 'J', '2', '2', '2' ],
+    handRank: 4,
+    bid: 238
+  },
+  {
+    unsortedHand: [ 'K', '7', '7', 'T', '7' ],
+    hand: [ 'K', 'T', '7', '7', '7' ],
+    handRank: 4,
+    bid: 141
+  },
+  {
+    unsortedHand: [ 'K', '7', 'T', 'T', 'T' ],
+    hand: [ 'K', 'T', 'T', 'T', '7' ],
+    handRank: 4,
+    bid: 337
+  },
+  {
+    unsortedHand: [ 'K', '8', '8', '8', '5' ],
+    hand: [ 'K', '8', '8', '8', '5' ],
+    handRank: 4,
+    bid: 767
+  },
+  {
+    unsortedHand: [ 'K', '8', 'K', 'K', 'A' ],
+    hand: [ 'A', 'K', 'K', 'K', '8' ],
+    handRank: 4,
+    bid: 604
+  },
+  {
+    unsortedHand: [ 'K', '9', '5', '9', '9' ],
+    hand: [ 'K', '9', '9', '9', '5' ],
+    handRank: 4,
+    bid: 99
+  },
+  {
+    unsortedHand: [ 'K', '9', 'J', '9', '9' ],
+    hand: [ 'K', 'J', '9', '9', '9' ],
+    handRank: 4,
+    bid: 989
+  },
+  {
+    unsortedHand: [ 'K', 'J', 'K', '6', 'K' ],
+    hand: [ 'K', 'K', 'K', 'J', '6' ],
+    handRank: 4,
+    bid: 283
+  },
+  {
+    unsortedHand: [ 'K', 'Q', 'K', 'A', 'K' ],
+    hand: [ 'A', 'K', 'K', 'K', 'Q' ],
+    handRank: 4,
+    bid: 781
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'K', '2', '9' ],
+    hand: [ 'K', 'K', 'K', '9', '2' ],
+    handRank: 4,
+    bid: 427
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'A', '9', 'K' ],
+    hand: [ 'A', 'K', 'K', 'K', '9' ],
+    handRank: 4,
+    bid: 968
+  },
+  {
+    unsortedHand: [ 'K', 'A', 'K', '4', 'K' ],
+    hand: [ 'A', 'K', 'K', 'K', '4' ],
+    handRank: 4,
+    bid: 253
+  },
+  {
+    unsortedHand: [ 'A', '2', 'K', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'K', '2' ],
+    handRank: 4,
+    bid: 390
+  },
+  {
+    unsortedHand: [ 'A', '5', '9', '9', '9' ],
+    hand: [ 'A', '9', '9', '9', '5' ],
+    handRank: 4,
+    bid: 630
+  },
+  {
+    unsortedHand: [ 'A', '9', '2', '9', '9' ],
+    hand: [ 'A', '9', '9', '9', '2' ],
+    handRank: 4,
+    bid: 272
+  },
+  {
+    unsortedHand: [ 'A', 'T', '2', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'T', '2' ],
+    handRank: 4,
+    bid: 63
+  },
+  {
+    unsortedHand: [ 'A', 'T', 'A', '6', 'A' ],
+    hand: [ 'A', 'A', 'A', 'T', '6' ],
+    handRank: 4,
+    bid: 376
+  },
+  {
+    unsortedHand: [ 'A', 'T', 'A', 'A', '8' ],
+    hand: [ 'A', 'A', 'A', 'T', '8' ],
+    handRank: 4,
+    bid: 943
+  },
+  {
+    unsortedHand: [ 'A', 'J', '5', '5', '5' ],
+    hand: [ 'A', 'J', '5', '5', '5' ],
+    handRank: 4,
+    bid: 447
+  },
+  {
+    unsortedHand: [ 'A', 'J', 'A', 'A', '6' ],
+    hand: [ 'A', 'A', 'A', 'J', '6' ],
+    handRank: 4,
+    bid: 498
+  },
+  {
+    unsortedHand: [ 'A', 'Q', 'Q', 'Q', '7' ],
+    hand: [ 'A', 'Q', 'Q', 'Q', '7' ],
+    handRank: 4,
+    bid: 116
+  },
+  {
+    unsortedHand: [ 'A', 'Q', 'Q', 'Q', '8' ],
+    hand: [ 'A', 'Q', 'Q', 'Q', '8' ],
+    handRank: 4,
+    bid: 423
+  },
+  {
+    unsortedHand: [ 'A', 'A', '2', '3', 'A' ],
+    hand: [ 'A', 'A', 'A', '3', '2' ],
+    handRank: 4,
+    bid: 690
+  },
+  {
+    unsortedHand: [ 'A', 'A', '3', '6', 'A' ],
+    hand: [ 'A', 'A', 'A', '6', '3' ],
+    handRank: 4,
+    bid: 227
+  },
+  {
+    unsortedHand: [ 'A', 'A', '3', 'A', 'Q' ],
+    hand: [ 'A', 'A', 'A', 'Q', '3' ],
+    handRank: 4,
+    bid: 104
+  },
+  {
+    unsortedHand: [ 'A', 'A', '4', 'A', 'Q' ],
+    hand: [ 'A', 'A', 'A', 'Q', '4' ],
+    handRank: 4,
+    bid: 139
+  },
+  {
+    unsortedHand: [ 'A', 'A', 'A', 'K', 'Q' ],
+    hand: [ 'A', 'A', 'A', 'K', 'Q' ],
+    handRank: 4,
+    bid: 383
+  },
+  {
+    unsortedHand: [ '2', '2', '2', '6', '6' ],
+    hand: [ '6', '6', '2', '2', '2' ],
+    handRank: 5,
+    bid: 297
+  },
+  {
+    unsortedHand: [ '2', '2', '5', '2', '5' ],
+    hand: [ '5', '5', '2', '2', '2' ],
+    handRank: 5,
+    bid: 601
+  },
+  {
+    unsortedHand: [ '2', '2', '7', '2', '7' ],
+    hand: [ '7', '7', '2', '2', '2' ],
+    handRank: 5,
+    bid: 287
+  },
+  {
+    unsortedHand: [ '2', '2', '9', '9', '9' ],
+    hand: [ '9', '9', '9', '2', '2' ],
+    handRank: 5,
+    bid: 375
+  },
+  {
+    unsortedHand: [ '2', '3', '3', '2', '2' ],
+    hand: [ '3', '3', '2', '2', '2' ],
+    handRank: 5,
+    bid: 341
+  },
+  {
+    unsortedHand: [ '2', '3', '3', '2', '3' ],
+    hand: [ '3', '3', '3', '2', '2' ],
+    handRank: 5,
+    bid: 308
+  },
+  {
+    unsortedHand: [ '2', '4', '2', '4', '4' ],
+    hand: [ '4', '4', '4', '2', '2' ],
+    handRank: 5,
+    bid: 107
+  },
+  {
+    unsortedHand: [ '2', '8', '2', '8', '8' ],
+    hand: [ '8', '8', '8', '2', '2' ],
+    handRank: 5,
+    bid: 198
+  },
+  {
+    unsortedHand: [ '2', 'T', '2', 'T', 'T' ],
+    hand: [ 'T', 'T', 'T', '2', '2' ],
+    handRank: 5,
+    bid: 57
+  },
+  {
+    unsortedHand: [ '2', 'J', '2', '2', 'J' ],
+    hand: [ 'J', 'J', '2', '2', '2' ],
+    handRank: 5,
+    bid: 250
+  },
+  {
+    unsortedHand: [ '3', '3', '9', '9', '3' ],
+    hand: [ '9', '9', '3', '3', '3' ],
+    handRank: 5,
+    bid: 626
+  },
+  {
+    unsortedHand: [ '3', '5', '3', '3', '5' ],
+    hand: [ '5', '5', '3', '3', '3' ],
+    handRank: 5,
+    bid: 854
+  },
+  {
+    unsortedHand: [ '3', '5', '5', '3', '5' ],
+    hand: [ '5', '5', '5', '3', '3' ],
+    handRank: 5,
+    bid: 793
+  },
+  {
+    unsortedHand: [ '3', '6', '3', '6', '3' ],
+    hand: [ '6', '6', '3', '3', '3' ],
+    handRank: 5,
+    bid: 282
+  },
+  {
+    unsortedHand: [ '3', '9', '9', '3', '9' ],
+    hand: [ '9', '9', '9', '3', '3' ],
+    handRank: 5,
+    bid: 277
+  },
+  {
+    unsortedHand: [ '3', 'J', '3', 'J', '3' ],
+    hand: [ 'J', 'J', '3', '3', '3' ],
+    handRank: 5,
+    bid: 890
+  },
+  {
+    unsortedHand: [ '3', 'Q', 'Q', '3', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', '3', '3' ],
+    handRank: 5,
+    bid: 346
+  },
+  {
+    unsortedHand: [ '4', '4', 'J', '4', 'J' ],
+    hand: [ 'J', 'J', '4', '4', '4' ],
+    handRank: 5,
+    bid: 672
+  },
+  {
+    unsortedHand: [ '4', '4', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', '4', '4' ],
+    handRank: 5,
+    bid: 101
+  },
+  {
+    unsortedHand: [ '4', '4', 'A', 'A', '4' ],
+    hand: [ 'A', 'A', '4', '4', '4' ],
+    handRank: 5,
+    bid: 167
+  },
+  {
+    unsortedHand: [ '4', '9', '9', '9', '4' ],
+    hand: [ '9', '9', '9', '4', '4' ],
+    handRank: 5,
+    bid: 397
+  },
+  {
+    unsortedHand: [ '5', '2', '2', '5', '5' ],
+    hand: [ '5', '5', '5', '2', '2' ],
+    handRank: 5,
+    bid: 230
+  },
+  {
+    unsortedHand: [ '5', '5', '8', '8', '8' ],
+    hand: [ '8', '8', '8', '5', '5' ],
+    handRank: 5,
+    bid: 371
+  },
+  {
+    unsortedHand: [ '5', '5', 'K', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', '5', '5' ],
+    handRank: 5,
+    bid: 433
+  },
+  {
+    unsortedHand: [ '5', '8', '5', '8', '5' ],
+    hand: [ '8', '8', '5', '5', '5' ],
+    handRank: 5,
+    bid: 714
+  },
+  {
+    unsortedHand: [ '5', 'T', 'T', '5', 'T' ],
+    hand: [ 'T', 'T', 'T', '5', '5' ],
+    handRank: 5,
+    bid: 668
+  },
+  {
+    unsortedHand: [ '5', 'J', '5', '5', 'J' ],
+    hand: [ 'J', 'J', '5', '5', '5' ],
+    handRank: 5,
+    bid: 853
+  },
+  {
+    unsortedHand: [ '6', '2', '2', '6', '6' ],
+    hand: [ '6', '6', '6', '2', '2' ],
+    handRank: 5,
+    bid: 553
+  },
+  {
+    unsortedHand: [ '6', '3', '6', '3', '6' ],
+    hand: [ '6', '6', '6', '3', '3' ],
+    handRank: 5,
+    bid: 568
+  },
+  {
+    unsortedHand: [ '6', '4', '4', '4', '6' ],
+    hand: [ '6', '6', '4', '4', '4' ],
+    handRank: 5,
+    bid: 94
+  },
+  {
+    unsortedHand: [ '6', '6', '5', '5', '6' ],
+    hand: [ '6', '6', '6', '5', '5' ],
+    handRank: 5,
+    bid: 590
+  },
+  {
+    unsortedHand: [ '6', '6', '8', '8', '8' ],
+    hand: [ '8', '8', '8', '6', '6' ],
+    handRank: 5,
+    bid: 920
+  },
+  {
+    unsortedHand: [ '6', '6', 'K', '6', 'K' ],
+    hand: [ 'K', 'K', '6', '6', '6' ],
+    handRank: 5,
+    bid: 323
+  },
+  {
+    unsortedHand: [ '6', '8', '8', '6', '6' ],
+    hand: [ '8', '8', '6', '6', '6' ],
+    handRank: 5,
+    bid: 524
+  },
+  {
+    unsortedHand: [ '6', '9', '9', '6', '6' ],
+    hand: [ '9', '9', '6', '6', '6' ],
+    handRank: 5,
+    bid: 252
+  },
+  {
+    unsortedHand: [ '6', 'T', '6', 'T', '6' ],
+    hand: [ 'T', 'T', '6', '6', '6' ],
+    handRank: 5,
+    bid: 638
+  },
+  {
+    unsortedHand: [ '6', 'T', '6', 'T', 'T' ],
+    hand: [ 'T', 'T', 'T', '6', '6' ],
+    handRank: 5,
+    bid: 203
+  },
+  {
+    unsortedHand: [ '6', 'Q', '6', 'Q', '6' ],
+    hand: [ 'Q', 'Q', '6', '6', '6' ],
+    handRank: 5,
+    bid: 609
+  },
+  {
+    unsortedHand: [ '6', 'A', 'A', '6', '6' ],
+    hand: [ 'A', 'A', '6', '6', '6' ],
+    handRank: 5,
+    bid: 627
+  },
+  {
+    unsortedHand: [ '7', '2', '2', '7', '7' ],
+    hand: [ '7', '7', '7', '2', '2' ],
+    handRank: 5,
+    bid: 650
+  },
+  {
+    unsortedHand: [ '7', '3', '3', '3', '7' ],
+    hand: [ '7', '7', '3', '3', '3' ],
+    handRank: 5,
+    bid: 75
+  },
+  {
+    unsortedHand: [ '7', '4', '7', '7', '4' ],
+    hand: [ '7', '7', '7', '4', '4' ],
+    handRank: 5,
+    bid: 708
+  },
+  {
+    unsortedHand: [ '7', '5', '5', '7', '5' ],
+    hand: [ '7', '7', '5', '5', '5' ],
+    handRank: 5,
+    bid: 658
+  },
+  {
+    unsortedHand: [ '7', '5', '5', '7', '7' ],
+    hand: [ '7', '7', '7', '5', '5' ],
+    handRank: 5,
+    bid: 774
+  },
+  {
+    unsortedHand: [ '7', '7', '3', '3', '7' ],
+    hand: [ '7', '7', '7', '3', '3' ],
+    handRank: 5,
+    bid: 858
+  },
+  {
+    unsortedHand: [ '7', '7', '7', 'J', 'J' ],
+    hand: [ 'J', 'J', '7', '7', '7' ],
+    handRank: 5,
+    bid: 787
+  },
+  {
+    unsortedHand: [ '7', '7', '9', '9', '7' ],
+    hand: [ '9', '9', '7', '7', '7' ],
+    handRank: 5,
+    bid: 239
+  },
+  {
+    unsortedHand: [ '7', '9', '7', '9', '9' ],
+    hand: [ '9', '9', '9', '7', '7' ],
+    handRank: 5,
+    bid: 439
+  },
+  {
+    unsortedHand: [ '7', 'Q', 'Q', 'Q', '7' ],
+    hand: [ 'Q', 'Q', 'Q', '7', '7' ],
+    handRank: 5,
+    bid: 804
+  },
+  {
+    unsortedHand: [ '8', '2', '2', '2', '8' ],
+    hand: [ '8', '8', '2', '2', '2' ],
+    handRank: 5,
+    bid: 757
+  },
+  {
+    unsortedHand: [ '8', '7', '7', '8', '8' ],
+    hand: [ '8', '8', '8', '7', '7' ],
+    handRank: 5,
+    bid: 451
+  },
+  {
+    unsortedHand: [ '8', '8', '3', '3', '3' ],
+    hand: [ '8', '8', '3', '3', '3' ],
+    handRank: 5,
+    bid: 950
+  },
+  {
+    unsortedHand: [ '8', '8', '8', 'T', 'T' ],
+    hand: [ 'T', 'T', '8', '8', '8' ],
+    handRank: 5,
+    bid: 581
+  },
+  {
+    unsortedHand: [ '8', '8', 'J', '8', 'J' ],
+    hand: [ 'J', 'J', '8', '8', '8' ],
+    handRank: 5,
+    bid: 701
+  },
+  {
+    unsortedHand: [ '8', 'Q', '8', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', '8', '8' ],
+    handRank: 5,
+    bid: 469
+  },
+  {
+    unsortedHand: [ '8', 'A', '8', 'A', '8' ],
+    hand: [ 'A', 'A', '8', '8', '8' ],
+    handRank: 5,
+    bid: 384
+  },
+  {
+    unsortedHand: [ '8', 'A', 'A', 'A', '8' ],
+    hand: [ 'A', 'A', 'A', '8', '8' ],
+    handRank: 5,
+    bid: 103
+  },
+  {
+    unsortedHand: [ '9', '2', '2', '9', '2' ],
+    hand: [ '9', '9', '2', '2', '2' ],
+    handRank: 5,
+    bid: 176
+  },
+  {
+    unsortedHand: [ '9', '4', '9', '4', '4' ],
+    hand: [ '9', '9', '4', '4', '4' ],
+    handRank: 5,
+    bid: 148
+  },
+  {
+    unsortedHand: [ '9', '5', '5', '9', '9' ],
+    hand: [ '9', '9', '9', '5', '5' ],
+    handRank: 5,
+    bid: 286
+  },
+  {
+    unsortedHand: [ '9', '8', '9', '9', '8' ],
+    hand: [ '9', '9', '9', '8', '8' ],
+    handRank: 5,
+    bid: 685
+  },
+  {
+    unsortedHand: [ '9', '9', '8', '8', '8' ],
+    hand: [ '9', '9', '8', '8', '8' ],
+    handRank: 5,
+    bid: 219
+  },
+  {
+    unsortedHand: [ '9', '9', 'A', '9', 'A' ],
+    hand: [ 'A', 'A', '9', '9', '9' ],
+    handRank: 5,
+    bid: 748
+  },
+  {
+    unsortedHand: [ '9', 'T', '9', 'T', 'T' ],
+    hand: [ 'T', 'T', 'T', '9', '9' ],
+    handRank: 5,
+    bid: 74
+  },
+  {
+    unsortedHand: [ '9', 'K', 'K', '9', 'K' ],
+    hand: [ 'K', 'K', 'K', '9', '9' ],
+    handRank: 5,
+    bid: 916
+  },
+  {
+    unsortedHand: [ 'T', '7', '7', 'T', '7' ],
+    hand: [ 'T', 'T', '7', '7', '7' ],
+    handRank: 5,
+    bid: 993
+  },
+  {
+    unsortedHand: [ 'T', '8', 'T', '8', 'T' ],
+    hand: [ 'T', 'T', 'T', '8', '8' ],
+    handRank: 5,
+    bid: 664
+  },
+  {
+    unsortedHand: [ 'T', 'T', '2', '2', '2' ],
+    hand: [ 'T', 'T', '2', '2', '2' ],
+    handRank: 5,
+    bid: 608
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'T', 'T' ],
+    handRank: 5,
+    bid: 845
+  },
+  {
+    unsortedHand: [ 'T', 'J', 'T', 'T', 'J' ],
+    hand: [ 'J', 'J', 'T', 'T', 'T' ],
+    handRank: 5,
+    bid: 199
+  },
+  {
+    unsortedHand: [ 'T', 'Q', 'T', 'Q', 'T' ],
+    hand: [ 'Q', 'Q', 'T', 'T', 'T' ],
+    handRank: 5,
+    bid: 808
+  },
+  {
+    unsortedHand: [ 'T', 'K', 'K', 'T', 'T' ],
+    hand: [ 'K', 'K', 'T', 'T', 'T' ],
+    handRank: 5,
+    bid: 653
+  },
+  {
+    unsortedHand: [ 'J', '6', 'J', '6', '6' ],
+    hand: [ 'J', 'J', '6', '6', '6' ],
+    handRank: 5,
+    bid: 805
+  },
+  {
+    unsortedHand: [ 'J', '9', '9', '9', 'J' ],
+    hand: [ 'J', 'J', '9', '9', '9' ],
+    handRank: 5,
+    bid: 418
+  },
+  {
+    unsortedHand: [ 'J', 'Q', 'Q', 'J', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'J', 'J' ],
+    handRank: 5,
+    bid: 836
+  },
+  {
+    unsortedHand: [ 'Q', '2', '2', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', '2', '2' ],
+    handRank: 5,
+    bid: 222
+  },
+  {
+    unsortedHand: [ 'Q', '8', '8', '8', 'Q' ],
+    hand: [ 'Q', 'Q', '8', '8', '8' ],
+    handRank: 5,
+    bid: 896
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'Q', '5', '5' ],
+    hand: [ 'Q', 'Q', 'Q', '5', '5' ],
+    handRank: 5,
+    bid: 195
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'A', 'A', 'Q' ],
+    hand: [ 'A', 'A', 'Q', 'Q', 'Q' ],
+    handRank: 5,
+    bid: 754
+  },
+  {
+    unsortedHand: [ 'Q', 'K', 'Q', 'K', 'Q' ],
+    hand: [ 'K', 'K', 'Q', 'Q', 'Q' ],
+    handRank: 5,
+    bid: 692
+  },
+  {
+    unsortedHand: [ 'K', '4', '4', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', '4', '4' ],
+    handRank: 5,
+    bid: 677
+  },
+  {
+    unsortedHand: [ 'K', '4', 'K', '4', '4' ],
+    hand: [ 'K', 'K', '4', '4', '4' ],
+    handRank: 5,
+    bid: 204
+  },
+  {
+    unsortedHand: [ 'K', '5', 'K', '5', '5' ],
+    hand: [ 'K', 'K', '5', '5', '5' ],
+    handRank: 5,
+    bid: 399
+  },
+  {
+    unsortedHand: [ 'K', '8', '8', 'K', '8' ],
+    hand: [ 'K', 'K', '8', '8', '8' ],
+    handRank: 5,
+    bid: 25
+  },
+  {
+    unsortedHand: [ 'K', '8', 'K', '8', 'K' ],
+    hand: [ 'K', 'K', 'K', '8', '8' ],
+    handRank: 5,
+    bid: 867
+  },
+  {
+    unsortedHand: [ 'K', '9', '9', '9', 'K' ],
+    hand: [ 'K', 'K', '9', '9', '9' ],
+    handRank: 5,
+    bid: 327
+  },
+  {
+    unsortedHand: [ 'K', 'J', 'K', 'K', 'J' ],
+    hand: [ 'K', 'K', 'K', 'J', 'J' ],
+    handRank: 5,
+    bid: 161
+  },
+  {
+    unsortedHand: [ 'K', 'K', '7', '7', '7' ],
+    hand: [ 'K', 'K', '7', '7', '7' ],
+    handRank: 5,
+    bid: 824
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'K', '2', '2' ],
+    hand: [ 'K', 'K', 'K', '2', '2' ],
+    handRank: 5,
+    bid: 770
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'K', 'Q', 'Q' ],
+    hand: [ 'K', 'K', 'K', 'Q', 'Q' ],
+    handRank: 5,
+    bid: 244
+  },
+  {
+    unsortedHand: [ 'K', 'A', 'K', 'A', 'K' ],
+    hand: [ 'A', 'A', 'K', 'K', 'K' ],
+    handRank: 5,
+    bid: 291
+  },
+  {
+    unsortedHand: [ 'A', '5', 'A', '5', '5' ],
+    hand: [ 'A', 'A', '5', '5', '5' ],
+    handRank: 5,
+    bid: 329
+  },
+  {
+    unsortedHand: [ 'A', 'T', 'A', 'A', 'T' ],
+    hand: [ 'A', 'A', 'A', 'T', 'T' ],
+    handRank: 5,
+    bid: 354
+  },
+  {
+    unsortedHand: [ 'A', 'A', '3', '3', 'A' ],
+    hand: [ 'A', 'A', 'A', '3', '3' ],
+    handRank: 5,
+    bid: 927
+  },
+  {
+    unsortedHand: [ 'A', 'A', '6', 'A', '6' ],
+    hand: [ 'A', 'A', 'A', '6', '6' ],
+    handRank: 5,
+    bid: 14
+  },
+  {
+    unsortedHand: [ 'A', 'A', '9', '9', 'A' ],
+    hand: [ 'A', 'A', 'A', '9', '9' ],
+    handRank: 5,
+    bid: 976
+  },
+  {
+    unsortedHand: [ 'A', 'A', 'J', 'A', 'J' ],
+    hand: [ 'A', 'A', 'A', 'J', 'J' ],
+    handRank: 5,
+    bid: 26
+  },
+  {
+    unsortedHand: [ '2', '2', '2', '2', '3' ],
+    hand: [ '3', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 144
+  },
+  {
+    unsortedHand: [ '2', '2', '2', '2', '5' ],
+    hand: [ '5', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 46
+  },
+  {
+    unsortedHand: [ '2', '2', '2', '2', 'J' ],
+    hand: [ 'J', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 270
+  },
+  {
+    unsortedHand: [ '2', '2', '2', '2', 'Q' ],
+    hand: [ 'Q', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 169
+  },
+  {
+    unsortedHand: [ '2', '2', '4', '2', '2' ],
+    hand: [ '4', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 549
+  },
+  {
+    unsortedHand: [ '2', '2', '6', '2', '2' ],
+    hand: [ '6', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 121
+  },
+  {
+    unsortedHand: [ '2', '2', '7', '2', '2' ],
+    hand: [ '7', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 221
+  },
+  {
+    unsortedHand: [ '2', '2', 'T', '2', '2' ],
+    hand: [ 'T', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 415
+  },
+  {
+    unsortedHand: [ '2', '2', 'A', '2', '2' ],
+    hand: [ 'A', '2', '2', '2', '2' ],
+    handRank: 6,
+    bid: 795
+  },
+  {
+    unsortedHand: [ '2', '3', '3', '3', '3' ],
+    hand: [ '3', '3', '3', '3', '2' ],
+    handRank: 6,
+    bid: 314
+  },
+  {
+    unsortedHand: [ '2', '9', '9', '9', '9' ],
+    hand: [ '9', '9', '9', '9', '2' ],
+    handRank: 6,
+    bid: 874
+  },
+  {
+    unsortedHand: [ '2', 'A', 'A', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'A', '2' ],
+    handRank: 6,
+    bid: 534
+  },
+  {
+    unsortedHand: [ '3', '3', '3', '3', '5' ],
+    hand: [ '5', '3', '3', '3', '3' ],
+    handRank: 6,
+    bid: 578
+  },
+  {
+    unsortedHand: [ '3', '3', '3', '3', 'J' ],
+    hand: [ 'J', '3', '3', '3', '3' ],
+    handRank: 6,
+    bid: 50
+  },
+  {
+    unsortedHand: [ '3', '3', '6', '3', '3' ],
+    hand: [ '6', '3', '3', '3', '3' ],
+    handRank: 6,
+    bid: 599
+  },
+  {
+    unsortedHand: [ '3', '3', '7', '3', '3' ],
+    hand: [ '7', '3', '3', '3', '3' ],
+    handRank: 6,
+    bid: 718
+  },
+  {
+    unsortedHand: [ '3', '3', 'T', '3', '3' ],
+    hand: [ 'T', '3', '3', '3', '3' ],
+    handRank: 6,
+    bid: 146
+  },
+  {
+    unsortedHand: [ '3', 'K', 'K', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', 'K', '3' ],
+    handRank: 6,
+    bid: 279
+  },
+  {
+    unsortedHand: [ '4', '4', '4', '4', '6' ],
+    hand: [ '6', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 863
+  },
+  {
+    unsortedHand: [ '4', '4', '4', '4', 'Q' ],
+    hand: [ 'Q', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 500
+  },
+  {
+    unsortedHand: [ '4', '4', '4', '4', 'K' ],
+    hand: [ 'K', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 661
+  },
+  {
+    unsortedHand: [ '4', '4', '4', 'T', '4' ],
+    hand: [ 'T', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 540
+  },
+  {
+    unsortedHand: [ '4', '4', '5', '4', '4' ],
+    hand: [ '5', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 456
+  },
+  {
+    unsortedHand: [ '4', '6', '6', '6', '6' ],
+    hand: [ '6', '6', '6', '6', '4' ],
+    handRank: 6,
+    bid: 60
+  },
+  {
+    unsortedHand: [ '4', 'Q', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '4' ],
+    handRank: 6,
+    bid: 216
+  },
+  {
+    unsortedHand: [ '4', 'A', '4', '4', '4' ],
+    hand: [ 'A', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 78
+  },
+  {
+    unsortedHand: [ '5', '3', '5', '5', '5' ],
+    hand: [ '5', '5', '5', '5', '3' ],
+    handRank: 6,
+    bid: 717
+  },
+  {
+    unsortedHand: [ '5', '4', '5', '5', '5' ],
+    hand: [ '5', '5', '5', '5', '4' ],
+    handRank: 6,
+    bid: 579
+  },
+  {
+    unsortedHand: [ '5', '5', '2', '5', '5' ],
+    hand: [ '5', '5', '5', '5', '2' ],
+    handRank: 6,
+    bid: 945
+  },
+  {
+    unsortedHand: [ '5', '5', '5', '5', '9' ],
+    hand: [ '9', '5', '5', '5', '5' ],
+    handRank: 6,
+    bid: 113
+  },
+  {
+    unsortedHand: [ '5', '5', '5', '5', 'A' ],
+    hand: [ 'A', '5', '5', '5', '5' ],
+    handRank: 6,
+    bid: 872
+  },
+  {
+    unsortedHand: [ '5', '5', '5', 'T', '5' ],
+    hand: [ 'T', '5', '5', '5', '5' ],
+    handRank: 6,
+    bid: 202
+  },
+  {
+    unsortedHand: [ '5', '5', 'Q', '5', '5' ],
+    hand: [ 'Q', '5', '5', '5', '5' ],
+    handRank: 6,
+    bid: 756
+  },
+  {
+    unsortedHand: [ '5', 'J', '5', '5', '5' ],
+    hand: [ 'J', '5', '5', '5', '5' ],
+    handRank: 6,
+    bid: 711
+  },
+  {
+    unsortedHand: [ '5', 'K', '5', '5', '5' ],
+    hand: [ 'K', '5', '5', '5', '5' ],
+    handRank: 6,
+    bid: 184
+  },
+  {
+    unsortedHand: [ '6', '6', '2', '6', '6' ],
+    hand: [ '6', '6', '6', '6', '2' ],
+    handRank: 6,
+    bid: 574
+  },
+  {
+    unsortedHand: [ '6', '6', '3', '6', '6' ],
+    hand: [ '6', '6', '6', '6', '3' ],
+    handRank: 6,
+    bid: 34
+  },
+  {
+    unsortedHand: [ '6', '6', '6', '6', '5' ],
+    hand: [ '6', '6', '6', '6', '5' ],
+    handRank: 6,
+    bid: 910
+  },
+  {
+    unsortedHand: [ '6', '6', '6', '6', '8' ],
+    hand: [ '8', '6', '6', '6', '6' ],
+    handRank: 6,
+    bid: 206
+  },
+  {
+    unsortedHand: [ '6', '6', '6', '6', 'K' ],
+    hand: [ 'K', '6', '6', '6', '6' ],
+    handRank: 6,
+    bid: 412
+  },
+  {
+    unsortedHand: [ '6', '6', '6', '7', '6' ],
+    hand: [ '7', '6', '6', '6', '6' ],
+    handRank: 6,
+    bid: 102
+  },
+  {
+    unsortedHand: [ '6', '6', '6', '9', '6' ],
+    hand: [ '9', '6', '6', '6', '6' ],
+    handRank: 6,
+    bid: 353
+  },
+  {
+    unsortedHand: [ '6', '6', '6', 'Q', '6' ],
+    hand: [ 'Q', '6', '6', '6', '6' ],
+    handRank: 6,
+    bid: 191
+  },
+  {
+    unsortedHand: [ '6', 'J', '6', '6', '6' ],
+    hand: [ 'J', '6', '6', '6', '6' ],
+    handRank: 6,
+    bid: 502
+  },
+  {
+    unsortedHand: [ '6', 'Q', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '6' ],
+    handRank: 6,
+    bid: 694
+  },
+  {
+    unsortedHand: [ '7', '7', '7', '3', '7' ],
+    hand: [ '7', '7', '7', '7', '3' ],
+    handRank: 6,
+    bid: 19
+  },
+  {
+    unsortedHand: [ '7', '7', '7', '4', '7' ],
+    hand: [ '7', '7', '7', '7', '4' ],
+    handRank: 6,
+    bid: 894
+  },
+  {
+    unsortedHand: [ '7', '7', '7', '5', '7' ],
+    hand: [ '7', '7', '7', '7', '5' ],
+    handRank: 6,
+    bid: 342
+  },
+  {
+    unsortedHand: [ '7', '7', '7', 'T', '7' ],
+    hand: [ 'T', '7', '7', '7', '7' ],
+    handRank: 6,
+    bid: 928
+  },
+  {
+    unsortedHand: [ '7', '7', '7', 'J', '7' ],
+    hand: [ 'J', '7', '7', '7', '7' ],
+    handRank: 6,
+    bid: 173
+  },
+  {
+    unsortedHand: [ '7', '7', '8', '7', '7' ],
+    hand: [ '8', '7', '7', '7', '7' ],
+    handRank: 6,
+    bid: 410
+  },
+  {
+    unsortedHand: [ '7', '8', '8', '8', '8' ],
+    hand: [ '8', '8', '8', '8', '7' ],
+    handRank: 6,
+    bid: 298
+  },
+  {
+    unsortedHand: [ '7', 'Q', '7', '7', '7' ],
+    hand: [ 'Q', '7', '7', '7', '7' ],
+    handRank: 6,
+    bid: 507
+  },
+  {
+    unsortedHand: [ '8', '8', '8', '2', '8' ],
+    hand: [ '8', '8', '8', '8', '2' ],
+    handRank: 6,
+    bid: 492
+  },
+  {
+    unsortedHand: [ '8', '8', '8', '3', '8' ],
+    hand: [ '8', '8', '8', '8', '3' ],
+    handRank: 6,
+    bid: 613
+  },
+  {
+    unsortedHand: [ '8', '8', '8', '4', '8' ],
+    hand: [ '8', '8', '8', '8', '4' ],
+    handRank: 6,
+    bid: 48
+  },
+  {
+    unsortedHand: [ '8', '8', '8', '6', '8' ],
+    hand: [ '8', '8', '8', '8', '6' ],
+    handRank: 6,
+    bid: 36
+  },
+  {
+    unsortedHand: [ '8', '8', '8', '8', '5' ],
+    hand: [ '8', '8', '8', '8', '5' ],
+    handRank: 6,
+    bid: 269
+  },
+  {
+    unsortedHand: [ '8', '8', '8', '8', 'J' ],
+    hand: [ 'J', '8', '8', '8', '8' ],
+    handRank: 6,
+    bid: 326
+  },
+  {
+    unsortedHand: [ '8', '8', '9', '8', '8' ],
+    hand: [ '9', '8', '8', '8', '8' ],
+    handRank: 6,
+    bid: 166
+  },
+  {
+    unsortedHand: [ '8', 'T', '8', '8', '8' ],
+    hand: [ 'T', '8', '8', '8', '8' ],
+    handRank: 6,
+    bid: 962
+  },
+  {
+    unsortedHand: [ '9', '3', '3', '3', '3' ],
+    hand: [ '9', '3', '3', '3', '3' ],
+    handRank: 6,
+    bid: 450
+  },
+  {
+    unsortedHand: [ '9', '4', '4', '4', '4' ],
+    hand: [ '9', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 763
+  },
+  {
+    unsortedHand: [ '9', '9', '8', '9', '9' ],
+    hand: [ '9', '9', '9', '9', '8' ],
+    handRank: 6,
+    bid: 288
+  },
+  {
+    unsortedHand: [ '9', '9', '9', '5', '9' ],
+    hand: [ '9', '9', '9', '9', '5' ],
+    handRank: 6,
+    bid: 922
+  },
+  {
+    unsortedHand: [ '9', '9', '9', '7', '9' ],
+    hand: [ '9', '9', '9', '9', '7' ],
+    handRank: 6,
+    bid: 459
+  },
+  {
+    unsortedHand: [ '9', '9', 'J', '9', '9' ],
+    hand: [ 'J', '9', '9', '9', '9' ],
+    handRank: 6,
+    bid: 377
+  },
+  {
+    unsortedHand: [ '9', 'Q', '9', '9', '9' ],
+    hand: [ 'Q', '9', '9', '9', '9' ],
+    handRank: 6,
+    bid: 895
+  },
+  {
+    unsortedHand: [ '9', 'Q', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '9' ],
+    handRank: 6,
+    bid: 703
+  },
+  {
+    unsortedHand: [ '9', 'K', 'K', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', 'K', '9' ],
+    handRank: 6,
+    bid: 641
+  },
+  {
+    unsortedHand: [ '9', 'A', 'A', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'A', '9' ],
+    handRank: 6,
+    bid: 769
+  },
+  {
+    unsortedHand: [ 'T', 'T', '2', 'T', 'T' ],
+    hand: [ 'T', 'T', 'T', 'T', '2' ],
+    handRank: 6,
+    bid: 378
+  },
+  {
+    unsortedHand: [ 'T', 'T', '9', 'T', 'T' ],
+    hand: [ 'T', 'T', 'T', 'T', '9' ],
+    handRank: 6,
+    bid: 23
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'T', '4', 'T' ],
+    hand: [ 'T', 'T', 'T', 'T', '4' ],
+    handRank: 6,
+    bid: 422
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'T', 'T', '7' ],
+    hand: [ 'T', 'T', 'T', 'T', '7' ],
+    handRank: 6,
+    bid: 126
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'T', 'T', '8' ],
+    hand: [ 'T', 'T', 'T', 'T', '8' ],
+    handRank: 6,
+    bid: 154
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'J', 'T', 'T' ],
+    hand: [ 'J', 'T', 'T', 'T', 'T' ],
+    handRank: 6,
+    bid: 501
+  },
+  {
+    unsortedHand: [ 'T', 'T', 'Q', 'T', 'T' ],
+    hand: [ 'Q', 'T', 'T', 'T', 'T' ],
+    handRank: 6,
+    bid: 907
+  },
+  {
+    unsortedHand: [ 'J', '4', '4', '4', '4' ],
+    hand: [ 'J', '4', '4', '4', '4' ],
+    handRank: 6,
+    bid: 81
+  },
+  {
+    unsortedHand: [ 'J', 'J', '8', 'J', 'J' ],
+    hand: [ 'J', 'J', 'J', 'J', '8' ],
+    handRank: 6,
+    bid: 589
+  },
+  {
+    unsortedHand: [ 'Q', '5', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '5' ],
+    handRank: 6,
+    bid: 473
+  },
+  {
+    unsortedHand: [ 'Q', '7', 'Q', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '7' ],
+    handRank: 6,
+    bid: 114
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'T', 'Q', 'Q' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', 'T' ],
+    handRank: 6,
+    bid: 527
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'Q', 'Q', '2' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '2' ],
+    handRank: 6,
+    bid: 509
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'Q', 'Q', '3' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '3' ],
+    handRank: 6,
+    bid: 8
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'Q', 'Q', '8' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', '8' ],
+    handRank: 6,
+    bid: 851
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'Q', 'Q', 'J' ],
+    hand: [ 'Q', 'Q', 'Q', 'Q', 'J' ],
+    handRank: 6,
+    bid: 761
+  },
+  {
+    unsortedHand: [ 'Q', 'Q', 'A', 'Q', 'Q' ],
+    hand: [ 'A', 'Q', 'Q', 'Q', 'Q' ],
+    handRank: 6,
+    bid: 633
+  },
+  {
+    unsortedHand: [ 'Q', 'K', 'K', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', 'K', 'Q' ],
+    handRank: 6,
+    bid: 722
+  },
+  {
+    unsortedHand: [ 'K', '7', '7', '7', '7' ],
+    hand: [ 'K', '7', '7', '7', '7' ],
+    handRank: 6,
+    bid: 734
+  },
+  {
+    unsortedHand: [ 'K', 'Q', 'Q', 'Q', 'Q' ],
+    hand: [ 'K', 'Q', 'Q', 'Q', 'Q' ],
+    handRank: 6,
+    bid: 310
+  },
+  {
+    unsortedHand: [ 'K', 'K', '4', 'K', 'K' ],
+    hand: [ 'K', 'K', 'K', 'K', '4' ],
+    handRank: 6,
+    bid: 662
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'K', '8', 'K' ],
+    hand: [ 'K', 'K', 'K', 'K', '8' ],
+    handRank: 6,
+    bid: 215
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'K', 'K', '5' ],
+    hand: [ 'K', 'K', 'K', 'K', '5' ],
+    handRank: 6,
+    bid: 741
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'K', 'K', '7' ],
+    hand: [ 'K', 'K', 'K', 'K', '7' ],
+    handRank: 6,
+    bid: 453
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'K', 'K', 'J' ],
+    hand: [ 'K', 'K', 'K', 'K', 'J' ],
+    handRank: 6,
+    bid: 281
+  },
+  {
+    unsortedHand: [ 'K', 'K', 'A', 'K', 'K' ],
+    hand: [ 'A', 'K', 'K', 'K', 'K' ],
+    handRank: 6,
+    bid: 697
+  },
+  {
+    unsortedHand: [ 'A', '3', '3', '3', '3' ],
+    hand: [ 'A', '3', '3', '3', '3' ],
+    handRank: 6,
+    bid: 22
+  },
+  {
+    unsortedHand: [ 'A', 'T', 'T', 'T', 'T' ],
+    hand: [ 'A', 'T', 'T', 'T', 'T' ],
+    handRank: 6,
+    bid: 543
+  },
+  {
+    unsortedHand: [ 'A', 'J', 'A', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'A', 'J' ],
+    handRank: 6,
+    bid: 724
+  },
+  {
+    unsortedHand: [ 'A', 'A', '5', 'A', 'A' ],
+    hand: [ 'A', 'A', 'A', 'A', '5' ],
+    handRank: 6,
+    bid: 882
+  },
+  {
+    unsortedHand: [ 'A', 'A', 'A', 'Q', 'A' ],
+    hand: [ 'A', 'A', 'A', 'A', 'Q' ],
+    handRank: 6,
+    bid: 254
+  },
+  {
+    unsortedHand: [ 'A', 'A', 'A', 'A', '7' ],
+    hand: [ 'A', 'A', 'A', 'A', '7' ],
+    handRank: 6,
+    bid: 476
+  },
+  {
+    unsortedHand: [ 'A', 'A', 'A', 'A', '8' ],
+    hand: [ 'A', 'A', 'A', 'A', '8' ],
+    handRank: 6,
+    bid: 17
+  },
+  {
+    unsortedHand: [ 'A', 'A', 'A', 'A', 'T' ],
+    hand: [ 'A', 'A', 'A', 'A', 'T' ],
+    handRank: 6,
+    bid: 940
+  },
+  {
+    unsortedHand: [ 'J', 'J', 'J', 'J', 'J' ],
+    hand: [ 'J', 'J', 'J', 'J', 'J' ],
+    handRank: 7,
+    bid: 666
+  }
+]
+248559379
+Done in 0.50s.
