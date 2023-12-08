@@ -1,6 +1,4 @@
-import { GeneratedIdentifierFlags } from "typescript";
 import { readInput } from "../import-file";
-import { start } from "repl";
 
 type Branches = {
     L: string
