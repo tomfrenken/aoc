@@ -41,16 +41,10 @@ function parseTree(map: string): Tree {
 function traverseTree(tree: Tree, instructions: string, node: string): number {
     let currNode = node
     let count = 0
-    let instructionIndex = 0
     while(!currNode.endsWith('Z')) {
-        const instruction = instructions.charAt(instructionIndex)
+        const instruction = instructions.charAt(count % instructions.length)
         currNode = tree[currNode][instruction]
-        
         count++
-        instructionIndex++
-        if(instructionIndex === instructions.length) {
-            instructionIndex = 0
-        }
     }
     return count
 }
