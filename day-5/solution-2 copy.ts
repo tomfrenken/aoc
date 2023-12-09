@@ -63,7 +63,7 @@ function filterSeedRanges(seedRanges: SeedRange[], seedMaps: SeedMap[][]): numbe
             const currentMap = segment[j]
             for(let k = 0; k < filteredSeedRanges.length; k++) {
                 const { start, length } = filteredSeedRanges[k]
-                if(true){
+                if(inRange(start, currentMap) || inRange(start+length, currentMap)){
                     
                 }
             }
@@ -71,20 +71,6 @@ function filterSeedRanges(seedRanges: SeedRange[], seedMaps: SeedMap[][]): numbe
         filteredSeedRanges = temporarySeedRanges
     }
     return filteredSeedRanges.sort((a, b) => a.start - b.start)[0].start
-}
-
-function mapSeedToLocatioNumber(seed: number, seedMaps: SeedMap[][]): number {
-    for(let i = 0; i < seedMaps.length; i++){
-        const segment = seedMaps[i]
-        for(let j = 0; j < segment.length; j++){
-            const currentMap = segment[j]
-            if(inRange(seed, currentMap)) {
-                seed = mapSeed(seed, currentMap)
-                break
-            }
-        }
-    }
-    return seed
 }
 
 function mapSeed(seed: number, seedMap: SeedMap): number{
