@@ -11,12 +11,11 @@ async function part2() {
     const input = await readInput(__dirname)
     const sequences = input.split('\n').map(stringSequence => stringSequence.split(' ').map(Number))
     const sum = sequences.reduce((sum, sequence) => sum + sequence[0] - predictPrevious(sequence), 0)
+    console.log("Part 2:", sum)
 }
 
 function predictNext(sequence: number[]): number {
-    if(sequence.every(number => number === 0)) {
-        return 0
-    }
+    if(sequence.length === 2) return 0
     const differences = []
     for(let i = 0; i < sequence.length-1; i++){
         differences.push(sequence[i+1] - sequence[i])
@@ -25,9 +24,7 @@ function predictNext(sequence: number[]): number {
 }
 
 function predictPrevious(sequence: number[]): number {
-    if(sequence.every(number => number === 0)) {
-        return 0
-    }
+    if(sequence.length === 2) return 0
     const differences = []
     for(let i = 0; i < sequence.length-1; i++){
         differences.push(sequence[i+1] - sequence[i])
@@ -36,5 +33,5 @@ function predictPrevious(sequence: number[]): number {
 }
 
 
-// part1()
+part1()
 part2()
